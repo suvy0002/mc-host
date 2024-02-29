@@ -32,3 +32,9 @@ Users:
     Reset_Timer_Active: false
     Limit_Reached_Time: 0
     Limit: 0
+  c0bdbb69-9556-3a2b-9609-0a31469c31fd:
+    Night_Vision: false
+    Limit_Reached: false
+    Reset_Timer_Active: false
+    Limit_Reached_Time: 0
+    Limit: 0

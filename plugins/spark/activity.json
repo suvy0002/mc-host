@@ -5,6 +5,19 @@
       "name": "Suvrajit",
       "uniqueId": "4e652eb0-f42e-34fb-8424-539c2da8221f"
     },
+    "time": 1709182773131,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/ZV0KF231nx"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Suvrajit",
+      "uniqueId": "4e652eb0-f42e-34fb-8424-539c2da8221f"
+    },
     "time": 1709178361973,
     "type": "Profiler",
     "data": {

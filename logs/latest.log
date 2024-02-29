@@ -1,417 +1,778 @@
-[05:57:24] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:57:26] [ServerMain/INFO]: Loaded 1174 recipes
-[05:57:26] [ServerMain/INFO]: Loaded 1271 advancements
-[05:57:26] [Server thread/INFO]: Starting minecraft server version 1.20.2
-[05:57:26] [Server thread/INFO]: Loading properties
-[05:57:26] [Server thread/INFO]: This server is running Purpur version git-Purpur-2095 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 4f12f5d on HEAD)
-[05:57:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[05:57:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[05:57:27] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[05:57:28] [Server thread/WARN]: [Pufferfish] Will not enable SIMD! These optimizations are only safely supported on Java 17, Java 18, and Java 19.
-[05:57:28] [Server thread/INFO]: Default game type: SURVIVAL
-[05:57:28] [Server thread/INFO]: Generating keypair
-[05:57:28] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:41177
-[05:57:28] [Server thread/INFO]: Using epoll channel type
-[05:57:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[05:57:28] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[05:57:29] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[05:57:32] [Server thread/WARN]: Legacy plugin KissMe v1.0 does not specify an api-version.
-[05:57:32] [Server thread/INFO]: [SpigotLibraryLoader] [AntiPopup] Loading 1 libraries... please wait
-[05:57:32] [Server thread/INFO]: [SpigotLibraryLoader] [AntiPopup] Loaded library /workspaces/mc-host/libraries/dev/dejvokep/boosted-yaml-spigot/1.3/boosted-yaml-spigot-1.3.jar
-[05:57:32] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.2
-[05:57:32] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.2 is now loaded. Registering protocol transformers and injecting...
-[05:57:32] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[05:57:33] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[05:57:33] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[05:57:33] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[05:57:33] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.116
-[05:57:34] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
-[05:57:35] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[05:57:35] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
-[05:57:35] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.1
-[05:57:35] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.42
-[05:57:35] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
-[05:57:35] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
-[05:57:35] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.7.0
-[05:57:35] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.7
-[05:57:35] [Server thread/INFO]: [KissMe] Loading server plugin KissMe v1.0
-[05:57:35] [Server thread/INFO]: [ServerListPlus] Loading server plugin ServerListPlus v3.5.0
-[05:57:35] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
-[05:57:35] [Server thread/INFO]: [AntiPopup] Loading server plugin AntiPopup v7.3
-[05:57:35] [Server thread/INFO]: [AntiPopup] Loaded PacketEvents.
-[05:57:35] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
-[05:57:35] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
-[05:57:36] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@21a95fde]
-[05:57:36] [Server thread/INFO]: [OmegaVision] Loading server plugin OmegaVision v2.5.16
-[05:57:36] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
-[05:57:36] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.4.2
-[05:57:36] [Server thread/INFO]: [HeadDatabase] Loading server plugin HeadDatabase v4.18.0
-[05:57:36] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[05:57:36] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.116
-[05:57:36] [Server thread/INFO]:         __    
-[05:57:36] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.116
-[05:57:36] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
-[05:57:36] [Server thread/INFO]: 
-[05:57:36] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[05:57:37] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[05:57:37] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[05:57:37] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[05:57:38] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1668ms)
-[05:57:38] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
-[05:57:38] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[05:57:38] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[05:57:38] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[05:57:38] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[05:57:38] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[05:57:38] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.7
-[05:57:39] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.2.
-[05:57:39] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.7]
-[05:57:39] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
-[05:57:39] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[05:57:39] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
-[05:57:39] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[05:57:39] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.7
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 301d078
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[05:57:39] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[05:57:39] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R2.PaperweightAdapter as the Bukkit adapter
-[05:57:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:57:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:57:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:57:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:57:40] [Server thread/INFO]: Preparing level "world"
-[05:57:40] [Server thread/INFO]: -------- World Settings For [world] --------
-[05:57:40] [Server thread/INFO]: View Distance: 10
-[05:57:40] [Server thread/INFO]: Simulation Distance: 8
-[05:57:40] [Server thread/INFO]: Item Merge Radius: 2.5
-[05:57:40] [Server thread/INFO]: Experience Merge Radius: 3.0
-[05:57:40] [Server thread/INFO]: Mob Spawn Range: 6
-[05:57:40] [Server thread/INFO]: Item Despawn Rate: 6000
-[05:57:40] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[05:57:40] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[05:57:40] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[05:57:40] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[05:57:40] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Cane Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Melon Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Potato Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Vine Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
-[05:57:40] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[05:57:40] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[05:57:40] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[05:57:40] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[05:57:40] [Server thread/INFO]: Max TNT Explosions: 100
-[05:57:40] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[05:57:41] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[05:57:41] [Server thread/INFO]: View Distance: 10
-[05:57:41] [Server thread/INFO]: Simulation Distance: 8
-[05:57:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[05:57:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[05:57:41] [Server thread/INFO]: Mob Spawn Range: 6
-[05:57:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[05:57:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[05:57:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[05:57:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[05:57:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[05:57:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Potato Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[05:57:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[05:57:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[05:57:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[05:57:41] [Server thread/INFO]: Max TNT Explosions: 100
-[05:57:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[05:57:41] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[05:57:41] [Server thread/INFO]: View Distance: 10
-[05:57:41] [Server thread/INFO]: Simulation Distance: 8
-[05:57:41] [Server thread/INFO]: Item Merge Radius: 2.5
-[05:57:41] [Server thread/INFO]: Experience Merge Radius: 3.0
-[05:57:41] [Server thread/INFO]: Mob Spawn Range: 6
-[05:57:41] [Server thread/INFO]: Item Despawn Rate: 6000
-[05:57:41] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[05:57:41] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[05:57:41] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[05:57:41] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[05:57:41] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Cane Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Melon Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Potato Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Vine Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
-[05:57:41] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[05:57:41] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[05:57:41] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[05:57:41] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[05:57:41] [Server thread/INFO]: Max TNT Explosions: 100
-[05:57:41] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[05:57:41] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:57:42] [Server thread/INFO]: Time elapsed: 278 ms
-[05:57:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[05:57:42] [Server thread/INFO]: Time elapsed: 72 ms
-[05:57:42] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[05:57:42] [Server thread/INFO]: Time elapsed: 69 ms
-[05:57:42] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.2
-[05:57:42] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
-[05:57:42] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
-[05:57:42] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[05:57:42] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.1
-[05:57:42] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.42
-[05:57:42] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.40-Free.jar
-[05:57:42] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: v1_20_R2) (LD: v1_20_R2) (MC: 1.20.2)
-[05:57:42] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1298
-[05:57:42] [Server thread/INFO]: [LibsDisguises] Build Date: 28/01/2024 12:26
-[05:57:42] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
-[05:57:42] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
-[05:57:45] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
-[05:57:45] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
-[05:57:45] [Server thread/INFO]: [LibsDisguises] Config is up to date!
-[05:57:45] [Server thread/WARN]: [ProtocolLib] [PacketFilterManager] Plugin LibsDisguises tried to register listener for unknown packet CUSTOM_PAYLOAD[PLAY, CLIENT, 16, classNames: [net.minecraft.network.protocol.game.PacketPlayInCustomPayload, net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket, net.minecraft.network.play.client.CPacketCustomPayload] (unregistered)] [direction: from CLIENT]
-[05:57:45] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
-[05:57:45] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
-[05:57:46] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
-[05:57:46] [Server thread/INFO]: [Essentials] No kits found to migrate.
-[05:57:46] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
-[05:57:46] [Server thread/INFO]: [Essentials] Using locale en
-[05:57:46] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
-[05:57:46] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
-[05:57:46] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[05:57:46] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
-[05:57:46] [Server thread/INFO]: [spark] Enabling spark v1.10.60
-[05:57:46] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
-[05:57:46] [Server thread/INFO]: [spark] Starting background profiler...
-[05:57:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.60]
-[05:57:48] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
-[05:57:48] [Server thread/INFO]: [GSit] Enabling GSit v1.7.0
-[05:57:48] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
-[05:57:48] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
-[05:57:48] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.7.0]
-[05:57:48] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
-[05:57:48] [Server thread/INFO]: [KissMe] Enabling KissMe v1.0*
-[05:57:48] [Server thread/INFO]: [KissMe] [KissMe] activated
-[05:57:48] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.5.0
-[05:57:48] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
-[05:57:48] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
-[05:57:48] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
-[05:57:48] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: BukkitConf
-[05:57:48] [Server thread/INFO]: [ServerListPlus] ProtocolLib is no longer required (and used) by default when using Paper. If this causes compatibility issues with other plugins, try setting ProtocolLib: ENABLE
-[05:57:48] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
-[05:57:48] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
-[05:57:48] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 enabled.
-[05:57:48] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
-[05:57:48] [Server thread/INFO]: [AntiPopup] Enabling AntiPopup v7.3
-[05:57:48] [Thread-15/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
-[05:57:48] [Thread-15/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
-[05:57:48] [Server thread/INFO]: [AntiPopup] Config enabled.
-[05:57:48] [Server thread/INFO]: [AntiPopup] Initiated PacketEvents.
-[05:57:48] [Server thread/INFO]: [AntiPopup] Hooked on 1.20.2
-[05:57:48] [Server thread/INFO]: [AntiPopup] Commands registered.
-[05:57:48] [Server thread/INFO]: [AntiPopup] Logger filter enabled.
-[05:57:48] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
-[05:57:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
-[05:57:49] [Server thread/INFO]: [TAB] Enabled in 170ms
-[05:57:49] [Server thread/INFO]: [OmegaVision] Enabling OmegaVision v2.5.16
-[05:57:49] [Server thread/INFO]: [OmegaVision] Attempting to update the config files....
-[05:57:49] [Server thread/INFO]:   ____ _   __
-[05:57:49] [Server thread/INFO]:  / __ \ | / /   OmegaVision v2.5.16 by OmegaWeaponDev
-[05:57:49] [Server thread/INFO]: / /_/ / |/ /    Running on version: git-Purpur-2095 (MC: 1.20.2)
-[05:57:49] [Server thread/INFO]: \____/|___/
-[05:57:49] [Server thread/INFO]: 
-[05:57:49] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: omegavision [2.5.16]
-[05:57:49] [Server thread/INFO]: [OmegaVision] OmegaVision is now attempting to register it's commands...
-[05:57:49] [Server thread/INFO]: [OmegaVision] OmegaVision has successfully registered all of it's commands.
-[05:57:49] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
-[05:57:49] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.4.2
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] Checking for update...
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.4.2-RELEASE (commit ef004f4)
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] Initializing module v1_20 (expected version: 1.20.4)
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] Loading NMS-less mode...
-[05:57:49] [Server thread/INFO]: [UltraCosmetics] Loaded NMS-less mode
-[05:57:50] [Thread-15/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: similar-benchmark.gl.joinmc.link
-[05:57:50] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
-[05:57:51] [Server thread/INFO]: [UltraCosmetics] 
-[05:57:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultracosmetics [3.4.2]
-[05:57:51] [Server thread/INFO]: [UltraCosmetics] Hooked into PlaceholderAPI
-[05:57:51] [Server thread/INFO]: [UltraCosmetics] 
-[05:57:51] [Server thread/INFO]: [UltraCosmetics] Hooked into Vault:EssentialsX Economy for economy.
-[05:57:51] [Server thread/INFO]: [UltraCosmetics] 
-[05:57:51] [Thread-15/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:840:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
-[05:57:51] [Server thread/INFO]: [UltraCosmetics] 
-[05:57:51] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 2119ms!
-[05:57:51] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
-[05:57:51] [Server thread/INFO]: [HeadDatabase] Enabling HeadDatabase v4.18.0
-[05:57:51] [Server thread/INFO]: [HeadDatabase] [Spigotunlocked.com] - COSMO
-[05:57:51] [Server thread/INFO]: [HeadDatabase] §bUsing default §3"en_US.lang" §bcreated by §6Arcaniax
-[05:57:51] [Server thread/WARN]: [HeadDatabase] Economy was not loaded, some features will be disabled!
-[05:57:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: hdb [4.18.0]
-[05:57:51] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[05:57:51] [Server thread/INFO]: Running delayed init tasks
-[05:57:51] [Craft Scheduler Thread - 0 - Essentials/INFO]: [Essentials] Fetching version information...
-[05:57:51] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
-[05:57:51] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[05:57:51] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
-[05:57:51] [Server thread/INFO]: 1 placeholder hook(s) registered!
-[05:57:51] [Server thread/INFO]: Done (25.257s)! For help, type "help"
-[05:57:51] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] Checking for Updates ... 
-[05:57:52] [Craft Scheduler Thread - 9 - Vault/INFO]: [Vault] No new version available
-[05:57:52] [Craft Scheduler Thread - 6 - UltraCosmetics/INFO]: [UltraCosmetics] You are running the latest version on Spigot.
-[05:57:52] [Thread-15/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[05:57:52] [Craft Scheduler Thread - 4 - OmegaVision/INFO]: [OmegaVision] You are already running the latest version
-[05:57:52] [Folia Async Scheduler Thread #3/INFO]: [HeadDatabase] Successfully loaded 65293 heads!
-[05:57:52] [Folia Async Scheduler Thread #3/INFO]: [HeadDatabase] Successfully loaded 18 featured tags!
-[05:57:53] [Thread-15/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
-[05:57:53] [Folia Async Scheduler Thread Timer/ERROR]: [HeadDatabase] Unable to check for updates. Error: Server returned HTTP response code: 400 for URL: https://api.spigotmc.org/simple/0.1/index.php?action=getResource&id=%%__RESOURCE__%%
-[05:58:10] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.18:37920, peerAddr=103.175.186.230:61483, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 18, -108, 32, 103, -81, -70, -26, -16, 43, 92, -26, -62, -5, -85, 8, 101, -32, 28, -14, 0, 0, 0, 0, 0, 6, -10, -67, 0, 0, 0, 0, 0, 46, -54, -25, 30, -5, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -54, 68, 3, -57, 112, 63, 57, -81, -125, -82, 70, 47, -12, 45, -44, -14], tunnelServerId=1, dataCenterId=28}
-[05:58:10] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[05:58:10] [Thread-15/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[05:58:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[05:58:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[05:58:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[05:58:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[05:58:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
-[05:58:10] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
-[05:58:10] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[05:58:11] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.18:37920, peerAddr=103.175.186.230:61484, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 18, -108, 32, 103, -81, -70, -26, -16, 44, -92, -8, -52, -44, -85, 8, 101, -32, 28, -13, 0, 0, 0, 0, 0, 6, -10, -67, 0, 0, 0, 0, 0, 46, -54, -25, 110, -44, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 83, -115, 92, 26, -50, 67, -115, 84, 73, 70, 124, -7, -52, 29, -48, 104], tunnelServerId=1, dataCenterId=28}
-[05:58:11] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
-[05:58:11] [Thread-15/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
-[05:58:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
-[05:58:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
-[05:58:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
-[05:58:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
-[05:58:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
-[05:58:11] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
-[05:58:11] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
-[05:58:12] [User Authenticator #0/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
-[05:58:12] [Server thread/INFO]: Suvrajit joined the game
-[05:58:12] [Server thread/INFO]: Suvrajit[/127.0.0.1:36414] logged in with entity id 266 at ([world]-217.1689658011797, 101.0, 456.0867399575141)
-[05:58:51] [Server thread/INFO]: Suvrajit issued server command: /jump
-[05:58:52] [Server thread/INFO]: Suvrajit issued server command: /jump
-[05:58:53] [Server thread/INFO]: Suvrajit issued server command: /jump
-[05:59:09] [Server thread/INFO]: Suvrajit issued server command: /jump
-[06:01:54] [Thread-15/INFO]: [gg.playit.control.ChannelSetup] send keep alive
-[06:05:14] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
-[06:05:14] [Server thread/INFO]: Suvrajit lost connection: Disconnected
-[06:05:14] [Server thread/INFO]: Suvrajit left the game
-[06:05:24] [Server thread/INFO]: Stopping the server
-[06:05:24] [Server thread/INFO]: Stopping server
-[06:05:24] [Server thread/INFO]: [HeadDatabase] Disabling HeadDatabase v4.18.0
-[06:05:24] [Server thread/INFO]: [UltraCosmetics] Disabling UltraCosmetics v3.4.2
-[06:05:24] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
-[06:05:24] [Server thread/INFO]: [OmegaVision] Disabling OmegaVision v2.5.16
-[06:05:24] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
-[06:05:24] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[06:05:24] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
-[06:05:24] [Server thread/INFO]: [TAB] Disabled in 1ms
-[06:05:24] [Server thread/INFO]: [AntiPopup] Disabling AntiPopup v7.3
-[06:05:24] [Server thread/INFO]: [AntiPopup] Disabled PacketEvents.
-[06:05:24] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
-[06:05:24] [Server thread/INFO]: [ServerListPlus] Disabling ServerListPlus v3.5.0
-[06:05:24] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 disabled.
-[06:05:24] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
-[06:05:24] [Server thread/INFO]: [KissMe] Disabling KissMe v1.0
-[06:05:24] [Server thread/INFO]: [KissMe] [KissMe] deactivated
-[06:05:24] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.7
-[06:05:24] [Server thread/INFO]: [GSit] Disabling GSit v1.7.0
-[06:05:24] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
-[06:05:24] [Server thread/INFO]: [spark] Disabling spark v1.10.60
-[06:05:24] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
-[06:05:24] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[06:05:24] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.42
-[06:05:24] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.1
-[06:05:24] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
-[06:05:24] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[06:05:24] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
-[06:05:24] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.116
-[06:05:24] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
-[06:05:24] [Server thread/INFO]: [LuckPerms] Closing storage...
-[06:05:24] [Server thread/INFO]: [LuckPerms] Goodbye!
-[06:05:24] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.2
-[06:05:24] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[06:05:24] [Server thread/INFO]: Saving players
-[06:05:24] [Server thread/INFO]: Saving worlds
-[06:05:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:05:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[06:05:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[06:05:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[06:05:24] [Server thread/INFO]: [ChunkHolderManager] Saved 13 block chunks, 99 entity chunks, 0 poi chunks in world 'world' in 0.05s
-[06:05:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:05:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[06:05:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[06:05:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[06:05:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[06:05:24] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
-[06:05:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:05:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[06:05:25] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[06:05:25] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[06:05:25] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[06:05:25] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
-[06:05:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:05:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06:05:25] [Server thread/INFO]: Flushing Chunk IO
-[06:05:25] [Server thread/INFO]: Closing Thread Pool
-[06:05:25] [Server thread/INFO]: Closing Server
+[06:18:42] [ServerMain/INFO]: Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:18:44] [ServerMain/INFO]: Loaded 1174 recipes
+[06:18:44] [ServerMain/INFO]: Loaded 1271 advancements
+[06:18:44] [Server thread/INFO]: Starting minecraft server version 1.20.2
+[06:18:44] [Server thread/INFO]: Loading properties
+[06:18:44] [Server thread/INFO]: This server is running Purpur version git-Purpur-2095 (MC: 1.20.2) (Implementing API version 1.20.2-R0.1-SNAPSHOT) (Git: 4f12f5d on HEAD)
+[06:18:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[06:18:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[06:18:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[06:18:47] [Server thread/WARN]: [Pufferfish] Will not enable SIMD! These optimizations are only safely supported on Java 17, Java 18, and Java 19.
+[06:18:47] [Server thread/INFO]: Default game type: SURVIVAL
+[06:18:47] [Server thread/INFO]: Generating keypair
+[06:18:47] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:41177
+[06:18:47] [Server thread/INFO]: Using epoll channel type
+[06:18:47] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[06:18:47] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[06:18:48] [Server thread/WARN]: [org.bukkit.craftbukkit.v1_20_R2.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[06:18:51] [Server thread/WARN]: Legacy plugin KissMe v1.0 does not specify an api-version.
+[06:18:51] [Server thread/INFO]: [SpigotLibraryLoader] [AntiPopup] Loading 1 libraries... please wait
+[06:18:51] [Server thread/INFO]: [SpigotLibraryLoader] [AntiPopup] Loaded library /workspaces/mc-host/libraries/dev/dejvokep/boosted-yaml-spigot/1.3/boosted-yaml-spigot-1.3.jar
+[06:18:51] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.2
+[06:18:51] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.2 is now loaded. Registering protocol transformers and injecting...
+[06:18:51] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[06:18:52] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[06:18:52] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[06:18:52] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[06:18:52] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.116
+[06:18:52] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.2.0-SNAPSHOT-679
+[06:18:54] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[06:18:54] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.5
+[06:18:54] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.1
+[06:18:54] [Server thread/INFO]: [LibsDisguises] Loading server plugin LibsDisguises v10.0.42
+[06:18:54] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[06:18:54] [Server thread/INFO]: [spark] Loading server plugin spark v1.10.60
+[06:18:54] [Server thread/INFO]: [GSit] Loading server plugin GSit v1.7.0
+[06:18:54] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.7
+[06:18:54] [Server thread/INFO]: [KissMe] Loading server plugin KissMe v1.0
+[06:18:54] [Server thread/INFO]: [ServerListPlus] Loading server plugin ServerListPlus v3.5.0
+[06:18:54] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[06:18:54] [Server thread/INFO]: [AntiPopup] Loading server plugin AntiPopup v7.3
+[06:18:54] [Server thread/INFO]: [AntiPopup] Loaded PacketEvents.
+[06:18:54] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.1.2
+[06:18:54] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[06:18:55] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@1a4f5ca2]
+[06:18:55] [Server thread/INFO]: [OmegaVision] Loading server plugin OmegaVision v2.5.16
+[06:18:55] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[06:18:55] [Server thread/INFO]: [UltraCosmetics] Loading server plugin UltraCosmetics v3.4.2
+[06:18:55] [Server thread/INFO]: [HeadDatabase] Loading server plugin HeadDatabase v4.18.0
+[06:18:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[06:18:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.116
+[06:18:56] [Server thread/INFO]:         __    
+[06:18:56] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.116
+[06:18:56] [Server thread/INFO]:   |___ |      Running on Bukkit - Purpur
+[06:18:56] [Server thread/INFO]: 
+[06:18:56] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[06:18:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[06:18:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[06:18:58] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[06:18:58] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2512ms)
+[06:18:58] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.2.0-SNAPSHOT-679
+[06:18:58] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[06:18:58] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[06:18:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[06:18:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[06:18:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[06:18:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.7
+[06:18:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.2.
+[06:18:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.0.7]
+[06:18:59] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[06:18:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[06:18:59] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[06:18:59] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[06:18:59] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.0.7
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 301d078
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[06:19:00] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[06:19:00] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R2.PaperweightAdapter as the Bukkit adapter
+[06:19:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06:19:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[06:19:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06:19:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[06:19:01] [Server thread/INFO]: Preparing level "world"
+[06:19:01] [Server thread/INFO]: -------- World Settings For [world] --------
+[06:19:01] [Server thread/INFO]: View Distance: 10
+[06:19:01] [Server thread/INFO]: Simulation Distance: 8
+[06:19:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:19:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:19:01] [Server thread/INFO]: Mob Spawn Range: 6
+[06:19:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:19:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[06:19:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:19:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:19:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:19:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[06:19:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[06:19:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[06:19:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[06:19:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[06:19:01] [Server thread/INFO]: Max TNT Explosions: 100
+[06:19:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:19:02] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[06:19:02] [Server thread/INFO]: View Distance: 10
+[06:19:02] [Server thread/INFO]: Simulation Distance: 8
+[06:19:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:19:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:19:02] [Server thread/INFO]: Mob Spawn Range: 6
+[06:19:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:19:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[06:19:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:19:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:19:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:19:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[06:19:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[06:19:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[06:19:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[06:19:02] [Server thread/INFO]: Max TNT Explosions: 100
+[06:19:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:19:02] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[06:19:02] [Server thread/INFO]: View Distance: 10
+[06:19:02] [Server thread/INFO]: Simulation Distance: 8
+[06:19:02] [Server thread/INFO]: Item Merge Radius: 2.5
+[06:19:02] [Server thread/INFO]: Experience Merge Radius: 3.0
+[06:19:02] [Server thread/INFO]: Mob Spawn Range: 6
+[06:19:02] [Server thread/INFO]: Item Despawn Rate: 6000
+[06:19:02] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[06:19:02] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[06:19:02] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[06:19:02] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[06:19:02] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Cane Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Melon Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Potato Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: TorchFlower Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Vine Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: GlowBerry Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: PitcherPlant Growth Modifier: 100%
+[06:19:02] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[06:19:02] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[06:19:02] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[06:19:02] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[06:19:02] [Server thread/INFO]: Max TNT Explosions: 100
+[06:19:02] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[06:19:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:19:02] [Server thread/INFO]: Time elapsed: 281 ms
+[06:19:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[06:19:02] [Server thread/INFO]: Time elapsed: 117 ms
+[06:19:02] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[06:19:02] [Server thread/INFO]: Time elapsed: 51 ms
+[06:19:02] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.2
+[06:19:02] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20.2 (764)
+[06:19:03] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.5
+[06:19:03] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[06:19:03] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.1
+[06:19:03] [Server thread/INFO]: [LibsDisguises] Enabling LibsDisguises v10.0.42
+[06:19:03] [Server thread/INFO]: [LibsDisguises] File Name: LibsDisguises-10.0.40-Free.jar
+[06:19:03] [Server thread/INFO]: [LibsDisguises] Discovered nms version: (Package: v1_20_R2) (LD: v1_20_R2) (MC: 1.20.2)
+[06:19:03] [Server thread/INFO]: [LibsDisguises] Jenkins Build: #1298
+[06:19:03] [Server thread/INFO]: [LibsDisguises] Build Date: 28/01/2024 12:26
+[06:19:03] [Server thread/INFO]: [LibsDisguises] If you own the plugin, place the premium jar downloaded from https://www.spigotmc.org/resources/libs-disguises.32453/ in plugins/LibsDisguises/
+[06:19:03] [Server thread/INFO]: [LibsDisguises] You are running the free version, commands limited to non-players and operators. (Console, Command Blocks, Admins)
+[06:19:05] [Server thread/INFO]: [LibsDisguises] Loaded custom disguise libraryaddict
+[06:19:05] [Server thread/INFO]: [LibsDisguises] Loaded 1 custom disguise
+[06:19:05] [Server thread/INFO]: [LibsDisguises] Config is up to date!
+[06:19:05] [Server thread/WARN]: [ProtocolLib] [PacketFilterManager] Plugin LibsDisguises tried to register listener for unknown packet CUSTOM_PAYLOAD[PLAY, CLIENT, 16, classNames: [net.minecraft.network.protocol.game.PacketPlayInCustomPayload, net.minecraft.network.protocol.game.ServerboundCustomPayloadPacket, net.minecraft.network.play.client.CPacketCustomPayload] (unregistered)] [direction: from CLIENT]
+[06:19:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[06:19:05] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[06:19:06] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[06:19:06] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[06:19:06] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[06:19:06] [Server thread/INFO]: [Essentials] Using locale en
+[06:19:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[06:19:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[06:19:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[06:19:07] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[06:19:07] [Server thread/INFO]: [spark] Enabling spark v1.10.60
+[06:19:07] [Server thread/INFO]: [spark] Using Paper ServerTickStartEvent for tick monitoring
+[06:19:07] [Server thread/INFO]: [spark] Starting background profiler...
+[06:19:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: spark [1.10.60]
+[06:19:09] [Server thread/INFO]: [spark] Registered PlaceholderAPI placeholders
+[06:19:09] [Server thread/INFO]: [GSit] Enabling GSit v1.7.0
+[06:19:09] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[06:19:09] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[06:19:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [1.7.0]
+[06:19:09] [Server thread/INFO]: [GSit] Link with ViaVersion successful!
+[06:19:09] [Server thread/INFO]: [KissMe] Enabling KissMe v1.0*
+[06:19:09] [Server thread/INFO]: [KissMe] [KissMe] activated
+[06:19:09] [Server thread/INFO]: [ServerListPlus] Enabling ServerListPlus v3.5.0
+[06:19:10] [Server thread/INFO]: [ServerListPlus] [Core] Reloading configuration...
+[06:19:10] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: ServerStatusConf
+[06:19:10] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: PluginConf
+[06:19:10] [Server thread/INFO]: [ServerListPlus] [Core] Loaded configuration: BukkitConf
+[06:19:10] [Server thread/INFO]: [ServerListPlus] ProtocolLib is no longer required (and used) by default when using Paper. If this causes compatibility issues with other plugins, try setting ProtocolLib: ENABLE
+[06:19:10] [Server thread/INFO]: [ServerListPlus] [Core] Reloading saved player identities...
+[06:19:10] [Server thread/INFO]: [ServerListPlus] Successfully loaded!
+[06:19:10] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 enabled.
+[06:19:10] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[06:19:10] [Thread-15/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[06:19:10] [Thread-15/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[06:19:10] [Server thread/INFO]: [AntiPopup] Enabling AntiPopup v7.3
+[06:19:11] [Server thread/INFO]: [AntiPopup] Config enabled.
+[06:19:11] [Server thread/INFO]: [AntiPopup] Initiated PacketEvents.
+[06:19:11] [Server thread/INFO]: [AntiPopup] Hooked on 1.20.2
+[06:19:11] [Server thread/INFO]: [AntiPopup] Commands registered.
+[06:19:11] [Server thread/INFO]: [AntiPopup] Logger filter enabled.
+[06:19:11] [Server thread/INFO]: [TAB] Enabling TAB v4.1.2
+[06:19:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: tab [4.1.2]
+[06:19:12] [Server thread/INFO]: [TAB] Enabled in 537ms
+[06:19:12] [Server thread/INFO]: [OmegaVision] Enabling OmegaVision v2.5.16
+[06:19:12] [Server thread/INFO]: [OmegaVision] Attempting to update the config files....
+[06:19:12] [Server thread/INFO]:   ____ _   __
+[06:19:12] [Server thread/INFO]:  / __ \ | / /   OmegaVision v2.5.16 by OmegaWeaponDev
+[06:19:12] [Server thread/INFO]: / /_/ / |/ /    Running on version: git-Purpur-2095 (MC: 1.20.2)
+[06:19:12] [Server thread/INFO]: \____/|___/
+[06:19:12] [Server thread/INFO]: 
+[06:19:12] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: omegavision [2.5.16]
+[06:19:12] [Server thread/INFO]: [OmegaVision] OmegaVision is now attempting to register it's commands...
+[06:19:12] [Server thread/INFO]: [OmegaVision] OmegaVision has successfully registered all of it's commands.
+[06:19:12] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[06:19:12] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[06:19:12] [Server thread/INFO]: [UltraCosmetics] Enabling UltraCosmetics v3.4.2
+[06:19:12] [Thread-15/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: similar-benchmark.gl.joinmc.link
+[06:19:12] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[06:19:12] [Thread-15/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:840:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[06:19:13] [Server thread/INFO]: [UltraCosmetics] Checking for update...
+[06:19:13] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[06:19:13] [Server thread/INFO]: [UltraCosmetics] Thanks for using UltraCosmetics! Version: 3.4.2-RELEASE (commit ef004f4)
+[06:19:13] [Server thread/INFO]: [UltraCosmetics] Plugin by Datatags. Original Author: iSach
+[06:19:13] [Server thread/INFO]: [UltraCosmetics] Link: https://bit.ly/UltraCosmetics
+[06:19:13] [Server thread/INFO]: [UltraCosmetics] Initializing module v1_20 (expected version: 1.20.4)
+[06:19:13] [Thread-15/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[06:19:13] [Server thread/INFO]: [UltraCosmetics] Loading NMS-less mode...
+[06:19:13] [Server thread/INFO]: [UltraCosmetics] Loaded NMS-less mode
+[06:19:15] [Server thread/INFO]: [UltraCosmetics] 
+[06:19:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ultracosmetics [3.4.2]
+[06:19:15] [Server thread/INFO]: [UltraCosmetics] Hooked into PlaceholderAPI
+[06:19:15] [Server thread/INFO]: [UltraCosmetics] 
+[06:19:15] [Server thread/INFO]: [UltraCosmetics] Hooked into Vault:EssentialsX Economy for economy.
+[06:19:15] [Server thread/INFO]: [UltraCosmetics] 
+[06:19:15] [Server thread/INFO]: [UltraCosmetics] 
+[06:19:15] [Server thread/INFO]: [UltraCosmetics] UltraCosmetics successfully finished loading in 3172ms!
+[06:19:15] [Server thread/INFO]: [UltraCosmetics] -------------------------------------------------------------------
+[06:19:15] [Server thread/INFO]: [HeadDatabase] Enabling HeadDatabase v4.18.0
+[06:19:15] [Server thread/INFO]: [HeadDatabase] [Spigotunlocked.com] - COSMO
+[06:19:15] [Server thread/INFO]: [HeadDatabase] §bUsing default §3"en_US.lang" §bcreated by §6Arcaniax
+[06:19:15] [Server thread/WARN]: [HeadDatabase] Economy was not loaded, some features will be disabled!
+[06:19:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: hdb [4.18.0]
+[06:19:16] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[06:19:16] [Server thread/INFO]: Running delayed init tasks
+[06:19:16] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[06:19:16] [Server thread/INFO]: Done (31.451s)! For help, type "help"
+[06:19:16] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[06:19:16] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[06:19:16] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] Checking for Updates ... 
+[06:19:16] [Craft Scheduler Thread - 9 - OmegaVision/INFO]: [OmegaVision] You are already running the latest version
+[06:19:16] [Craft Scheduler Thread - 5 - UltraCosmetics/INFO]: [UltraCosmetics] You are running the latest version on Spigot.
+[06:19:16] [Craft Scheduler Thread - 10 - Vault/INFO]: [Vault] No new version available
+[06:19:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: essentials [1.5.2]
+[06:19:16] [Server thread/INFO]: 1 placeholder hook(s) registered!
+[06:19:16] [Folia Async Scheduler Thread #3/INFO]: [HeadDatabase] Successfully loaded 65293 heads!
+[06:19:17] [Folia Async Scheduler Thread #3/INFO]: [HeadDatabase] Successfully loaded 18 featured tags!
+[06:19:17] [Folia Async Scheduler Thread Timer/ERROR]: [HeadDatabase] Unable to check for updates. Error: Server returned HTTP response code: 400 for URL: https://api.spigotmc.org/simple/0.1/index.php?action=getResource&id=%%__RESOURCE__%%
+[06:19:21] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.18:37920, peerAddr=103.175.186.230:61698, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 18, -108, 32, 103, -81, -70, -26, -15, 2, -100, -105, -77, 65, -85, 8, 101, -32, 33, -23, 0, 0, 0, 0, 0, 6, -10, -67, 0, 0, 0, 0, 0, 46, -54, -25, -90, 65, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 96, 29, -9, 92, -62, 115, -102, 127, -12, 42, 29, 21, -63, -71, -59, 8], tunnelServerId=1, dataCenterId=28}
+[06:19:21] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[06:19:21] [Thread-15/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[06:19:21] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[06:19:21] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[06:19:21] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[06:19:21] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[06:19:21] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[06:19:21] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[06:19:21] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[06:19:22] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.18:37920, peerAddr=103.175.186.230:61699, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 18, -108, 32, 103, -81, -70, -26, -15, 3, 24, -14, 27, -42, -85, 8, 101, -32, 33, -22, 0, 0, 0, 0, 0, 6, -10, -67, 0, 0, 0, 0, 0, 46, -54, -25, 14, -42, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 105, 55, 95, 124, 108, 98, 75, -44, 69, 113, -91, 98, 94, 14, 89, 75], tunnelServerId=1, dataCenterId=28}
+[06:19:22] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[06:19:22] [Thread-15/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[06:19:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[06:19:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[06:19:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[06:19:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[06:19:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[06:19:22] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at /0.0.0.0:41177
+[06:19:22] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[06:19:23] [User Authenticator #0/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[06:19:23] [Server thread/INFO]: Suvrajit joined the game
+[06:19:23] [Server thread/INFO]: Suvrajit[/127.0.0.1:37804] logged in with entity id 294 at ([world]-187.30000001192093, 109.0, 484.1956758710275)
+[06:19:49] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:19:59] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:20:09] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:36] [Server thread/INFO]: Suvrajit issued server command: /spark:tps
+[06:22:41] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:42] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:42] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:46] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:47] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:50] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:50] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:52] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:53] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:53] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:54] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:54] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:22:55] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:03] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:09] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:10] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:11] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:12] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:13] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Thread-15/INFO]: [gg.playit.control.ChannelSetup] send keep alive
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:14] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:15] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:16] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:17] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:18] [Server thread/INFO]: Suvrajit issued server command: /smite
+[06:23:28] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:31] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:31] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:32] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:32] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:33] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:33] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:34] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:38] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:23:38] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:24:44] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:24:45] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:24:46] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:24:47] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:24:47] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:24:56] [Server thread/INFO]: Suvrajit issued server command: /vanish
+[06:24:58] [Server thread/INFO]: Suvrajit issued server command: /vanish
+[06:25:01] [Server thread/INFO]: Suvrajit issued server command: /vault-convert
+[06:25:10] [Server thread/INFO]: Suvrajit issued server command: /vault:vault-info
+[06:25:46] [Server thread/INFO]: Suvrajit issued server command: /backup
+[06:25:50] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:51] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:51] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:52] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:52] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:53] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:55] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:55] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:58] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:25:58] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:01] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:02] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:03] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:03] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:04] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:04] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:05] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:06] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:08] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:09] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:10] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:11] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:11] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:12] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:13] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:13] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:14] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:15] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:15] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:16] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:17] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:17] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:17] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:18] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:19] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:19] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:20] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:20] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:21] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:24] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:24] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:25] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:26] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:27] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:28] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:29] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:29] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:32] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:33] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:33] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:34] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:38] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:38] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:39] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:39] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:39] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:40] [Server thread/INFO]: Suvrajit issued server command: /jump
+[06:26:52] [Server thread/INFO]: Stopping the server
+[06:26:52] [Server thread/INFO]: Stopping server
+[06:26:52] [Server thread/INFO]: [HeadDatabase] Disabling HeadDatabase v4.18.0
+[06:26:52] [Server thread/INFO]: [UltraCosmetics] Disabling UltraCosmetics v3.4.2
+[06:26:52] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[06:26:52] [Server thread/INFO]: [OmegaVision] Disabling OmegaVision v2.5.16
+[06:26:52] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[06:26:52] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[06:26:52] [Server thread/INFO]: [TAB] Disabling TAB v4.1.2
+[06:26:52] [Server thread/INFO]: [TAB] Disabled in 1ms
+[06:26:52] [Server thread/INFO]: [AntiPopup] Disabling AntiPopup v7.3
+[06:26:52] [Server thread/INFO]: [AntiPopup] Disabled PacketEvents.
+[06:26:52] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[06:26:52] [Server thread/INFO]: [ServerListPlus] Disabling ServerListPlus v3.5.0
+[06:26:52] [Server thread/INFO]: [ServerListPlus] ServerListPlus v3.5.0 disabled.
+[06:26:52] [Server thread/INFO]: [KissMe] Disabling KissMe v1.0
+[06:26:52] [Server thread/INFO]: [KissMe] [KissMe] deactivated
+[06:26:52] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.7
+[06:26:52] [Server thread/INFO]: [GSit] Disabling GSit v1.7.0
+[06:26:52] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[06:26:52] [Server thread/INFO]: [spark] Disabling spark v1.10.60
+[06:26:52] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[06:26:52] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[06:26:52] [Server thread/INFO]: [LibsDisguises] Disabling LibsDisguises v10.0.42
+[06:26:52] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.1
+[06:26:52] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[06:26:52] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[06:26:52] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.2.0-SNAPSHOT-679
+[06:26:52] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.116
+[06:26:52] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[06:26:52] [Server thread/INFO]: [LuckPerms] Closing storage...
+[06:26:52] [Server thread/INFO]: [LuckPerms] Goodbye!
+[06:26:52] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.2
+[06:26:52] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[06:26:52] [Server thread/INFO]: Saving players
+[06:26:52] [Server thread/INFO]: Suvrajit lost connection: Server closed
+[06:26:52] [Server thread/INFO]: Suvrajit left the game
+[06:26:52] [Server thread/INFO]: Saving worlds
+[06:26:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:26:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[06:26:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[06:26:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[06:26:53] [Thread-15/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Saved 1218 block chunks, 1242 entity chunks, 1 poi chunks in world 'world' in 1.89s
+[06:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 8 entity chunks, 0 poi chunks in world 'world_nether' in 0.00s
+[06:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:26:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[06:26:54] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.00s
+[06:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:26:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:26:54] [Server thread/INFO]: Flushing Chunk IO
+[06:26:54] [Server thread/INFO]: Closing Thread Pool
+[06:26:54] [Server thread/INFO]: Closing Server

@@ -16,15 +16,15 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709221387430
-  login: 1709221292847
+  logout: 1709295412237
+  login: 1709294342119
 money: '0'
 last-account-name: rt560
 logoutlocation:
   world: 2a928bb6-84ee-4358-bda2-50bba26deed5
   world-name: world
-  x: -202.70376605467078
-  y: 72.0
-  z: 863.1381051393915
-  yaw: 1.3656377792358398
-  pitch: 28.00690460205078
+  x: -11.27679381553968
+  y: 65.0
+  z: 11.212740051754562
+  yaw: -0.6364829540252686
+  pitch: 22.702571868896484

@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709221825025
-  login: 1709221770574
+  logout: 1709294327443
+  login: 1709294293091
 money: '-1695.0'
 last-account-name: Suvrajit
 lastlocation:
@@ -34,6 +34,6 @@ logoutlocation:
   x: 4.320107631478819
   y: 68.0
   z: 192.49924462651018
-  yaw: 90.54910278320312
-  pitch: 12.013290405273438
+  yaw: 86.72998046875
+  pitch: 10.740249633789062
 nickname: §5§lSuv

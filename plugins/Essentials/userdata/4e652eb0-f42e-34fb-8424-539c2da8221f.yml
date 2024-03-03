@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: true
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1709451025986
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1709451045180
+  login: 1709450963176
+money: '0'
+last-account-name: Suvrajit
+lastlocation:
+  world: a610f4dd-be6c-4da7-a03c-336630b9fde6
+  world-name: bskyblock_world
+  x: 1998.1927077969087
+  y: 85.0
+  z: 2001.172589462395
+  yaw: -90.29318237304688
+  pitch: 32.54609680175781
+logoutlocation:
+  world: a610f4dd-be6c-4da7-a03c-336630b9fde6
+  world-name: bskyblock_world
+  x: 60.5
+  y: 19.0
+  z: 53.5
+  yaw: -0.2121955007314682
+  pitch: 8.101051330566406

@@ -1,0 +1,940 @@
+[07:28:25] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[07:28:27] [ServerMain/INFO]: Loaded 7 recipes
+[07:28:28] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[07:28:28] [Server thread/INFO]: Loading properties
+[07:28:28] [Server thread/INFO]: This server is running Paper version git-Paper-550 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: 483368e on ver/1.19.4)
+[07:28:28] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:28:28] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:28:28] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[07:28:28] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[07:28:28] [Server thread/INFO]: Default game type: SURVIVAL
+[07:28:28] [Server thread/INFO]: Generating keypair
+[07:28:28] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:28:28] [Server thread/INFO]: Using epoll channel type
+[07:28:28] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:28:28] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loading 5 libraries... please wait
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/mysql/mysql-connector-java/8.0.27/mysql-connector-java-8.0.27.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/org/mariadb/jdbc/mariadb-java-client/3.0.5/mariadb-java-client-3.0.5.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/org/postgresql/postgresql/42.2.18/postgresql-42.2.18.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/org/checkerframework/checker-qual/3.5.0/checker-qual-3.5.0.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/org/mongodb/mongodb-driver/3.12.12/mongodb-driver-3.12.12.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/org/mongodb/bson/3.12.12/bson-3.12.12.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/org/mongodb/mongodb-driver-core/3.12.12/mongodb-driver-core-3.12.12.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/com/zaxxer/HikariCP/5.0.1/HikariCP-5.0.1.jar
+[07:28:29] [Server thread/INFO]: [SpigotLibraryLoader] [BentoBox] Loaded library /workspaces/mc-host/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[07:28:29] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v4.9.2
+[07:28:29] [Server thread/INFO]: [ViaVersion] ViaVersion 4.9.2 is now loaded. Registering protocol transformers and injecting...
+[07:28:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:28:30] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:28:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:28:30] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:28:30] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.116
+[07:28:30] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:28:30] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.18+6616-abda4e0
+[07:28:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@2b92e324]
+[07:28:31] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.1
+[07:28:31] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.8+33cdb4a
+[07:28:31] [Server thread/INFO]: [EssentialsSpawn] Loading server plugin EssentialsSpawn v2.20.1
+[07:28:31] [Server thread/INFO]: [playit-gg] Loading server plugin playit-gg v0.1.4
+[07:28:31] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v4.9.1
+[07:28:31] [Server thread/INFO]: [BentoBox] Loading server plugin BentoBox v2.1.1
+[07:28:31] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.20.1
+[07:28:31] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:28:31] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.116
+[07:28:32] [Server thread/INFO]:         __    
+[07:28:32] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.116
+[07:28:32] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:28:32] [Server thread/INFO]: 
+[07:28:32] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:28:32] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:28:32] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:28:32] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:28:33] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1687ms)
+[07:28:33] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:28:33] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[07:28:33] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:28:33] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:28:33] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:28:33] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.18+6616-abda4e0
+[07:28:33] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[07:28:33] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[07:28:33] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[07:28:34] [Server thread/INFO]: [BentoBox] Enabling BentoBox v2.1.1
+[07:28:34] [Server thread/INFO]: [BentoBox] Loading Settings from config.yml...
+[07:28:34] [Server thread/INFO]: [BentoBox] Saving default panels...
+[07:28:36] [Server thread/INFO]: [BentoBox] Loading addons...
+[07:28:36] [Server thread/INFO]: [BentoBox-Biomes] Loading server plugin BentoBox-Biomes v2.1.1
+[07:28:36] [Server thread/INFO]: [BentoBox-Challenges] Loading server plugin BentoBox-Challenges v1.2.0
+[07:28:36] [Server thread/INFO]: [BentoBox-Level] Loading server plugin BentoBox-Level v2.12.0
+[07:28:36] [Server thread/INFO]: [BentoBox-BSkyBlock] Loading server plugin BentoBox-BSkyBlock v1.17.1
+[07:28:37] [Server thread/INFO]: [BentoBox-Warps] Loading server plugin BentoBox-Warps v1.14.0
+[07:28:37] [Server thread/INFO]: [BentoBox-Bank] Loading server plugin BentoBox-Bank v1.7.1
+[07:28:37] [Server thread/INFO]: [BentoBox] Loaded 8 addons.
+[07:28:37] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:28:37] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:28:37] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:28:37] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:28:37] [Server thread/INFO]: Preparing level "bskyblock_world"
+[07:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:28:38] [Server thread/INFO]: Time elapsed: 210 ms
+[07:28:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:28:38] [Server thread/INFO]: Time elapsed: 63 ms
+[07:28:38] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.9.2
+[07:28:38] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.19.4 (762)
+[07:28:38] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.1
+[07:28:38] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[07:28:38] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[07:28:39] [Server thread/INFO]: [Essentials] Loaded 39094 items from items.json.
+[07:28:39] [Server thread/INFO]: [Essentials] Using locale en
+[07:28:39] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[07:28:39] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[07:28:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[07:28:39] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[07:28:39] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8+33cdb4a
+[07:28:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[07:28:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:28:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:28:39] [Server thread/INFO]: [WorldGuard] (bskyblock_world) TNT ignition is PERMITTED.
+[07:28:39] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Lighters are PERMITTED.
+[07:28:39] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Lava fire is PERMITTED.
+[07:28:39] [Server thread/INFO]: [WorldGuard] (bskyblock_world) Fire spread is UNRESTRICTED.
+[07:28:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world'
+[07:28:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:28:39] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:28:39] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) TNT ignition is PERMITTED.
+[07:28:39] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Lighters are PERMITTED.
+[07:28:39] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Lava fire is PERMITTED.
+[07:28:39] [Server thread/INFO]: [WorldGuard] (bskyblock_world_the_end) Fire spread is UNRESTRICTED.
+[07:28:39] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world_the_end'
+[07:28:39] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:28:40] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[07:28:40] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[07:28:40] [Server thread/INFO]: [WorldGuard] Loading region data...
+[07:28:40] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[07:28:40] [Server thread/INFO]: [EssentialsSpawn] Enabling EssentialsSpawn v2.20.1
+[07:28:40] [Server thread/INFO]: [EssentialsSpawn] Starting Metrics. Opt-out using the global bStats config.
+[07:28:40] [Server thread/INFO]: [playit-gg] Enabling playit-gg v0.1.4
+[07:28:40] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v4.9.1
+[07:28:40] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.20.1
+[07:28:40] [Thread-12/INFO]: [gg.playit.minecraft.PlayitKeysSetup] secret key found, checking
+[07:28:40] [Thread-12/INFO]: [gg.playit.minecraft.PlayitKeysSetup] check secret
+[07:28:40] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[07:28:40] [Server thread/INFO]: Running delayed init tasks
+[07:28:40] [Server thread/INFO]: [BentoBox] Hooking with Vault...
+[07:28:40] [Server thread/INFO]: [BentoBox] Enabling game mode addons...
+[07:28:40] [Server thread/INFO]: [BentoBox] Enabling BSkyBlock (1.17.1)...
+[07:28:40] [Server thread/INFO]: [BentoBox] [BSkyBlock] Creating BSkyBlock's Nether...
+[07:28:40] [Craft Scheduler Thread - 0 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[07:28:40] [Craft Scheduler Thread - 4 - Essentials/INFO]: [Essentials] Fetching version information...
+[07:28:40] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] Checking for Updates ... 
+[07:28:40] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:28:41] [Server thread/INFO]: Time elapsed: 284 ms
+[07:28:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[07:28:41] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[07:28:41] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) TNT ignition is PERMITTED.
+[07:28:41] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Lighters are PERMITTED.
+[07:28:41] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Lava fire is PERMITTED.
+[07:28:41] [Server thread/INFO]: [WorldGuard] (bskyblock_world_nether) Fire spread is UNRESTRICTED.
+[07:28:41] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'bskyblock_world_nether'
+[07:28:41] [Server thread/INFO]: [BentoBox] Enabling other addons...
+[07:28:41] [Server thread/INFO]: [BentoBox] Enabling Level (2.12.0)...
+[07:28:41] [Server thread/WARN]: [BentoBox] [Level] Level Addon: No such world in blockconfig.yml : caveblock-world
+[07:28:41] [Server thread/WARN]: [BentoBox] [Level] Level Addon: No such world in blockconfig.yml : acidisland_world
+[07:28:41] [Server thread/INFO]: [BentoBox] [Level] Level hooking into BSkyBlock
+[07:28:41] [Server thread/INFO]: [BentoBox] Enabling Biomes (2.1.1)...
+[07:28:41] [Craft Scheduler Thread - 3 - Vault/INFO]: [Vault] No new version available
+[07:28:41] [Server thread/INFO]: [BentoBox] Loading biomes...
+[07:28:41] [Server thread/INFO]: [BentoBox] Enabling Challenges (1.2.0)...
+[07:28:41] [Server thread/INFO]: [BentoBox] [Challenges] Loading challenges...
+[07:28:41] [Server thread/INFO]: [BentoBox] Enabling ControlPanel (1.13.1)...
+[07:28:41] [Server thread/INFO]: [BentoBox] Loading control panels...
+[07:28:41] [Server thread/INFO]: [BentoBox] Enabling DimensionalTrees (1.7.0)...
+[07:28:41] [Server thread/INFO]: [BentoBox] Enabling Warps (1.14.0)...
+[07:28:41] [Server thread/INFO]: [BentoBox] [Warps] Loading warps...
+[07:28:41] [Server thread/INFO]: [BentoBox] Enabling Bank (1.7.1)...
+[07:28:41] [Server thread/INFO]: [BentoBox] [Bank] Hooking into BSkyBlock
+[07:28:41] [Server thread/INFO]: [BentoBox] Addons successfully enabled.
+[07:28:41] [Server thread/INFO]: 
+  ____             _        ____
+ |  _ \           | |      |  _ \             by tastybento and Poslovitch
+ | |_) | ___ _ __ | |_ ___ | |_) | _____  __  2017 - 2023
+ |  _ < / _ \ '_ \| __/ _ \|  _ < / _ \ \/ /
+ | |_) |  __/ | | | || (_) | |_) | (_) >  <   v2.1.1
+ |____/ \___|_| |_|\__\___/|____/ \___/_/\_\  Loaded in 3499ms.
+
+[07:28:41] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[07:28:41] [Server thread/INFO]: [BentoBox] Added world BSkyBlock (NORMAL)
+[07:28:41] [Server thread/INFO]: Done (13.582s)! For help, type "help"
+[07:28:41] [Server thread/INFO]: Timings Reset
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'harder_island' for BSkyBlock.
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'classic-island' for BSkyBlock.
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'double_island' for BSkyBlock.
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded Blueprint Bundle 'default' for BSkyBlock.
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'end-island' for BSkyBlock
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'double' for BSkyBlock
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'island' for BSkyBlock
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'nether-island' for BSkyBlock
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'harder' for BSkyBlock
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/ERROR]: [org.bukkit.configuration.serialization.ConfigurationSerialization] Could not call method 'public static org.bukkit.inventory.ItemStack org.bukkit.inventory.ItemStack.deserialize(java.util.Map)' of class org.bukkit.inventory.ItemStack for deserialization
+java.lang.IllegalArgumentException: Newer version! Server downgrades are not supported!
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145) ~[guava-31.1-jre.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.util.CraftMagicNumbers.getMaterial(CraftMagicNumbers.java:266) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.inventory.ItemStack.deserialize(ItemStack.java:509) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeViaMethod(ConfigurationSerialization.java:85) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserialize(ConfigurationSerialization.java:127) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.serialization.ConfigurationSerialization.deserializeObject(ConfigurationSerialization.java:207) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor$ConstructCustomObject.construct(YamlConstructor.java:58) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObjectNoCheck(BaseConstructor.java:270) ~[snakeyaml-1.33.jar:?]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.constructObject(BaseConstructor.java:253) ~[snakeyaml-1.33.jar:?]
+	at org.bukkit.configuration.file.YamlConstructor.construct(YamlConstructor.java:37) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.fromNodeTree(YamlConfiguration.java:163) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:120) ~[paper-api-1.19.4-R0.1-SNAPSHOT.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:57) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.database.json.adapters.ItemStackTypeAdapter.read(ItemStackTypeAdapter.java:24) ~[BentoBox-2.1.1.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:186) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:173) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$1.readIntoField(ReflectiveTypeAdapterFactory.java:212) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$FieldReflectionAdapter.readField(ReflectiveTypeAdapterFactory.java:431) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:391) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1062) ~[gson-2.10.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintClipboardManager.loadBlueprint(BlueprintClipboardManager.java:108) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.loadBlueprints(BlueprintsManager.java:327) ~[BentoBox-2.1.1.jar:?]
+	at world.bentobox.bentobox.managers.BlueprintsManager.lambda$loadBlueprintBundles$5(BlueprintsManager.java:199) ~[BentoBox-2.1.1.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101) ~[paper-1.19.4.jar:git-Paper-550]
+	at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57) ~[paper-1.19.4.jar:git-Paper-550]
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22) ~[paper-1.19.4.jar:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[07:28:41] [Craft Scheduler Thread - 2 - BentoBox/INFO]: [BentoBox] Loaded blueprint 'l-shaped' for BSkyBlock
+[07:28:42] [Server thread/INFO]: [BentoBox] [Level] Level Addon hooked into Warps addon.
+[07:28:42] [Server thread/INFO]: [BentoBox] [Biomes] Biomes Addon hooked into Bank addon.
+[07:28:42] [Server thread/INFO]: [BentoBox] [Biomes] Biomes Addon hooked into Level addon.
+[07:28:42] [Server thread/INFO]: [BentoBox] [Biomes] Biomes Addon hooked into Economy.
+[07:28:42] [Server thread/INFO]: [BentoBox] [Challenges] Challenges Addon hooked into Level addon.
+[07:28:42] [Server thread/INFO]: [BentoBox] [Challenges] Challenges Addon hooked into Economy.
+[07:28:42] [Server thread/WARN]: [BentoBox] No Regenerator found for v1_19_R3, falling back to Bukkit API.
+[07:28:42] [Server thread/INFO]: [BentoBox] All blueprints loaded.
+[07:28:42] [Craft Scheduler Thread - 6 - BentoBox/INFO]: [BentoBox] [Level] Generating rankings
+[07:28:42] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
+[07:28:42] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Updating the Catalog...
+[07:28:42] [Thread-12/INFO]: [gg.playit.minecraft.PlayitKeysSetup] found minecraft java tunnel: similar-benchmark.gl.joinmc.link
+[07:28:42] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] keys and tunnel setup
+[07:28:42] [Thread-12/INFO]: playit.gg: tunnel setup
+[07:28:42] [Thread-12/INFO]: playit.gg: similar-benchmark.gl.joinmc.link
+[07:28:42] [Thread-12/WARN]: [gg.playit.control.ChannelSetup] Got IO error working with :control.playit.gg/2602:fbaf:840:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[07:28:43] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
+[07:28:43] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Biomes, BentoBoxWorld/Challenges, BentoBoxWorld/ControlPanel
+[07:28:43] [Thread-12/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[07:28:44] [Thread-12/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[07:28:45] [Thread-12/INFO]: [gg.playit.control.ChannelSetup] request queued, waiting 1 second before resend
+[07:28:45] [Craft Scheduler Thread - 8 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[07:29:10] [Craft Scheduler Thread - 19 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
+[07:29:10] [Craft Scheduler Thread - 11 - BentoBox/INFO]: [BentoBox] Downloading data from GitHub...
+[07:29:11] [Craft Scheduler Thread - 19 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[07:29:11] [Craft Scheduler Thread - 11 - BentoBox/INFO]: [BentoBox] Could not connect to GitHub.
+[07:29:11] [Craft Scheduler Thread - 11 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[07:29:22] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.18:37920, peerAddr=103.175.186.230:57820, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 18, -108, 32, 103, -81, -70, -26, -31, -36, 52, -120, 119, -68, -85, 8, 101, -28, 38, -46, 0, 0, 0, 0, 0, 6, -10, -67, 0, 0, 0, 0, 0, 46, -28, -111, 119, -68, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 103, -8, -2, -39, -125, 65, -28, -114, -64, 81, 43, 18, 31, -13, 22, -36], tunnelServerId=1, dataCenterId=28}
+[07:29:22] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:29:22] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[07:29:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:29:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:29:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:29:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[07:29:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[07:29:22] [nioEventLoopGroup-2-1/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:29:22] [nioEventLoopGroup-2-2/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:29:22] [User Authenticator #0/INFO]: UUID of player Suvrajit is 4e652eb0-f42e-34fb-8424-539c2da8221f
+[07:29:23] [Server thread/INFO]: Suvrajit joined the game
+[07:29:23] [Server thread/INFO]: Suvrajit[/127.0.0.1:53400] logged in with entity id 1 at ([bskyblock_world]45.043809440292236, 18.0, 57.028741050610236)
+[07:29:23] [Server thread/WARN]: [Essentials] Permissions lag notice with (LuckPermsHandler). Response took 31.995512ms. Summary: Getting prefix for Suvrajit
+[07:29:36] [Server thread/INFO]: Suvrajit issued server command: /is reset
+[07:29:37] [Server thread/INFO]: Suvrajit issued server command: /is reset
+[07:29:38] [Server thread/WARN]: [BentoBox] No PasteHandler found for v1_19_R3, falling back to Bukkit API.
+[07:29:46] [Server thread/INFO]: Suvrajit issued server command: /jump
+[07:29:48] [Server thread/INFO]: Suvrajit issued server command: /god
+[07:29:58] [Server thread/INFO]: Suvrajit issued server command: /jump
+[07:29:58] [Server thread/INFO]: Suvrajit issued server command: /jump
+[07:30:04] [Server thread/INFO]: Suvrajit issued server command: /essentials:god
+[07:30:13] [Server thread/INFO]: Suvrajit issued server command: /jump
+[07:30:14] [Server thread/INFO]: Suvrajit issued server command: /jump
+[07:30:18] [Server thread/INFO]: Suvrajit issued server command: /essentials:god
+[07:30:20] [Server thread/INFO]: Suvrajit issued server command: /essentials:god
+[07:30:25] [Server thread/INFO]: Suvrajit issued server command: /spawn
+[07:30:33] [Server thread/INFO]: Suvrajit issued server command: /gamemode creative
+[07:30:45] [nioEventLoopGroup-2-1/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:30:45] [Server thread/INFO]: Suvrajit lost connection: Disconnected
+[07:30:45] [Server thread/INFO]: Suvrajit left the game
+[07:30:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] got new client: NewClient{connectAddr=147.185.221.18:37920, peerAddr=103.175.186.230:57831, claimAddress=209.25.143.2:43784, claimToken=[44, 0, 60, -109, -71, -35, 18, -108, 32, 103, -81, -70, -26, -31, -25, -69, -41, -88, -35, -85, 8, 101, -28, 39, 37, 0, 0, 0, 0, 0, 6, -10, -67, 0, 0, 0, 0, 0, 46, -28, -111, -2, -35, -85, 8, 0, 0, 0, 0, 28, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, -122, 61, 66, -75, -49, -115, -96, 2, -5, 33, 44, -32, -27, -52, -5, 86], tunnelServerId=1, dataCenterId=28}
+[07:30:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] starting tcp tunnel for client
+[07:30:45] [Thread-12/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] start connection to /209.25.143.2:43784 to claim client
+[07:30:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to tunnel server, sending claim token
+[07:30:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] claim token sent
+[07:30:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connection to tunnel server has been established
+[07:30:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] Reflect: ReflectionHelper{ServerConnection=class net.minecraft.server.network.ServerConnection, LegacyPingHandler=class net.minecraft.server.network.LegacyPingHandler, MinecraftServer=class net.minecraft.server.MinecraftServer, PacketSplitter=class net.minecraft.network.PacketSplitter, PacketDecoder=class net.minecraft.network.PacketDecoder, EnumProtocolDirection=class net.minecraft.network.protocol.EnumProtocolDirection, PacketPrepender=class net.minecraft.network.PacketPrepender, PacketEncoder=class net.minecraft.network.PacketEncoder, NetworkManagerServer=class net.minecraft.network.NetworkManagerServer, NetworkManager=class net.minecraft.network.NetworkManager, HandshakeListener=class net.minecraft.server.network.HandshakeListener, PacketListener=interface net.minecraft.network.PacketListener, CraftServer=null}
+[07:30:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] failed to get Minecraft server from Bukkit.getServer()
+[07:30:45] [nioEventLoopGroup-2-3/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connecting to minecraft server at localhost/127.0.0.1:25565
+[07:30:45] [nioEventLoopGroup-2-4/INFO]: [gg.playit.minecraft.PlayitTcpTunnel] connected to local minecraft server
+[07:30:46] [nioEventLoopGroup-2-3/WARN]: [gg.playit.minecraft.PlayitTcpTunnel] failed to send data to tunnel
+[07:31:51] [Server thread/INFO]: Stopping the server
+[07:31:51] [Server thread/INFO]: Stopping server
+[07:31:51] [Server thread/INFO]: [BentoBox-Bank] Disabling BentoBox-Bank v1.7.1
+[07:31:51] [Server thread/INFO]: [BentoBox-Warps] Disabling BentoBox-Warps v1.14.0
+[07:31:51] [Server thread/INFO]: [BentoBox-BSkyBlock] Disabling BentoBox-BSkyBlock v1.17.1
+[07:31:51] [Server thread/INFO]: [BentoBox-Level] Disabling BentoBox-Level v2.12.0
+[07:31:51] [Server thread/INFO]: [BentoBox-Challenges] Disabling BentoBox-Challenges v1.2.0
+[07:31:51] [Server thread/INFO]: [BentoBox-Biomes] Disabling BentoBox-Biomes v2.1.1
+[07:31:51] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat v2.20.1
+[07:31:51] [Server thread/INFO]: [BentoBox] Disabling BentoBox v2.1.1
+[07:31:51] [Server thread/INFO]: [BentoBox] Disabling addons...
+[07:31:51] [Server thread/INFO]: [BentoBox] Disabling ControlPanel...
+[07:31:51] [Server thread/INFO]: [BentoBox] Disabling DimensionalTrees...
+[07:31:51] [Server thread/INFO]: [BentoBox] Addons successfully disabled.
+[07:31:51] [Server thread/INFO]: [BentoBox] Removing coops from islands...
+[07:31:51] [Server thread/INFO]: [BentoBox] Saving islands - this has to be done sync so it may take a while with a lot of islands...
+[07:31:51] [Server thread/INFO]: [BentoBox] Islands saved.
+[07:31:51] [Server thread/INFO]: [BentoBox] Closing database.
+[07:31:51] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.1
+[07:31:51] [Server thread/INFO]: [playit-gg] Disabling playit-gg v0.1.4
+[07:31:51] [Server thread/INFO]: [EssentialsSpawn] Disabling EssentialsSpawn v2.20.1
+[07:31:51] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.8+33cdb4a
+[07:31:51] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[07:31:51] [Server thread/INFO]: [Essentials] Disabling Essentials v2.20.1
+[07:31:51] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[07:31:51] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.18+6616-abda4e0
+[07:31:51] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[07:31:51] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[07:31:51] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.116
+[07:31:51] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[07:31:51] [Server thread/INFO]: [LuckPerms] Closing storage...
+[07:31:51] [Server thread/INFO]: [LuckPerms] Goodbye!
+[07:31:51] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.9.2
+[07:31:51] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[07:31:51] [Server thread/INFO]: Saving players
+[07:31:51] [Server thread/INFO]: Saving worlds
+[07:31:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bskyblock_world]'/minecraft:overworld
+[07:31:51] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'bskyblock_world'
+[07:31:51] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'bskyblock_world'
+[07:31:51] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'bskyblock_world'
+[07:31:51] [Thread-12/INFO]: [gg.playit.minecraft.PlayitManager] control channel shutdown
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Saved 594 block chunks, 594 entity chunks, 0 poi chunks in world 'bskyblock_world' in 0.44s
+[07:31:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (bskyblock_world): All chunks are saved
+[07:31:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bskyblock_world_the_end]'/minecraft:the_end
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'bskyblock_world_the_end'
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'bskyblock_world_the_end'
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'bskyblock_world_the_end'
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'bskyblock_world_the_end' in 0.24s
+[07:31:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:31:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[bskyblock_world_nether]'/minecraft:the_nether
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'bskyblock_world_nether'
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'bskyblock_world_nether'
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'bskyblock_world_nether'
+[07:31:52] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'bskyblock_world_nether' in 0.20s
+[07:31:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:31:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:31:52] [Server thread/INFO]: Flushing Chunk IO
+[07:31:52] [Server thread/INFO]: Closing Thread Pool
+[07:31:52] [Server thread/INFO]: Closing Server

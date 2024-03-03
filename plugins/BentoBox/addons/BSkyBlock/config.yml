@@ -1,4 +1,4 @@
-# BSkyBlock Configuration {$version}
+# BSkyBlock Configuration 1.17.1
 bskyblock:
   command:
     # Island Command. What command users will run to access their island.
@@ -138,9 +138,9 @@ world:
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
+  - ENDERMAN
   - WITHER
   - ZOMBIE_VILLAGER
-  - ENDERMAN
   # World flags. These are boolean settings for various flags for this world
   flags:
     CREEPER_DAMAGE: true
@@ -181,6 +181,7 @@ world:
   #   OWNER     = 1000
   default-island-flags:
     HURT_ANIMALS: 500
+    LOOM: 500
     DRAGON_EGG: 500
     REDSTONE: 500
     BUCKET: 500
@@ -192,9 +193,12 @@ world:
     MINECART: 500
     ANVIL: 500
     FISH_SCOOPING: 500
+    TRAPPED_CHEST: 500
     END_PORTAL: 500
     BREEDING: 500
     HURT_VILLAGERS: 500
+    BOOKSHELF: 500
+    HARVEST: 500
     TURTLE_EGGS: 500
     FROST_WALKER: 500
     COLLECT_LAVA: 500
@@ -206,23 +210,33 @@ world:
     CAKE: 500
     NAME_TAG: 500
     ARMOR_STAND: 500
+    CHANGE_SETTINGS: 1000
+    SIGN_EDITING: 500
     TRADING: 0
     EGGS: 500
     ITEM_DROP: 0
+    CHEST: 500
     NOTE_BLOCK: 0
     FLINT_AND_STEEL: 500
     NETHER_PORTAL: 500
+    SCULK_SENSOR: 500
     LECTERN: 500
+    GRINDSTONE: 500
+    SHULKER_BOX: 500
     ITEM_PICKUP: 0
     CROP_TRAMPLE: 500
     DROPPER: 500
     BREWING: 500
     TNT_PRIMING: 500
     COLLECT_WATER: 500
+    AXOLOTL_SCOOPING: 500
     BUTTON: 500
+    STONECUTTING: 500
+    COMPOSTER: 500
     FIRE_EXTINGUISH: 500
     COMMAND_RANKS: 500
     BEACON: 500
+    ALLAY: 500
     TRAPDOOR: 500
     EXPERIENCE_BOTTLE_THROWING: 500
     PRESSURE_PLATE: 0
@@ -230,15 +244,19 @@ world:
     DYE: 500
     PLACE_BLOCKS: 500
     ITEM_FRAME: 500
+    CROP_PLANTING: 500
     CRAFTING: 0
     ENCHANTING: 0
     SHEARING: 500
+    FLOWER_POT: 500
     BOAT: 500
     BED: 500
     SPAWN_EGGS: 500
     MILKING: 0
     DISPENSER: 500
+    SCULK_SHRIEKER: 500
     GATE: 0
+    SMITHING: 500
     EXPERIENCE_PICKUP: 500
     HOPPER: 500
     LEASH: 500
@@ -248,20 +266,26 @@ world:
     CONTAINER: 500
     POTION_THROWING: 500
     JUKEBOX: 500
+    BARREL: 500
+    COLLECT_POWDERED_SNOW: 500
+    CARTOGRAPHY: 500
   # These are the default settings for new islands
   default-island-settings:
     PVP_END: false
     PVP_NETHER: false
     LEAF_DECAY: true
-    TNT_DAMAGE: true
-    MONSTER_SPAWNERS_SPAWN: true
+    ENDERMAN_TELEPORT: true
     ANIMAL_NATURAL_SPAWN: true
     MONSTER_NATURAL_SPAWN: true
-    FIRE_IGNITE: true
+    SHULKER_TELEPORT: true
     FIRE_SPREAD: true
-    ANIMAL_SPAWNERS_SPAWN: true
     FIRE_BURNING: true
     PVP_OVERWORLD: false
+    TNT_DAMAGE: true
+    MONSTER_SPAWNERS_SPAWN: true
+    FIRE_IGNITE: true
+    ANIMAL_SPAWNERS_SPAWN: true
+    BLOCK_EXPLODE_DAMAGE: true
   # These settings/flags are hidden from users
   # Ops can toggle hiding in-game using SHIFT-LEFT-CLICK on flags in settings
   # Added since 1.4.1.

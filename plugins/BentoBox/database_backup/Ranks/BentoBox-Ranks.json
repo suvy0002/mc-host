@@ -8,7 +8,6 @@
     "ranks.member": 500,
     "ranks.sub-owner": 900,
     "ranks.owner": 1000,
-    "ranks.mod": 5000,
-    "ranks.admin": 10000
+    "ranks.mod": 5000
   }
 }

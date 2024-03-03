@@ -5,8 +5,8 @@
 
 bskyblock:
   sign:
-    line0: Welcome to your skyblock island!
-    line1: '[name]'
-    line2: Type /help to get help
+    line0: '&cBSkyBlock'
+    line1: Welcome!
+    line2: '[name]'
     line3: Do not fall! &c<3
 

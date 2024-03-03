@@ -1,0 +1,476 @@
+# Warning!: you are editing this file at your own risk. This feature is still in alpha.
+
+types:
+  ALL:
+    "BukkitValues_mythicmobs:type":
+      type: "string"
+      label: "&a%s"
+      # this will prevent the next entry from being added to the lore (e.g. if this is a mythic mob, don't parse the id, use the mob type).
+      ignoreNextKeyWhenValuePresent: true
+    id:
+      type: "string"
+      # translation tags <t>minecraft_key<t> may be used; they will translate everything according to the language of the client.
+      # example: <t>entity.minecraft.villager<t> -> Villager or Dorfbewohner for clients having their language set to German.
+      # you can look them all up at assets/minecraft/lang/en_us.json
+      label: "&a<t>entity.minecraft.%s<t>"
+      #Health:
+      #type: "float"
+      #label: "&bHealth: &a%.1f"
+    CustomName_text:
+      type: "string"
+      format: "capitalize"
+      label: "&9Name: %s"
+    stackSize:
+      type: "string"
+      label: "&bStack Size: &e%s"
+  villager:
+    VillagerData_type:
+      label: "&bType:&f %s"
+      comparison: "contains"
+      nbtValueTranslations:
+        - "desert:&#DBB714Desert"
+        - "jungle:&#00FF04Jungle"
+        - "plains:&#2FB600Plains"
+        - "savanna:&#8F7828Savanna"
+        - "snow:&#F9F9F9Snow"
+        - "swamp:&#3F5024Swamp"
+        - "taiga:&#503424Taiga"
+    VillagerData_profession:
+      label: "&bProfession:&e %s"
+      comparison: "contains"
+      nbtValueTranslations:
+        - "armorer:&#D3D3D3Armorer"
+        - "butcher:&#CA1111Butcher"
+        - "cartographer:&#F9E599Cartographer"
+        - "cleric:&#801CD4Cleric"
+        - "farmer:&#5FD325Farmer"
+        - "fisherman:&#419AC7Fisherman"
+        - "fletcher:&#FCDEB0Fletcher"
+        - "leatherworker:&#543305Leatherworker"
+        - "librarian:&#9B1919Librarian"
+        - "stone:Stone"
+        - "mason:&#6F6F6FMason"
+        - "shepherd:&#C1FBF5Shepard"
+        - "toolsmith:&#0DEA82Toolsmith"
+        - "weaponsmith:&#F9C800Weaponsmith"
+        - "nitwit:&#5C8346Nitwit"
+        - "none:&cNo Job"
+    VillagerData_level:
+      label: " &#7FA1FF➥ &e %s"
+      comparison: "contains"
+      nbtValueTranslations:
+        - "1:Novice"
+        - "2:Apprentice"
+        - "3:Journeyman"
+        - "4:Expert"
+        - "5:Master"
+    Offers_Recipes[0]_buy:
+      title: "&#7FA1FFAvailable Trades:"
+      type: "item"
+      label: "&#00F184[1] &#3ef7e8Trade: &#7FA1FF%dx &#3ef7e8%s %s"
+    Offers_Recipes[0]_sell:
+      type: "item"
+      label: "&#00F184[1] &#3ef7e8For:    &#7FA1FF%dx &#3ef7e8%s &e%s"
+    Offers_Recipes[1]_buy:
+      type: "item"
+      label: " \n&#00F184[2] &#3ef7e8Trade: &#7FA1FF%dx &#3ef7e8%s &e%s"
+    Offers_Recipes[1]_sell:
+      type: "item"
+      label: "&#00F184[2] &#3ef7e8For:    &#7FA1FF%dx &#3ef7e8%s &e%s"
+    Offers_Recipes[2]_buy:
+      type: "item"
+      label: " \n&#00F184[3] &#3ef7e8Trade: &#7FA1FF%dx &#3ef7e8%s &e%s"
+    Offers_Recipes[2]_sell:
+      type: "item"
+      label: "&#00F184[3] &#3ef7e8For:    &#7FA1FF%dx &#3ef7e8%s &e%s"
+  donkey:
+    Tame:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "1b:&aTamed"
+        - "0b:&cUntamed"
+    Owner:
+      label: " &#7FA1FF➥  &bOwner: &e%s"
+      type: "string"
+      format: "uuidToName"
+      #ChestedHorse:
+      #type: "string"
+      #label: " &#7FA1FF➥ &#402416 Holding Chest: %s"
+      #nbtValueTranslations:
+      #- "1b:&aYes"
+      #- "0b:&cNo"
+    Items:
+      title: "&eChest Items"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 6
+      type: "item"
+      label: "&#3ef7e8%2$s"
+  llama:
+    Variant:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "0:&#8C6755Creamy"
+        - "1:&#FFFFFFWhite"
+        - "2:&#402416Brown"
+        - "3:&#7D7C7CGray"
+    Tame:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "1b:&aTamed"
+        - "0b:&cUntamed"
+    Owner:
+      label: " &#7FA1FF➥  &bOwner: &e%s"
+      type: "string"
+      format: "uuidToName"
+    Variant:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "0:&#8C6755Creamy"
+        - "1:&#FFFFFFWhite"
+        - "2:&#402416Brown"
+        - "3:&#7D7C7CGray"
+    Tame:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "1b:&aTamed"
+        - "0b:&cUntamed"
+    Owner:
+      label: " &#7FA1FF➥  &bOwner: &e%s"
+      type: "string"
+      format: "uuidToName"
+  parrot:
+    Variant:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "0:&#A82C24Red"
+        - "1:&#3D43A8Blue"
+        - "2:&#266D1DGreen"
+        - "3:&#139091Cyan"
+        - "3:&#7D7C7CGray"
+    Owner:
+      label: " &#7FA1FF➥  &bOwner: &e%s"
+      type: "string"
+      format: "uuidToName"
+  horse:
+    Variant:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "0:&#FFFFFFWhite"
+        - "1:&#8C6755Creamy"
+        - "2:&#682403Chestnut"
+        - "3:&#402416Brown"
+        - "4:&#434242Black"
+        - "5:&#7D7C7CGray"
+        - "6:&#260F02Dark Brown"
+        - "256:&#FFFFFFWhite"
+        - "257:&#FFFFFFWhite &7and &#8C6755Creamy"
+        - "258:&#FFFFFFWhite &7and &#682403Chestnut"
+        - "259:&#FFFFFFWhite &7and &#402416Brown"
+        - "260:&#FFFFFFWhite &7and &#434242Black"
+        - "261:&#FFFFFFWhite &7and &#7D7C7CGray"
+        - "262:&#FFFFFFWhite &7and &#260F02Dark Brown"
+        - "512:&#FFFFFFWhite &7with White Field"
+        - "513:&#8C6755Creamy &7with &#FFFFFFWhite Field"
+        - "514:&#8C6755Chestnut &7with &#FFFFFFWhite Field"
+        - "515:&#402416Brown &7with &#FFFFFFWhite Field"
+        - "516:&#434242Black &7with &#FFFFFFWhite Field"
+        - "517:&#7D7C7CGray &7with &#FFFFFFWhite Field"
+        - "518:&#260F02Dark Brown &7with &#FFFFFFWhite Field &#402416Brown"
+        - "768:&#FFFFFFWhite &7with White Dots"
+        - "769:&#8C6755Creamy &7with &#FFFFFFWhite Dots"
+        - "770:&#682403Chestnut &7with &#FFFFFFWhite Dots"
+        - "771:&#402416Brown &7with &#FFFFFFWhite Dots"
+        - "772:&#434242Black &7with &#FFFFFFWhite Dots"
+        - "773:&#7D7C7CGray &7with &#FFFFFFWhite Dots"
+        - "774:&#260F02Dark Brown &7with &#FFFFFFWhite Dots"
+        - "1024:&#FFFFFFWhite &7with &#434242Black Dots"
+        - "1025:&#8C6755Creamy &7with &#434242Black Dots"
+        - "1026:&#682403Chestnut &7with &#434242Black Dots"
+        - "1027:&#402416Brown &7with &#434242Black Dots"
+        - "1028:&#434242Black &7with &#434242Black Dots"
+        - "1029:&#7D7C7CGray &7with &#434242Black Dots"
+        - "1030:&#260F02Dark Brown &7with &#434242Black Dots"
+    Tame:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "1b:&aTamed"
+        - "0b:&cUntamed"
+    Owner:
+      label: " &#7FA1FF➥  &bOwner: &e%s"
+      type: "string"
+      format: "uuidToName"
+    Saddle:
+      label: " &#7FA1FF➥  &bHas Saddle: %s"
+      nbtValueTranslations:
+        - "1b:&aYes"
+        - "0b:&cNo"
+    ArmorItem:
+      label: " &#7FA1FF➥  &eArmor: %s"
+      comparison: "contains"
+      nbtValueTranslations:
+        - 'golden_horse_armor:&#E7B408Golden Armor'
+        - 'diamond_horse_armor:&#00D5F7Diamond Armor'
+        - 'iron_horse_armor:&#BABABAIron Armor'
+        - 'leather_horse_armor:&#543305Leather Armor'
+  pig:
+    Saddle:
+      label: " &#7FA1FF➥  &bHas Saddle: %s"
+      nbtValueTranslations:
+        - "1b:&aYes"
+        - "0b:&cNo"
+  sheep:
+    Color:
+      label: " &#7FA1FF➥  &bColor: %s"
+      nbtValueTranslations:
+        - "0b:&#FFFFFFWhite"
+        - "1b:&#FE8F00Orange"
+        - "2b:&#CE0FF0Magenta"
+        - "3b:&#37ABD1Light Blue"
+        - "4b:&#FFF000Yellow"
+        - "5b:&#61DD16Lime"
+        - "6b:&#F2AFEFPink"
+        - "7b:&#3F4A4DGray"
+        - "8b:&#585758Light Gray"
+        - "9b:&#139091Cyan"
+        - "10b:&#8631B6Purple"
+        - "11b:&#3D43A8Blue"
+        - "12b:&#7C5230Brown"
+        - "13b:&#266D1DGreen"
+        - "14b:&#A82C24Red"
+        - "15b:&#434242Black"
+  wolf:
+    CollarColor:
+      label: " &#7FA1FF➥  &bCollar Color: %s"
+      nbtValueTranslations:
+        - "0b:&#FFFFFFWhite"
+        - "1b:&#FE8F00Orange"
+        - "2b:&#CE0FF0Magenta"
+        - "3b:&#37ABD1Light Blue"
+        - "4b:&#FFF000Yellow"
+        - "5b:&#61DD16Lime"
+        - "6b:&#F2AFEFPink"
+        - "7b:&#3F4A4DGray"
+        - "8b:&#585758Light Gray"
+        - "9b:&#139091Cyan"
+        - "10b:&#8631B6Purple"
+        - "11b:&#3D43A8Blue"
+        - "12b:&#7C5230Brown"
+        - "13b:&#266D1DGreen"
+        - "14b:&#A82C24Red"
+        - "15b:&#434242Black"
+    Owner:
+      label: " &#7FA1FF➥  &bOwner: &e%s"
+      type: "string"
+      format: "uuidToName"
+  Zombie_horse:
+    Tame:
+      label: " &#7FA1FF➥ &e %s"
+      nbtValueTranslations:
+        - "1b:&aTamed"
+        - "0b:&cUntamed"
+    Owner:
+      label: " &#7FA1FF➥  &bOwner: &e%s"
+      type: "string"
+      format: "uuidToName"
+  cat:
+    CatType:
+      label: " &#7FA1FF➥  &bType: %s"
+      nbtValueTranslations:
+        - "0:&#634D39Tabby"
+        - "1:&#434242Tux&#A8A7AAedo"
+        - "2:&#E69E40Red &#422F1ATabby"
+        - "3:&#D0C9BBSiamese"
+        - "4:&#7D807FBritish Shorthair"
+        - "5:&#C58B38Calico"
+        - "6:&#FEEACAPersian"
+        - "7:&#FEEACARag&#A1978Cdoll"
+        - "8:&#D3D1D2White"
+        - "9:&#5F5E5CJellie"
+        - "10:&#434242Black"
+    Owner:
+      label: " &#7FA1FF➥  &bOwner: &e%s"
+      type: "string"
+      format: "uuidToName"
+    CollarColor:
+      label: " &#7FA1FF➥  &bCollar Color: %s"
+      nbtValueTranslations:
+        - "0b:&#FFFFFFWhite"
+        - "1b:&#FE8F00Orange"
+        - "2b:&#CE0FF0Magenta"
+        - "3b:&#37ABD1Light Blue"
+        - "4b:&#FFF000Yellow"
+        - "5b:&#61DD16Lime"
+        - "6b:&#F2AFEFPink"
+        - "7b:&#3F4A4DGray"
+        - "8b:&#585758Light Gray"
+        - "9b:&#139091Cyan"
+        - "10b:&#8631B6Purple"
+        - "11b:&#3D43A8Blue"
+        - "12b:&#7C5230Brown"
+        - "13b:&#266D1DGreen"
+        - "14b:&#A82C24Red"
+        - "15b:&#434242Black"
+  rabbit:
+    RabbitType:
+      label: " &#7FA1FF➥  &bType: %s"
+      nbtValueTranslations:
+        - "0:&#846C5BBrown"
+        - "1:&#FFFFFFWhite"
+        - "2:&#434242Black"
+        - "3:&#242720Black &7and &#22201FWhite"
+        - "4:&#FCECAEGold"
+        - "5:&#8A7862Salt &7and &#453F30Pepper"
+        - "99:&#888888Killer &#4A0D11Bunny"
+  creeper:
+    powered:
+      label: " &#7FA1FF➥  &bCharged: %s"
+      nbtValueTranslations:
+        - "0b:&cNo"
+        - "1b:&aYes"
+  mooshroom:
+    Type:
+      label: " &#7FA1FF➥  &bType: %s"
+      nbtValueTranslations:
+        - "brown:&#7C5230Brown"
+        - "red:&#A82C24Red"
+  panda:
+    MainGene:
+      type: "string"
+      format: "capitalize"
+      label: " &#7FA1FF➥  &bMain Gene: %s"
+    HiddenGene:
+      type: "string"
+      format: "capitalize"
+      label: " &#7FA1FF➥  &bHidden Gene: %s"
+  zombie:
+    ArmorItems:
+      title: "&eArmor:"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 4
+      type: "item"
+      label: "&#3ef7e8%2$s"
+    HandItems[0]:
+      type: "item"
+      label: "&#00F184Right Hand: &#7FA1FF%2$s"
+    HandItems[1]:
+      type: "item"
+      label: "&#00F184Left Hand: &#7FA1FF%2$s"
+  stray:
+    ArmorItems:
+      title: "&eArmor:"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 4
+      type: "item"
+      label: "&#3ef7e8%2$s"
+    HandItems[0]:
+      type: "item"
+      label: "&#00F184Right Hand: &#7FA1FF%2$s"
+    HandItems[1]:
+      type: "item"
+      label: "&#00F184Left Hand: &#7FA1FF%2$s"
+  skeleton:
+    ArmorItems:
+      title: "&eArmor:"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 4
+      type: "item"
+      label: "&#3ef7e8%2$s"
+    HandItems[0]:
+      type: "item"
+      label: "&#00F184Right Hand: &#7FA1FF%2$s"
+    HandItems[1]:
+      type: "item"
+      label: "&#00F184Left Hand: &#7FA1FF%2$s"
+  vex:
+    HandItems[0]:
+      type: "item"
+      label: "&#00F184Right Hand: &#7FA1FF%2$s"
+    HandItems[1]:
+      type: "item"
+      label: "&#00F184Left Hand: &#7FA1FF%2$s"
+  pillager:
+    PatrolLeader:
+      label: " &#7FA1FF➥  &bType: %s"
+      nbtValueTranslations:
+        - "0b:&cNot Leader"
+        - "1b:&aPatrol Leader"
+    ArmorItems:
+      title: "&eArmor:"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 4
+      type: "item"
+      label: "&#3ef7e8%2$s"
+    HandItems[0]:
+      type: "item"
+      label: "&#00F184Right Hand: &#7FA1FF%2$s"
+    HandItems[1]:
+      type: "item"
+      label: "&#00F184Left Hand: &#7FA1FF%2$s"
+  piglin:
+    ArmorItems:
+      title: "&eArmor:"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 4
+      type: "item"
+      label: "&#3ef7e8%2$s"
+    HandItems[0]:
+      type: "item"
+      label: "&#00F184Right Hand: &#7FA1FF%2$s"
+    HandItems[1]:
+      type: "item"
+      label: "&#00F184Left Hand: &#7FA1FF%2$s"
+  zombie_villager:
+    ArmorItems:
+      title: "&eArmor:"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 4
+      type: "item"
+      label: "&#3ef7e8%2$s"
+    HandItems[0]:
+      type: "item"
+      label: "&#00F184Right Hand: &#7FA1FF%2$s"
+    HandItems[1]:
+      type: "item"
+      label: "&#00F184Left Hand: &#7FA1FF%2$s"
+  drowned:
+    ArmorItems:
+      title: "&eArmor:"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 4
+      type: "item"
+      label: "&#3ef7e8%2$s"
+    HandItems[0]:
+      type: "item"
+      label: "&#00F184Right Hand: &#7FA1FF%2$s"
+    HandItems[1]:
+      type: "item"
+      label: "&#00F184Left Hand: &#7FA1FF%2$s"
+  fox:
+    Type:
+      id:
+      type: "string"
+      format: "capitalize"
+      label: " &#7FA1FF➥   %s"
+      nbtValueTranslations:
+        - 'red:&#D42A19Red'
+        - 'snow:&fSnow'
+    HandItems:
+      title: "&eCarried Item:"
+      prefix: "&#7FA1FF[&a%d&#7FA1FF] "
+      limit: 2
+      type: "item"
+      label: "&#3ef7e8%2$s"
+  allay:
+    HandItems[0]:
+      type: "item"
+      label: " \n&#3ef7e8Item: &#7FA1FF%dx &#3ef7e8%s &e%s"
+  frog:
+    variant:
+      label: "&bColor: %s"
+      comparison: "contains"
+      type: "string"
+      nbtValueTranslations:
+        - "temperate:&#FF7F50Orange"
+        - "warm:&#C0C0C0White"
+        - "cold:&#228B22Green"
+         

@@ -20,7 +20,7 @@ lang:
   console-uuid: "f78a4d8d-d51b-4b39-98a3-230f2de0c670"
   cancel-chat-wait: "cancel"
   friendly-max-warps: "Unlimited" # If you want it to show the actual amount, use %amount%
-  prefix: "&b&lPW &7»" # Use %prefix% to add the prefix to any message!
+  #prefix: "&b&lPW &7»" # Use %prefix% to add the prefix to any message!
   list: "%prefix% &bCurrent Warps &d(%page%&b/&d%pages%&b):&d\n* %list%\n%previous%      %next%"
   list-format: "[warp]"
   list-none: "%prefix% &bCurrent Warps: &cNone" # What should be displayed if there are no warps?
@@ -113,7 +113,6 @@ lang:
   # the help menu for a player
   # The variable %cmd% is any command from the config.yml :)
   help-player:
-    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Warps &7&l]&m----------"
     - "%prefix% &d/%cmd% help &7&l- &bDisplays this menu."
     - "%prefix% &d/%cmd% <warp> &7&l- &bTeleports to the player warp."
     - "%prefix% &d/%cmd% set <name> &7&l- &bSets a warp to your location."
@@ -123,7 +122,6 @@ lang:
     - "%prefix% &d/%cmd% list [page] [player] &7&l- &bLists all the current player warps."
     - "%prefix% &d/%cmd% open [menu] [options] &7&l- &bOpens the player warp gui."
     - "%prefix% &d/%cmd% amount &7&l- &bCheck how much warps you have."
-    - "%prefix% &d/%cmd% reload &7&l- &bReloads all the config files."
     - "%prefix% &d/%cmd% icon set/remove <warp> &7&l- &bSet a warp icon."
     # This is useful for if you want to sell warp amounts on your store, but what happens if a player already has 5 warps?
     # This just simply gives them more warps. For example if a player has 10 warps (pw.limit.10) and you do /pw addwarps *player* 10. They will now have 20 warps.
@@ -137,7 +135,6 @@ lang:
     - "%prefix% &d/%cmd% setowner <warp> <player> &7&l- &bTransfer ownership."
     - "%prefix% &d/%cmd% favourite <warp> &7&l- &bFavourite a warp."
     - "%prefix% &d/%cmd% info <warp> &7&l- &bGet information about a warp."
-    - "%prefix% &7&l&m----------&7&l[ &b&lPlayer Warps &7&l]&m----------"
 
   # the help menu for console
   # The variable %cmd% is any command from the config.yml :)

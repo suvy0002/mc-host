@@ -1,0 +1,1021 @@
+------------------------------------[ 06.03.2024 05:49:52 ]-----------------------------------
+Boss 4.9.10 encountered a NullPointerException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to inject our variables into PlaceholderAPI!
+NullPointerException Cannot invoke "me.clip.placeholderapi.PlaceholderAPIPlugin.getLocalExpansionManager()" because the return value of "me.clip.placeholderapi.expansion.PlaceholderExpansion.getPlaceholderAPI()" is null
+	 at PlaceholderAPI-2.11.5.jar//me.clip.placeholderapi.expansion.PlaceholderExpansion.register(PlaceholderExpansion.java:147)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.model.PlaceholderAPIHook.<init>(HookManager.java:2487)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.model.HookManager.loadDependencies(HookManager.java:260)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:277)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:52 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.lib.model.DiscordListener$DiscordListenerImpl' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:52 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.lib.model.DiscordSender' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:52 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.RoseStackerListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:52 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.StackMobListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:52 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.WildStackerListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into BentoBox as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'BentoBox')
+FoException Report: Boss could not hook into BentoBox as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'BentoBox')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into Citizens as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Citizens')
+FoException Report: Boss could not hook into Citizens as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Citizens')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into WorldGuard as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'WorldGuard')
+FoException Report: Boss could not hook into WorldGuard as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'WorldGuard')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into mcMMO as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'mcMMO')
+FoException Report: Boss could not hook into mcMMO as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'mcMMO')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered a NullPointerException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to inject our variables into PlaceholderAPI!
+NullPointerException Cannot invoke "me.clip.placeholderapi.PlaceholderAPIPlugin.getLocalExpansionManager()" because the return value of "me.clip.placeholderapi.expansion.PlaceholderExpansion.getPlaceholderAPI()" is null
+	 at PlaceholderAPI-2.11.5.jar//me.clip.placeholderapi.expansion.PlaceholderExpansion.register(PlaceholderExpansion.java:147)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.model.PlaceholderAPIHook.<init>(HookManager.java:2487)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.model.HookManager.loadDependencies(HookManager.java:260)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:277)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.lib.model.DiscordListener$DiscordListenerImpl' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.lib.model.DiscordSender' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.RoseStackerListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.StackMobListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:49:57 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.WildStackerListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into BentoBox as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'BentoBox')
+FoException Report: Boss could not hook into BentoBox as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'BentoBox')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into Citizens as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Citizens')
+FoException Report: Boss could not hook into Citizens as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Citizens')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into Essentials as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Essentials')
+FoException Report: Boss could not hook into Essentials as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Essentials')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into WorldGuard as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'WorldGuard')
+FoException Report: Boss could not hook into WorldGuard as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'WorldGuard')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into mcMMO as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'mcMMO')
+FoException Report: Boss could not hook into mcMMO as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'mcMMO')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered a NullPointerException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to inject our variables into PlaceholderAPI!
+NullPointerException Cannot invoke "me.clip.placeholderapi.PlaceholderAPIPlugin.getLocalExpansionManager()" because the return value of "me.clip.placeholderapi.expansion.PlaceholderExpansion.getPlaceholderAPI()" is null
+	 at PlaceholderAPI-2.11.5.jar//me.clip.placeholderapi.expansion.PlaceholderExpansion.register(PlaceholderExpansion.java:147)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.model.PlaceholderAPIHook.<init>(HookManager.java:2487)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.model.HookManager.loadDependencies(HookManager.java:260)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:277)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.lib.model.DiscordListener$DiscordListenerImpl' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.lib.model.DiscordSender' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.RoseStackerListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.StackMobListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:02 ]-----------------------------------
+Boss 4.9.10 encountered an IllegalStateException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Failed to scan class 'class org.mineacademy.boss.listener.WildStackerListener' using Foundation!
+IllegalStateException zip file closed
+	 at java.base/java.util.zip.ZipFile.ensureOpen(ZipFile.java:846)
+	 at java.base/java.util.zip.ZipFile.getEntry(ZipFile.java:338)
+	 at java.base/java.util.jar.JarFile.getEntry(JarFile.java:516)
+	 at java.base/java.util.jar.JarFile.getJarEntry(JarFile.java:471)
+	 at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:195)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:593)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:155)
+	 at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:150)
+	 at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	 at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	 at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578)
+	 at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3603)
+	 at java.base/java.lang.Class.getMethods(Class.java:2185)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.AutoRegisterScanner.scanAndRegister(AutoRegisterScanner.java:89)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.plugin.SimplePlugin.onEnable(SimplePlugin.java:309)
+	 at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281)
+	 at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189)
+	 at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104)
+	 at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507)
+	 at PlugManX.jar//com.rylinaux.plugman.util.BukkitPluginUtil.enable(BukkitPluginUtil.java:135)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enable(PaperPluginUtil.java:157)
+	 at PlugManX.jar//com.rylinaux.plugman.util.PaperPluginUtil.enableAll(PaperPluginUtil.java:168)
+	 at PlugManX.jar//com.rylinaux.plugman.command.RestartCommand.execute(RestartCommand.java:100)
+	 at PlugManX.jar//com.rylinaux.plugman.PlugManCommandHandler.onCommand(PlugManCommandHandler.java:97)
+	 at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45)
+	 at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:155)
+	 at org.bukkit.craftbukkit.v1_19_R3.CraftServer.dispatchCommand(CraftServer.java:929)
+	 at org.bukkit.craftbukkit.v1_19_R3.command.BukkitCommandWrapper.run(BukkitCommandWrapper.java:64)
+	 at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264)
+	 at net.minecraft.commands.CommandDispatcher.performCommand(CommandDispatcher.java:322)
+	 at net.minecraft.commands.CommandDispatcher.a(CommandDispatcher.java:306)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:06 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into BentoBox as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'BentoBox')
+FoException Report: Boss could not hook into BentoBox as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'BentoBox')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:06 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into Essentials as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Essentials')
+FoException Report: Boss could not hook into Essentials as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Essentials')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:06 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into Citizens as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Citizens')
+FoException Report: Boss could not hook into Citizens as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'Citizens')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:06 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into WorldGuard as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'WorldGuard')
+FoException Report: Boss could not hook into WorldGuard as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'WorldGuard')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+
+------------------------------------[ 06.03.2024 05:50:06 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, WorldGuard v7.0.8+33cdb4a, HeadDatabase v4.18.0, Citizens v2.0.33-SNAPSHOT (build 3314), Essentials v2.20.1, DecentHolograms v2.8.6, mcMMO v2.1.228-SNAPSHOT, ViaBackwards v4.9.1, BentoBox v2.1.1, CrateReloaded 2.3.4 by dinosaur, Boss v4.9.10, AdvancedEnchantments v9.5.21, AntiPopup v7.3, AxShulkers v1.8.1, ClueScrolls v4.9.0, SafariNet v1.16.1-b1-SNAPSHOT, OmegaVision v2.5.16, EntityClearer v2.0.0, DynamicShop v3.16.1, EssentialsSpawn v2.20.1, playit-gg v0.1.4, AdvancedServerList v3.8.0, zAuctionHouseV3 v3.1.3.0, ChestSort v14.0.0, SimpleScore v3.12.5, JAntiPlugin v1.8, TAB v4.1.2, ProCosmetics v13.9.4, AdvancedPortals v0.9.3, PinataParty v2.63.9, GUIPlus v2.9, PlugManX v2.3.7, HideStream v3.10, GSit v1.7.0, Pl-Hide-Pro v2.8.2, PlayerWarps v6.29.0, TradeSystem v2.5.3, SkinsRestorer v15.0.7, EssentialsChat v2.20.1, BentoBox-Biomes v2.1.1, BentoBox-Challenges v1.2.0, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into mcMMO as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'mcMMO')
+FoException Report: Boss could not hook into mcMMO as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'mcMMO')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+

@@ -1,12 +1,12 @@
 spawns:
   default:
-    world: 92ea5076-10b8-40d2-976c-0bc83386d51f
+    world: 8fdb5aa7-d3a7-46da-9c56-843097d744f7
     world-name: bskyblock_world
-    x: 60.5
-    y: 49.0
-    z: 53.5
-    yaw: 0.6365010738372803
-    pitch: -5.478061676025391
+    x: 60.522907928348374
+    y: 99.0
+    z: 53.460582774992645
+    yaw: 0.7140204310417175
+    pitch: 8.525390625
   suvrajit:
     world: a610f4dd-be6c-4da7-a03c-336630b9fde6
     world-name: bskyblock_world

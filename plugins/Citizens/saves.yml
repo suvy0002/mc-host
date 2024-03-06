@@ -1,3 +1,303 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 4
+last-created-npc-id: 17
+npc:
+  '17':
+    metadata:
+      nameplate-visible: 'false'
+      minecraft-ai: false
+    name: ■
+    uuid: 23243afc-4b15-44ab-bfbd-de077ae0c75a
+    traits:
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      villagertrait:
+        level: 1
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&fClick to view'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&e&lHelp'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      owner:
+        uuid: 4e652eb0-f42e-34fb-8424-539c2da8221f
+      profession: TOOLSMITH
+      type: VILLAGER
+      location:
+        bodyYaw: 130.3836
+        world: bskyblock_world
+        x: '68.4866'
+        y: '99.0'
+        z: '60.4762'
+        yaw: '131.1368'
+        pitch: '0.0'
+    traitnames: mounttrait,scoreboardtrait,rotationtrait,villagertrait,location,hologramtrait,lookclose,type,owner,spawned,profession
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '15':
+    metadata:
+      activation-range: 3
+      nameplate-visible: 'false'
+      minecraft-ai: false
+    name: ■
+    uuid: 8f3b4334-dc9b-4b16-8987-96aba1e3e6ff
+    traits:
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      villagertrait:
+        level: 1
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&fClick to view'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&e&lRanks'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      owner:
+        uuid: 4e652eb0-f42e-34fb-8424-539c2da8221f
+      profession: CLERIC
+      type: VILLAGER
+      location:
+        bodyYaw: -20.832993
+        world: bskyblock_world
+        x: '59.5426'
+        y: '98.0'
+        z: '39.7704'
+        yaw: '-20.833'
+        pitch: '0.0'
+    traitnames: mounttrait,scoreboardtrait,rotationtrait,villagertrait,location,hologramtrait,lookclose,type,owner,spawned,profession
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '14':
+    metadata:
+      activation-range: 3
+      nameplate-visible: 'false'
+      minecraft-ai: false
+    name: ■
+    uuid: 8a959c8b-a37c-457e-a2cf-da66a8e1d599
+    traits:
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      villagertrait:
+        level: 1
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&fClick to view'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&e&lShop'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      owner:
+        uuid: 4e652eb0-f42e-34fb-8424-539c2da8221f
+      profession: BUTCHER
+      type: VILLAGER
+      location:
+        bodyYaw: 84.246994
+        world: bskyblock_world
+        x: '70.5181'
+        y: '98.0'
+        z: '52.4907'
+        yaw: '84.247'
+        pitch: '0.0'
+    traitnames: mounttrait,scoreboardtrait,rotationtrait,villagertrait,location,hologramtrait,lookclose,type,owner,spawned,profession
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '12':
+    metadata:
+      activation-range: 3
+      nameplate-visible: 'false'
+      minecraft-ai: false
+    name: ■
+    uuid: 4c3e1fa8-0074-47a5-810e-3f1d88d23151
+    traits:
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      villagertrait:
+        level: 1
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&fClick to view'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&e&lTiers'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      owner:
+        uuid: 4e652eb0-f42e-34fb-8424-539c2da8221f
+      profession: WEAPONSMITH
+      type: VILLAGER
+      location:
+        bodyYaw: -9.618553
+        world: bskyblock_world
+        x: '61.5002'
+        y: '98.0'
+        z: '39.6652'
+        yaw: '-9.6186'
+        pitch: '0.0'
+    traitnames: mounttrait,scoreboardtrait,rotationtrait,villagertrait,location,hologramtrait,lookclose,type,owner,spawned,profession
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false
+  '9':
+    metadata:
+      activation-range: 3
+      nameplate-visible: 'false'
+      minecraft-ai: false
+    name: ■
+    uuid: 6100537b-0afd-44c9-a1ca-ce8f1ac7505b
+    traits:
+      lookclose:
+        range: '10.0'
+        disablewhilenavigating: true
+        enabled: true
+        enableRandomLook: false
+        headonly: false
+        linkedbody: false
+        perplayer: false
+        randomLookDelay: 60
+        randomSwitchTargets: false
+        realisticlooking: false
+        targetnpcs: false
+        randomPitchRange:
+          '0': 0.0
+          '1': 0.0
+        randomYawRange:
+          '0': 0.0
+          '1': 360.0
+      spawned: true
+      villagertrait:
+        level: 1
+      hologramtrait:
+        lineHeight: -1.0
+        viewRange: -1
+        lines:
+          '0':
+            text: '&fClick to view'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+          '1':
+            text: '&e&lGold'
+            margin:
+              top: '0.0'
+              bottom: '0.0'
+      owner:
+        uuid: 4e652eb0-f42e-34fb-8424-539c2da8221f
+      profession: CARTOGRAPHER
+      type: VILLAGER
+      location:
+        bodyYaw: -86.644455
+        world: bskyblock_world
+        x: '43.5196'
+        y: '98.0'
+        z: '53.528'
+        yaw: '-86.6445'
+        pitch: '0.0'
+    traitnames: mounttrait,scoreboardtrait,rotationtrait,villagertrait,location,hologramtrait,lookclose,type,owner,spawned,profession
+    navigator:
+      speedmodifier: '1.0'
+      avoidwater: false
+      usedefaultstuckaction: false

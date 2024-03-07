@@ -1298,3 +1298,7 @@ java.lang.IllegalArgumentException: Newer version! Server downgrades are not sup
 [14:35:55] [Craft Scheduler Thread - 17 - BentoBox/INFO]: [BentoBox] Updating Contributors information...
 [14:35:55] [Craft Scheduler Thread - 17 - BentoBox/INFO]: [BentoBox] Gathering contribution data for: BentoBoxWorld/BentoBox, BentoBoxWorld/BSkyBlock, BentoBoxWorld/Biomes, BentoBoxWorld/Challenges, BentoBoxWorld/MagicCobblestoneGenerator
 [14:35:58] [Craft Scheduler Thread - 17 - BentoBox/INFO]: [BentoBox] Successfully downloaded data from GitHub.
+[14:36:06] [Server thread/INFO]: [ClueScrolls] ==============================================================
+[14:36:06] [Server thread/INFO]: [ClueScrolls] Attempting to rehook any failed hooks...
+[14:36:06] [Server thread/INFO]: [ClueScrolls] Post load complete
+[14:36:06] [Server thread/INFO]: [ClueScrolls] ==============================================================

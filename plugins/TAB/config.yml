@@ -57,10 +57,8 @@ scoreboard-teams:
     static-lines:
       myCustomLine: 0.66
 playerlist-objective:
-  enabled: true
-  value: '%ping%'
+  enabled: false
   fancy-value: '&7Ping: %ping%'
-  disable-condition: '%world%=disabledworld'
 belowname-objective:
   enabled: false
   number: '%health%'
@@ -108,20 +106,21 @@ scoreboard:
       - '* &bWorld&7:||%world%'
       - '%animation:MyAnimation1%'
     scoreboard:
-      title: <#E0B11E>MyServer</#FF0000>
+      title: '&e&l     SKYBLOCK     '
       lines:
-      - '&7%date%'
-      - '%animation:MyAnimation1%'
-      - '&6Online:'
-      - '* &eOnline&7: &f%online%'
-      - '* &eCurrent World&7: &f%worldonline%'
-      - '* &eStaff&7: &f%staffonline%'
+      - '&eRank &f%group%'
+      - '&eGold &f'
+      - '&eSilver &f'
       - ''
-      - '&6Personal Info:'
-      - '* &bRank&7: &f%group%'
-      - '* &bPing&7: &f%ping%&8ms'
-      - '* &bWorld&7: &f%world%'
-      - '%animation:MyAnimation1%'
+      - '&eMoney: &f$%vault_eco_balance_formatted%'
+      - '&eLevel: &f'
+      - ''
+      - '&eChallenges: &f'
+      - ''
+      - '&eTier &f'
+      - '&eVotes: &f'
+      - ''
+      - '&6Herobrine.org'
 layout:
   enabled: false
   direction: COLUMNS

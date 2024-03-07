@@ -1,6 +1,6 @@
 # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
 header-footer:
-  enabled: true
+  enabled: false
   header:
   - <#FFFFFF>&m                                                </#FFFF00>
   - '&3&lServer name'
@@ -82,7 +82,7 @@ bossbar:
       progress: '100'
       text: '&fWebsite: &bwww.domain.com'
 scoreboard:
-  enabled: false
+  enabled: true
   toggle-command: /sb
   remember-toggle-choice: false
   hidden-by-default: false

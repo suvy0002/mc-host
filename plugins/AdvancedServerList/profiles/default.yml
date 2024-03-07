@@ -61,8 +61,8 @@ priority: 0
 # Read more: https://asl.andre601.ch/profiles/#motd
 #
 motd:
-  - '<grey>Line 1'
-  - '<grey>Line 2'
+  - '<white>                       Herobrine.org '
+  - '<#FF00FF>                  discord.gg/Herobrine'
 
 #
 # Allows you to set a global (Default) favicon for this server list profile.
@@ -102,9 +102,9 @@ playerCount:
   # Read more: https://asl.andre601.ch/profiles/#hover
   #
   hover:
-    - '<grey>Line 1'
-    - '<grey>Line 2'
-    - '<grey>Line 3'
+  #  - '<grey>Line 1'
+  #  - '<grey>Line 2'
+  #  - '<grey>Line 3'
   #
   # Modifies the text that usually displays '<online>/<max>'
   # 
@@ -132,7 +132,7 @@ playerCount:
     #
     # Read more: https://asl.andre601.ch/profiles/#extraplayers-enabled
     #
-    enabled: false
+    enabled: true
     #
     # Sets how much should be added/subtracted from the current number of online players
     # to then use for the max player count.
@@ -145,7 +145,7 @@ playerCount:
     #
     # Read more: https://asl.andre601.ch/profiles/#extraplayers-amount
     #
-    amount: 0
+    amount: 1
   #
   # Allows you to set the max players that could join your server.
   # Note that this option influences the '${server playersMax}' placeholder.

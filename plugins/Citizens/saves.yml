@@ -56,7 +56,7 @@ npc:
         z: '60.4762'
         yaw: '-65.4058'
         pitch: '0.0'
-    traitnames: scoreboardtrait,location,hologramtrait,profession,villagertrait,spawned,rotationtrait,mounttrait,type,lookclose,owner
+    traitnames: scoreboardtrait,hologramtrait,spawned,villagertrait,type,lookclose,mounttrait,location,profession,owner,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -109,14 +109,14 @@ npc:
       profession: CLERIC
       type: VILLAGER
       location:
-        bodyYaw: -56.498753
+        bodyYaw: -7.950844
         world: bskyblock_world
         x: '59.5426'
         y: '98.0'
         z: '39.7704'
-        yaw: '-56.4988'
+        yaw: '-7.9508'
         pitch: '0.0'
-    traitnames: scoreboardtrait,location,hologramtrait,profession,spawned,villagertrait,rotationtrait,mounttrait,type,lookclose,owner
+    traitnames: spawned,hologramtrait,scoreboardtrait,villagertrait,type,lookclose,mounttrait,location,profession,owner,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -176,7 +176,7 @@ npc:
         z: '52.4907'
         yaw: '-65.2618'
         pitch: '0.0'
-    traitnames: scoreboardtrait,location,hologramtrait,profession,spawned,villagertrait,rotationtrait,mounttrait,type,lookclose,owner
+    traitnames: scoreboardtrait,hologramtrait,spawned,villagertrait,type,lookclose,mounttrait,location,profession,owner,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -229,14 +229,14 @@ npc:
       profession: WEAPONSMITH
       type: VILLAGER
       location:
-        bodyYaw: -48.39855
+        bodyYaw: 0.023284912
         world: bskyblock_world
         x: '61.5002'
         y: '98.0'
         z: '39.6652'
-        yaw: '-48.3985'
+        yaw: '0.0233'
         pitch: '0.0'
-    traitnames: scoreboardtrait,location,profession,hologramtrait,villagertrait,spawned,rotationtrait,mounttrait,type,lookclose,owner
+    traitnames: scoreboardtrait,spawned,hologramtrait,villagertrait,type,lookclose,mounttrait,location,profession,owner,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -296,7 +296,7 @@ npc:
         z: '53.528'
         yaw: '-6.6433'
         pitch: '0.0'
-    traitnames: scoreboardtrait,location,hologramtrait,profession,spawned,villagertrait,rotationtrait,mounttrait,type,lookclose,owner
+    traitnames: hologramtrait,spawned,scoreboardtrait,villagertrait,type,lookclose,mounttrait,location,profession,owner,rotationtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

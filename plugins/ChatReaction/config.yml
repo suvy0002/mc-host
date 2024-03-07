@@ -1,4 +1,6 @@
 # ChatReaction version 1.8.0 configuration file
+
+# ChatReaction version 1.8.0 configuration file
 debug: false
 check_updates: true
 reaction_stats:
@@ -12,9 +14,9 @@ reaction_stats:
   password: ''
   ssl: false
 reaction:
-  interval: 120
+  interval: 180
   time_limit: 30
-  players_needed_to_start: 1
+  players_needed_to_start: 0
   word_character_length: 10
   ignore_case: true
   use_custom_words: true
@@ -27,24 +29,24 @@ reaction:
   - world_the_end
   reward_amount: 2
   rewards:
-  - eco give @p 500
-  - give @p diamondblock 100
+  - eco give @p 100
 messages:
   reaction_start:
-  - '&8[&e&lReaction&8] &bHover for the word to type!'
+  - '&6Hover for the word to type!'
   reaction_start_tooltip: '&f%word%'
-  scramble_start:
-  - '&8[&e&lReaction&8] &bHover for the word to unscramble!'
-  scramble_start_tooltip: '&f%word%'
   reaction_end:
-  - '&8[&e&lReaction&8] &cNobody got the word in time &4:('
-  scramble_end:
-  - '&8[&e&lReaction&8] &cNobody got the word in time &4:('
-  - '&cThe word was &f%word%'
+  - '&6Nobody got the word in time'
+  - '&6The word was &f%word%'
   reaction_win:
-  - '&8[&e&lReaction&8] &f%player% &awon in &f%time% &aseconds!'
+  - '&f%player% &6unscrambled the word &f%word% &6in &f%time% &6seconds!'
+  scramble_start:
+  - '&6Hover for the word to unscramble!'
+  scramble_start_tooltip: '&f%word%'
+  scramble_end:
+  - '&6Nobody got the word in time'
+  - '&6The word was &f%word%'
   scramble_win:
-  - '&8[&e&lReaction&8] &f%player% &aunscrambled the word &f%word% &ain &f%time% &aseconds!'
+  - '&f%player% &6unscrambled the word &f%word% &6in &f%time% &6seconds!'
 hooks:
   qaplugin:
     enabled: true

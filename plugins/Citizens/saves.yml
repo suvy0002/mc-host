@@ -49,14 +49,14 @@ npc:
       profession: TOOLSMITH
       type: VILLAGER
       location:
-        bodyYaw: 137.76251
+        bodyYaw: 130.8035
         world: bskyblock_world
         x: '68.4866'
         y: '99.0'
         z: '60.4762'
-        yaw: '137.7625'
+        yaw: '120.8035'
         pitch: '0.0'
-    traitnames: location,villagertrait,scoreboardtrait,hologramtrait,owner,spawned,mounttrait,profession,type,lookclose,rotationtrait
+    traitnames: location,mounttrait,profession,spawned,scoreboardtrait,villagertrait,type,lookclose,rotationtrait,hologramtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -109,14 +109,14 @@ npc:
       profession: CLERIC
       type: VILLAGER
       location:
-        bodyYaw: -68.79007
+        bodyYaw: -37.48894
         world: bskyblock_world
         x: '59.5426'
         y: '98.0'
         z: '39.7704'
-        yaw: '-68.7901'
+        yaw: '-37.4889'
         pitch: '0.0'
-    traitnames: location,villagertrait,scoreboardtrait,hologramtrait,owner,spawned,mounttrait,profession,type,lookclose,rotationtrait
+    traitnames: location,mounttrait,profession,spawned,villagertrait,scoreboardtrait,type,lookclose,rotationtrait,hologramtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -169,14 +169,14 @@ npc:
       profession: BUTCHER
       type: VILLAGER
       location:
-        bodyYaw: 84.71756
+        bodyYaw: 70.90837
         world: bskyblock_world
         x: '70.5181'
         y: '98.0'
         z: '52.4907'
-        yaw: '84.7176'
+        yaw: '70.9084'
         pitch: '0.0'
-    traitnames: location,villagertrait,scoreboardtrait,hologramtrait,owner,spawned,mounttrait,profession,type,lookclose,rotationtrait
+    traitnames: location,mounttrait,profession,spawned,scoreboardtrait,villagertrait,type,lookclose,rotationtrait,hologramtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -229,14 +229,14 @@ npc:
       profession: WEAPONSMITH
       type: VILLAGER
       location:
-        bodyYaw: -63.359444
+        bodyYaw: -31.664612
         world: bskyblock_world
         x: '61.5002'
         y: '98.0'
         z: '39.6652'
-        yaw: '-63.3594'
+        yaw: '-31.6646'
         pitch: '0.0'
-    traitnames: location,villagertrait,scoreboardtrait,hologramtrait,owner,spawned,mounttrait,profession,type,lookclose,rotationtrait
+    traitnames: location,mounttrait,profession,spawned,scoreboardtrait,villagertrait,type,lookclose,rotationtrait,hologramtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -289,14 +289,14 @@ npc:
       profession: CARTOGRAPHER
       type: VILLAGER
       location:
-        bodyYaw: -74.3763
+        bodyYaw: -90.26288
         world: bskyblock_world
         x: '43.5196'
         y: '98.0'
         z: '53.528'
-        yaw: '-74.3763'
+        yaw: '-90.2629'
         pitch: '0.0'
-    traitnames: location,villagertrait,scoreboardtrait,hologramtrait,owner,spawned,mounttrait,profession,type,rotationtrait,lookclose
+    traitnames: location,mounttrait,profession,spawned,scoreboardtrait,villagertrait,type,lookclose,rotationtrait,hologramtrait,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

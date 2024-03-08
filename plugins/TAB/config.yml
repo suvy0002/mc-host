@@ -40,7 +40,7 @@ scoreboard-teams:
   invisible-nametags: false
   anti-override: true
   sorting-types:
-  - GROUPS:owner,admin,mod,helper,builder,vip,default
+  - GROUPS:owner,jrmod,srmod,herobrine,mvp++,mvp+,mvp,vip++,vip+,vip,default
   - PLACEHOLDER_A_TO_Z:%player%
   case-sensitive-sorting: true
   can-see-friendly-invisibles: false
@@ -108,7 +108,7 @@ scoreboard:
     scoreboard:
       title: '&e&l     SKYBLOCK     '
       lines:
-      - '&eRank &f%luckperms_groups%'
+      - '&eRank &f%group%'
       - '&eGold &f'
       - '&eSilver &f'
       - ''
@@ -117,7 +117,7 @@ scoreboard:
       - ''
       - '&eChallenges: &f'
       - ''
-      - '&eTier &f'
+      - '&eTier &f%luckperms_suffix%'
       - '&eVotes: &f'
       - ''
       - '&6Herobrine.org'
@@ -164,6 +164,30 @@ placeholders:
   time-format: '[HH:mm:ss / h:mm a]'
   time-offset: 0
 placeholder-output-replacements:
+  "%group%":
+    "herobrine": "HEROBRINE"
+    "mvp++": "MVP++"
+    "mvp+": "MVP+"
+    "mvp": "MVP"
+    "vip++": "VIP++"
+    "vip+": "VIP+"
+    "vip": "VIP"
+    "jrmod": "JRMOD"
+    "srmod": "SRMOD"
+    "owner": "OWNER"
+    "tier-1": NONE
+    "tier-2": NONE
+    "tier-3": NONE
+    "tier-4": NONE
+    "tier-5": NONE
+    "default": NONE
+  "%luckperms_suffix%":
+    " [I]": "I"
+    " [II]": "II"
+    " [III]": "III"
+    " [IV]": "IV"
+    " [V]": "V"
+    "": "NONE"
   '%essentials_vanished%':
     'yes': '&7| Vanished'
     'no': ''
@@ -173,10 +197,8 @@ conditions:
   nick:
     conditions:
     - '%player%=%essentials_nickname%'
-    true: 
-      customtabname: '%player%'
-    false:
-     custometabname: "~%essentials_nickname%"
+    true: '%player%'
+    false: "~%essentials_nickname%"
 placeholderapi-refresh-intervals:
   default-refresh-interval: 500
   '%server_uptime%': 1000

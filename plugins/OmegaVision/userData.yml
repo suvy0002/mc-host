@@ -14,3 +14,27 @@ Users:
     Reset_Timer_Active: false
     Limit_Reached_Time: 0
     Limit: 0
+  4104388b-dc46-3a77-a31d-fb5eb0c630b8:
+    Night_Vision: false
+    Limit_Reached: false
+    Reset_Timer_Active: false
+    Limit_Reached_Time: 0
+    Limit: 0
+  a20cf66f-8d42-3364-9fcf-3e4ad8cafd95:
+    Night_Vision: false
+    Limit_Reached: false
+    Reset_Timer_Active: false
+    Limit_Reached_Time: 0
+    Limit: 0
+  48db4be7-fca8-3420-a12e-c874976cdd88:
+    Night_Vision: false
+    Limit_Reached: false
+    Reset_Timer_Active: false
+    Limit_Reached_Time: 0
+    Limit: 0
+  81daffe4-16b0-3eeb-ada1-e1e206385ca8:
+    Night_Vision: false
+    Limit_Reached: false
+    Reset_Timer_Active: false
+    Limit_Reached_Time: 0
+    Limit: 0

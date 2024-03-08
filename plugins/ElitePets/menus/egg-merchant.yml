@@ -1,0 +1,39 @@
+name: "Egg Merchant"
+rows: 3
+
+# 11 13 15
+
+buttons:
+  11:
+    material: "SHEEP_SPAWN_EGG"
+    name: "&a&lMystery Pet Egg"
+    lore:
+      - '&7Hatches into a &aCommon&7 pet.'
+      - '&7Right-click and place pet into your inventory'
+      - '&7to begin hatching'
+      - ''
+      - '&e&lCOST: &7100 Spawner Shards'
+    cost: 100
+    type: "EGG:COMMON"
+  13:
+    material: "SHEEP_SPAWN_EGG"
+    name: "&d&lMystery Pet Egg"
+    lore:
+      - '&7Hatches into a &dSpecial&7 pet.'
+      - '&7Right-click and place pet into your inventory'
+      - '&7to begin hatching'
+      - ''
+      - '&e&lCOST: &7200 Spawner Shards'
+    cost: 200
+    type: "EGG:SPECIAL"
+  15:
+    material: "SHEEP_SPAWN_EGG"
+    name: "&6&lMystery Pet Egg"
+    lore:
+      - '&7Hatches into a &6Legendary&7 pet.'
+      - '&7Right-click and place pet into your inventory'
+      - '&7to begin hatching'
+      - ''
+      - '&e&lCOST: &7300 Spawner Shards'
+    cost: 300
+    type: "EGG:LEGENDARY"

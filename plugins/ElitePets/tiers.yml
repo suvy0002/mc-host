@@ -1,0 +1,37 @@
+Tiers:
+  COMMON:
+    name: "Common"
+    color: "&a"
+    time: 60
+    egg:
+      material: "SHEEP_SPAWN_EGG"
+      name: "{TIER-COLOR}&lMystery Pet Egg"
+      lore:
+        - '&7Hatches into a {TIER-COLOR}{TIER}&7 pet.'
+        - '&7Right-click and place pet into your inventory'
+        - '&7to begin hatching'
+        - '&e&lHATCHING (&e{TIME}&e&l)'
+  SPECIAL:
+    name: "Special"
+    color: "&d"
+    time: 60
+    egg:
+      material: "SHEEP_SPAWN_EGG"
+      name: "{TIER-COLOR}&lMystery Pet Egg"
+      lore:
+        - '&7Hatches into a {TIER-COLOR}{TIER}&7 pet.'
+        - '&7Right-click and place pet into your inventory'
+        - '&7to begin hatching'
+        - '&e&lHATCHING (&e{TIME}&e&l)'
+  LEGENDARY:
+    name: "Legendary"
+    color: "&6"
+    time: 60
+    egg:
+      material: "SHEEP_SPAWN_EGG"
+      name: "{TIER-COLOR}&lMystery Pet Egg"
+      lore:
+        - '&7Hatches into a {TIER-COLOR}{TIER}&7 pet.'
+        - '&7Right-click and place pet into your inventory'
+        - '&7to begin hatching'
+        - '&e&lHATCHING (&e{TIME}&e&l)'

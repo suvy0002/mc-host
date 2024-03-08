@@ -1,0 +1,75 @@
+# ##########################################################################################
+#                                      DEFAULT CRATE                                      #
+# ##########################################################################################
+# Documentation v4.2.0 moved to Discord
+
+# Crate Settings
+Crate:
+  identifier: Default
+  display: §6§lGolden Chest
+  open-commands: []
+  block: CHEST
+  spin: ROULETTE
+  spin time: 2500
+#  open sound: BLOCK_CHEST_CLOSE
+#  spin sound: BLOCK_NOTE_BLOCK_PLING
+#  win sound: ENTITY_EXPERIENCE_ORB_PICKUP
+
+# Crate Key
+Key:
+  name: §6§lGolden Chest Key
+  item: PRISMARINE_SHARD
+  glow: true
+  lore:
+  - §fOpen a Golden Chest
+  - §fwith this key
+  data: 0
+  amount: 0
+  unbreakable: false
+
+# Pouches
+pouch:
+  item: ENDER_CHEST
+  glow: false
+  name: '&3&lDefault Pouch'
+  lore:
+  - '&7Click on this item to open pouch'
+
+# Crate Hologram
+hologram:
+  items:
+    key:
+      identifier: item_key
+      item: TRIPWIRE_HOOK
+      glow: true
+  lines:
+  - '&6&lGolden Chest'
+  - '&f/vote'
+  - " "
+
+# Crate Prizes
+Prizes:
+  diamond:
+    chance: 50.0
+    display:
+      item: DIAMOND
+      data: 0
+      glow: true
+      amount: 1
+      name: '&b&lDIAMONDS!!'
+      lore:
+      - '&aChance: &e%chance%'
+    commands:
+    - '[bc]&e%player% &ahas won &e2x &b&lDIAMONDS!'
+    - give %player% diamond 2
+  gold:
+    chance: 50.0
+    display:
+      item: GOLD_INGOT
+      glow: false
+      amount: 1
+      name: '&6&lGold'
+      lore:
+      - '&aChance: &e%chance%'
+    commands:
+    - give %player% gold_ingot 1

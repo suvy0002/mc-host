@@ -1,0 +1,16 @@
+saves:
+  '1':
+    crate: Default
+    location:
+      world: bskyblock_world
+      x: 51
+      y: 99
+      z: 54
+  '2':
+    crate: Obsidian_Chest
+    location:
+      world: bskyblock_world
+      x: 51
+      y: 99
+      z: 56
+index: 3

@@ -1,5 +1,0 @@
-{"sequence":249,"method":"a","level":INFO,"logger":"CrateReloaded","thread":33,"millis":1709735705987,"message":"Plugin is not enabled: HolographicDisplays","class":"crate.em"}
-{"sequence":250,"method":"a","level":INFO,"logger":"CrateReloaded","thread":33,"millis":1709735705993,"message":"Provider: Vault","class":"com.hazebyte.crate.cratereloaded.CorePlugin"}
-{"sequence":251,"method":"em","level":INFO,"logger":"CrateReloaded","thread":33,"millis":1709735706107,"message":"Crate Configurations (1): crate.yml ","class":"crate.cV"}
-{"sequence":594,"method":"run","level":INFO,"logger":"CrateReloaded","thread":33,"millis":1709735723100,"message":"Detected World Load: [bskyblock_world_nether]. Reloading key crates.","class":"crate.ch"}
-{"sequence":700,"method":"disablePlugin","level":INFO,"logger":"CrateReloaded","thread":33,"millis":1709736487623,"message":"Disabling CrateReloaded v2.3.4","class":"io.papermc.paper.plugin.manager.PaperPluginInstanceManager"}

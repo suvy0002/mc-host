@@ -108,8 +108,9 @@ scoreboard:
     scoreboard:
       title: '&e&l     SKYBLOCK     '
       lines:
+      - ''
       - '&eRank &f%group%'
-      - '&eGold &f'
+      - '&eGold &f%coinsengine_balance_rounded_gold% G'
       - '&eSilver &f'
       - ''
       - '&eMoney: &f$%vault_eco_balance_formatted%'

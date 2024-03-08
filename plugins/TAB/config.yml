@@ -108,7 +108,7 @@ scoreboard:
     scoreboard:
       title: '&e&l     SKYBLOCK     '
       lines:
-      - '&eRank &f%group%'
+      - '&eRank &f%luckperms_groups%'
       - '&eGold &f'
       - '&eSilver &f'
       - ''
@@ -173,8 +173,10 @@ conditions:
   nick:
     conditions:
     - '%player%=%essentials_nickname%'
-    true: '%player%'
-    false: ~%essentials_nickname%
+    true: 
+      customtabname: '%player%'
+    false:
+     custometabname: "~%essentials_nickname%"
 placeholderapi-refresh-intervals:
   default-refresh-interval: 500
   '%server_uptime%': 1000

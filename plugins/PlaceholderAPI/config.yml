@@ -41,3 +41,6 @@ expansions:
       medium: '&e'
       high: '&c'
       low: '&a'
+  checkitem:
+    give_enabled: false
+    remove_enabled: false

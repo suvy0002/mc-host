@@ -9,8 +9,8 @@
 
 tiers:
   common:
-    rewards: 2-6
-    clueCount: 3-5
+    rewards: 1
+    clueCount: 1
     expire: -1
     clueMode: RANDOM
     scroll:
@@ -1461,7 +1461,7 @@ inventory:
     title: '&8◆ &n&lRewards&r &8◆'
     size: 27
     randomly-place-items: true
-    gui-enabled: true
+    gui-enabled: false
 commandReward:
   material: BOOK
   title: '&e&lScroll Reward Command'

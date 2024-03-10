@@ -1,0 +1,6 @@
+on right click holding a music disc:
+    if name of player's tool is "&d&lRandom Music Disc":
+        cancel event
+        give music disc to player
+        remove 1 of player's tool from player
+        send "&aYou have received a random music disc!" to player

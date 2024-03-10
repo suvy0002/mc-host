@@ -247,6 +247,7 @@ enchanter-books:
   lore:
   - '&7Right Click while holding to receive a random'
   - '%group-color%%group-name% &7enchantment book.'
+  custom-model-data: 0
 
 items:
   settings:
@@ -314,6 +315,8 @@ items:
     - '&7to reroll the success and destroy rates.'
     - ''
     - '&7Drag n'' drop onto &nenchantment book&7 to apply.'
+    custom-model-data: 0
+    force-glow: false
   black-scroll:
     type: INK_SACK
     id: 0
@@ -702,6 +705,7 @@ enchantment-book:
   - '&e%description%'
   - '&7%applies% Enchantment'
   - '&7Drag n'' drop onto item to enchant'
+  drag-drop-application: true
 
 messages:
   main-hand-only: '&cYou can only do this with main hand!'

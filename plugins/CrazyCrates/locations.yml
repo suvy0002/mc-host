@@ -1,0 +1,7 @@
+Locations:
+  '1':
+    Crate: CrateExample
+    World: bskyblock_world
+    X: 51
+    Y: 99
+    Z: 54

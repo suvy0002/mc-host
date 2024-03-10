@@ -1,4 +1,4 @@
-LastUpdated: 1710007279107
+LastUpdated: 1710062256813
 VotingPlugin:
   AutoCachePlaceholders: []
   AutoCacheUpdated: true
@@ -6,5 +6,5 @@ VotingPlugin:
 PluginVersions:
   VotingPlugin: 6.15.1
 Month: MARCH
-PrevWeek: 10
-PrevDay: 9
+PrevWeek: 11
+PrevDay: 10

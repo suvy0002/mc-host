@@ -1,12 +1,12 @@
 {
   "primary": true,
   "deleted": false,
-  "uniqueId": "BSkyBlockdd50601e-0a52-4b24-ab5f-9ccdc99cfaaf",
+  "uniqueId": "BSkyBlock72537719-ed32-4aa0-86d2-8be1cdb9f1f0",
   "center": [
     "bskyblock_world",
     3000.0,
     80.0,
-    1400.0,
+    3000.0,
     0.0,
     0.0
   ],
@@ -16,13 +16,12 @@
   "maxEverProtectionRange": 50,
   "world": "bskyblock_world",
   "gameMode": "BSkyBlock",
-  "createdDate": 1709715960056,
-  "updatedDate": 1709715960056,
+  "createdDate": 1710053724955,
+  "updatedDate": 1710053724955,
   "owner": "4e652eb0-f42e-34fb-8424-539c2da8221f",
   "members": {
     "4e652eb0-f42e-34fb-8424-539c2da8221f": 1000
   },
-  "maxMembers": {},
   "spawn": false,
   "purgeProtected": false,
   "flags": {
@@ -63,18 +62,18 @@
     "COMMAND_RANKS": 500,
     "TRAPDOOR": 500,
     "EXPERIENCE_BOTTLE_THROWING": 500,
-    "DYE": 500,
     "HIVE": 500,
+    "DYE": 500,
     "ITEM_FRAME": 500,
     "CROP_PLANTING": 500,
     "CRAFTING": 0,
     "ENCHANTING": 0,
     "SHEARING": 500,
-    "ANIMAL_SPAWNERS_SPAWN": 0,
     "BLOCK_EXPLODE_DAMAGE": 0,
+    "ANIMAL_SPAWNERS_SPAWN": 0,
     "BOAT": 500,
-    "BED": 500,
     "SPAWN_EGGS": 500,
+    "BED": 500,
     "MONSTER_NATURAL_SPAWN": 0,
     "SCULK_SHRIEKER": 500,
     "SMITHING": 500,
@@ -113,14 +112,14 @@
     "NOTE_BLOCK": 0,
     "NETHER_PORTAL": 500,
     "LECTERN": 500,
-    "SHULKER_BOX": 500,
     "GRINDSTONE": 500,
+    "SHULKER_BOX": 500,
     "ITEM_PICKUP": 0,
     "BREWING": 500,
     "STONECUTTING": 500,
     "FIRE_EXTINGUISH": 500,
-    "BEACON": 500,
     "ALLAY": 500,
+    "BEACON": 500,
     "PRESSURE_PLATE": 0,
     "PLACE_BLOCKS": 500,
     "FLOWER_POT": 500,
@@ -132,8 +131,8 @@
     "CHORUS_FRUIT": 500,
     "CONTAINER": 500,
     "BARREL": 500,
-    "CARTOGRAPHY": 500,
-    "COLLECT_POWDERED_SNOW": 500
+    "COLLECT_POWDERED_SNOW": 500,
+    "CARTOGRAPHY": 500
   },
   "history": [],
   "spawnPoint": {
@@ -141,7 +140,7 @@
       "bskyblock_world",
       3000.5,
       85.0,
-      1402.5,
+      3002.5,
       0.0,
       30.0
     ],
@@ -149,7 +148,7 @@
       "bskyblock_world_nether",
       3000.5,
       85.0,
-      1402.5,
+      3002.5,
       0.0,
       30.0
     ],
@@ -157,7 +156,7 @@
       "bskyblock_world_the_end",
       2999.5,
       86.0,
-      1399.5,
+      2999.5,
       315.0,
       30.0
     ]
@@ -169,7 +168,7 @@
       "bskyblock_world",
       3000.5,
       85.0,
-      1402.5,
+      3002.5,
       0.0,
       30.0
     ]

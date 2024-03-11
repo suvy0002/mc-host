@@ -1,0 +1,25 @@
+name: "Spawner Merchant"
+
+buttons:
+  confirm:
+    material: "LIME_STAINED_GLASS_PANE"
+    name: "&a&lConfirm Trade"
+    lore:
+      - '&7Click to confirm trade of spawners'
+      - '&7for spawner shards'
+  divider:
+    material: "GRAY_STAINED_GLASS_PANE"
+    name: " "
+    lore: []
+
+values:
+  PIG: 1
+  SHEEP: 1
+  COW: 1
+  CHICKEN: 1
+  ZOMBIE: 1
+  WITCH: 1
+  SKELETON: 1
+  CREEPER: 3
+  ENDERMAN: 3
+  VILLAGERGOLEM: 5

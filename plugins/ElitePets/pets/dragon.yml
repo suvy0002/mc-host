@@ -1,0 +1,30 @@
+tier: "LEGENDARY"
+cooldown: 360
+
+item:
+  skin: "a1cd6d2d03f135e7c6b5d6cdae1b3a68743db4eb749faf7341e9fb347aa283b"
+  name: "{TIER-COLOR}&lDragon Pet &7[LVL {LEVEL}]"
+  lore:
+    - ''
+    - '&A&lPASSIVE &f& &e&lACTIVATION'
+    - '&7Trap all nearby enemies in a cage made'
+    - '&7of the fire breathed by this pet'
+    - '&7As well as blinding them from shock'
+    - ''
+    - '&7Passively gain a resistance to fire'
+    - ''
+    - '&e&lLevel: &e{LEVEL}'
+    - '&e&lEXP: &e{CURRENT-EXP}/{NEEDED-EXP}'
+    - '{LEVEL-BAR}'
+
+settings:
+  levelup-methods:
+    - 'INTERACT'
+    - 'PASSIVE:true:5'
+
+effects:
+  PASSIVE:
+    - 'POTION:FIRE_RESISTANCE:premade-equation:PLAYER'
+  INTERACT:
+    - 'CAGE:20:LAVA:OBSIDIAN:((level*2)/3)+1'
+    - 'POTION_RADIUS:BLINDNESS:premade-equation:level*2/3:level*2/3:DEADLY'

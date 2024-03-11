@@ -1,0 +1,24 @@
+tier: "SPECIAL"
+cooldown: 60
+
+item:
+  skin: "9fbe1be19e4ffaba97d61beef7ca3010b62996c641e57084fc364a6f3eb14138"
+  name: "{TIER-COLOR}&lFish Pet &7[LVL {LEVEL}]"
+  lore:
+    - ''
+    - '&e&lACTIVATION'
+    - '&7Increase the amount of items with catch'
+    - '&7when fishing'
+    - ''
+    - '&e&lLevel: &e{LEVEL}'
+    - '&e&lEXP: &e{CURRENT-EXP}/{NEEDED-EXP}'
+    - '{LEVEL-BAR}'
+
+settings:
+  levelup-methods:
+    - 'INTERACT'
+
+effects:
+  INTERACT:
+    - 'FISHING:0.5*level+1:2+level/20'
+    - 'MESSAGE:&7&l(&5&lFish Pet&7&l) &dYou have been given a &5<0.5*level+1>x Fishing Multiplier &dfor &5<2+level/20>&ds!'

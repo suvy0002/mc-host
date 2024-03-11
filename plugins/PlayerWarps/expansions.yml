@@ -5,10 +5,14 @@ converters:
     # if this is enabled, this will convert data from Welcome Warp Signs (https://www.spigotmc.org/resources/12256/) to PlayerWarps.
     # Please restart the server for this conversion to happen.
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
   pwarp:
     # if this is enabled, this will convert data from PWarp (https://www.spigotmc.org/resources/64542/) to PlayerWarps.
     # Please restart the server for this conversion to happen.
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
   playerwarps:
     # if this is enabled, this will convert data from PLAYERWARPS (https://www.spigotmc.org/resources/79089/) to PlayerWarps.
     # Due to some conflicts, you will need make sure the PLAYERWARPS folder (plugins/PlayerWarps) is named "PlayerWarp"
@@ -16,6 +20,8 @@ converters:
     # the name to "PlayerWarp" without the speech marks.
     # Please restart the server for this conversion to happen.
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
 
 # Here you can choose to be able to hook into expansions that supports PlayerWarps and configure them to your liking.
 expansions:
@@ -24,17 +30,23 @@ expansions:
     # This expansion sets their last location before they teleport to a warp.
     # You need Essentials installed for this to work!
     enabled: true
+    # What version of this expansion do you want to download/use?
+    version: "latest"
   huskhomes:
     # Do you want to enable huskhomes expansion?
     # This expansion sets their last location before they teleport to a warp.
     # You need HuskHomes installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
 
   # This is used for sending notifications to your discord server using webhooks.
   # You can read https://docs.olziedev.com/projects/playerwarps/features#discord-alerts on how to set it up.
   warpdiscord:
     # Do you want to enable warp discord?
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     webhook:
       # The url of your Webhook from the discord channel of your choice.
       url: ""
@@ -52,9 +64,6 @@ expansions:
         custom-thumbnails:
           # If my item has a custom model data of 101, this image will show up instead.
           101: "https://cdn.olziedev.com/playerwarps/images/PlayerWarpsIcon.png"
-
-    # If you're using offline mode you can always use [name] to grab the players name instead.
-    author-url: "https://www.mc-heads.net/head/[uuid]/100/.png"
 
     embeds:
       set:
@@ -88,6 +97,7 @@ expansions:
             name: "Location"
             value: "[world], [location]"
             inline: true
+        # If you're using offline mode you can always use [name] to grab the players name instead.
       tp:
         enabled: true
         author: "[teleporter] has visited [warp_display]"
@@ -119,6 +129,7 @@ expansions:
             name: "Description"
             value: "[desc]"
             inline: true
+        # If you're using offline mode you can always use [name] to grab the players name instead.
 
       remove:
         enabled: true
@@ -151,6 +162,7 @@ expansions:
             name: "Description"
             value: "[desc]"
             inline: true
+        # If you're using offline mode you can always use [name] to grab the players name instead.
 
 # Here you can choose to be able to hook into addons that restricts player warp creation/web-based maps and configure them to your liking.
 addons:
@@ -160,6 +172,8 @@ addons:
     # Do you want to enable plotsquared support?
     # You need plotsquared installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should plot members be treated like the owner of the plot?
     plot-members: true
     # Should the warp be created when a plot is created?
@@ -180,6 +194,8 @@ addons:
     # The plugin will automatically create a worldguard flag "set-pwarp".
     # If this is your first time enabling this, you will need to restart your server for the flag to be created.
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # If this flag is set, it allows players to set warps. If a region hasn't set this flag already, what is the default value?
     # If this value is false, then a player cannot set warps in the region. This includes __global__ regions! So make sure to enable it for that region (Also remember that the __global__ region is per world)
     # If this value is true, then a player can set a warp in the region if its not set.
@@ -196,6 +212,8 @@ addons:
     # Do you want to enable askyblock support?
     # You need askyblock installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should island members be treated like the owner of the island?
     island-members: true
     # Should the warp be created when an island is created?
@@ -214,6 +232,8 @@ addons:
     # Do you want to enable bentobox support?
     # You need bentobox installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should island members be treated like the owner of the island?
     island-members: true
     # Should the warp be created when an island is created?
@@ -232,6 +252,8 @@ addons:
     # Do you want to enable griefprevention support?
     # You need griefprevention installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted players be treated like the owner of the claim?
     trusted-players: true
     # Should the warp be created when a claim is created?
@@ -252,6 +274,8 @@ addons:
     # Do you want to enable griefdefender support?
     # You need griefdefender installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted players be treated like the owner of the claim?
     trusted-players: true
     # Should the warp be created when a claim is created?
@@ -270,6 +294,8 @@ addons:
     # Do you want to enable fabledskyblock support?
     # You need fabledskyblock installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should island members be treated like the owner of the island?
     island-members: true
     # Should the warp be created when an island is created?
@@ -288,6 +314,8 @@ addons:
     # Do you want to enable iridiumskyblock support?
     # You need iridiumskyblock installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted members be treated like the owner of the island?
     trusted-members: true
     # Should the warp be created when an island is created?
@@ -306,6 +334,8 @@ addons:
     # Do you want to enable lands support?
     # You need lands installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted players be treated like the owner of the land?
     trusted-players: true
     # Should the warp be created when a land is created?
@@ -330,6 +360,8 @@ addons:
     # Do you want to enable landlord support?
     # You need landlord installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted friends be treated like the owner of the claim?
     trusted-friends: true
     # Should the warp be created when a land is created?
@@ -348,6 +380,8 @@ addons:
     # Do you want to enable kingdomsx support?
     # You need kingdomsx installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted members be treated like the owner of the claim?
     trusted-members: true
     # Should the warp be created when a land is created?
@@ -366,6 +400,8 @@ addons:
     # Do you want to enable residence support?
     # You need Residence installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should the warp be created when a land is created?
     create: false
     # What should the warp name be called when its created? Only as of right now you can use %player%
@@ -383,6 +419,8 @@ addons:
     # Do you want to enable ultimateclaims support?
     # You need ultimateclaims installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted players be treated like the owner of the claim?
     trusted-players: true
     # Should the warp be created when a claim is created?
@@ -401,6 +439,8 @@ addons:
     # Do you want to enable claimchunk support?
     # You need claimchunk installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should the warp be created when a claim is created?
     # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
     only-land: true
@@ -412,6 +452,8 @@ addons:
     # Do you want to enable xclaim support?
     # You need xclaim installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted players be treated like the owner of the claim?
     trusted-players: true
     # Should the warp be created when a claim is created?
@@ -425,6 +467,8 @@ addons:
     # Do you want to enable crashclaims support?
     # You need crashclaims installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted players be treated like the owner of the claim?
     trusted-players: true
     # Should they only be able to set warps in lands? If disabled, they can set warps in their land or wilderness.
@@ -437,6 +481,8 @@ addons:
     # Do you want to enable simpleskyblock support?
     # You need simpleskyblock installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should island members be treated like the owner of the island?
     island-members: true
     # Should they only be able to set warps in islands? If disabled, they can set warps on their island or wilderness.
@@ -449,6 +495,8 @@ addons:
     # Do you want to enable superiorskyblock support?
     # You need superiorskyblock installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should island members be treated like the owner of the island?
     island-members: true
     # Should the warp be created when a claim is created?
@@ -469,6 +517,8 @@ addons:
     # Do you want to enable factions support?
     # You need factions installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted players be treated like the owner of the faction?
     trusted-players: true
     # Should the warp get deleted once the faction is deleted?
@@ -483,6 +533,8 @@ addons:
     # Do you want to enable saberfactions support?
     # You need saberfactions installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted players be treated like the owner of the faction?
     trusted-players: true
     # Should the warp get deleted once the faction is deleted?
@@ -497,6 +549,8 @@ addons:
     # Do you want to enable factionsx support?
     # You need factionsx installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should faction members be treated like the owner of the faction?
     faction-members: true
     # Should the warp get deleted once the faction is deleted?
@@ -511,6 +565,8 @@ addons:
     # Do you want to enable factionsuuid support?
     # You need factionsuuid installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should faction members be treated like the owner of the faction?
     faction-members: true
     # Should the warp get deleted once the faction is deleted?
@@ -525,6 +581,8 @@ addons:
     # Do you want to enable towny support?
     # You need towny installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should town residents be treated like the owner of the town?
     town-residents: true
     # Should the warp get deleted once the town is deleted?
@@ -542,6 +600,8 @@ addons:
     # Do you want to enable civs support?
     # You need towny installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted people be treated like the owner of the town?
     trusted-people: true
     # Should the warp get deleted once the town is deleted?
@@ -556,6 +616,8 @@ addons:
     # Do you want to enable husktowns support?
     # You need husktowns installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # Should trusted members be treated like the owner of the town?
     trusted-members: true
     # Should the warp be created when a town is created?
@@ -577,24 +639,28 @@ addons:
     # Do you want to enable dynmap support?
     # You need dynmap installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # What is the marker icon?
-    marker-icon: star
+    marker-icon: "star"
     # What is the layer name?
     layer-name: "PlayerWarps"
     # What is the description of the marker?
     description:
-      - "Owner: [owner]"
-      - "Visits: [visits]"
-      - "Description: [desc]"
-      - "Time Created: [date]"
-      - "Category: [category]"
-      - "Rates: [rates]"
-      - "Rates Average: [rates_average] ([rates_stars])"
+    - "Owner: [owner]"
+    - "Visits: [visits]"
+    - "Description: [desc]"
+    - "Time Created: [date]"
+    - "Category: [category]"
+    - "Rates: [rates]"
+    - "Rates Average: [rates_average] ([rates_stars])"
 
   bluemap:
     # Do you want to enable bluemap support?
     # You need bluemap installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # What is the layer name?
     layer-name: "PlayerWarps"
     # Should the layer be hidden by default?
@@ -604,19 +670,21 @@ addons:
     # Do you want to enable pl3xmap/squaremap support?
     # You need pl3xmap/squaremap installed for this to work!
     enabled: false
+    # What version of this expansion do you want to download/use?
+    version: "latest"
     # What is the layer name?
     layer-name: "PlayerWarps"
     # What is the tooltip for the marker?
     description:
-      - "[warp_display]"
-      - " "
-      - "Owner: [owner]"
-      - "Visits: [visits]"
-      - "Description: [desc]"
-      - "Time Created: [date]"
-      - "Category: [category]"
-      - "Rates: [rates]"
-      - "Rates Average: [rates_average] ([rates_stars])"
+    - "[warp_display]"
+    - " "
+    - "Owner: [owner]"
+    - "Visits: [visits]"
+    - "Description: [desc]"
+    - "Time Created: [date]"
+    - "Category: [category]"
+    - "Rates: [rates]"
+    - "Rates Average: [rates_average] ([rates_stars])"
     # What is the icon size?
     icon-size: 16
     # What is the anchor x?

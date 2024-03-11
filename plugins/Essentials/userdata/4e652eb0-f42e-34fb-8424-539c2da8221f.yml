@@ -11,25 +11,25 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1709883506315
+  lastteleport: 1710084083115
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1709883508083
-  login: 1709880385163
-money: '1005100.5'
+  logout: 1710084114644
+  login: 1710084097160
+money: '1004300.5'
 last-account-name: Suvrajit
 lastlocation:
-  world: 8fdb5aa7-d3a7-46da-9c56-843097d744f7
+  world: df3deb25-4cbb-4827-8e61-7a348e9f4253
   world-name: bskyblock_world
-  x: 56.62771064781324
-  y: 97.9375
-  z: 54.762551001820626
-  yaw: 88.8831787109375
-  pitch: 15.527111053466797
+  x: 47.48453866149422
+  y: 98.0
+  z: 45.46601064027266
+  yaw: -178.57626342773438
+  pitch: 22.316665649414062
 logoutlocation:
-  world: 8fdb5aa7-d3a7-46da-9c56-843097d744f7
+  world: df3deb25-4cbb-4827-8e61-7a348e9f4253
   world-name: bskyblock_world
   x: 60.5
   y: 99.0

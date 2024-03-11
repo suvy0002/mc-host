@@ -10,18 +10,18 @@
 # list: []
 
 # DO NOT TOUCH THIS!
-config-version: 214
+config-version: 215
 
 settings:
   # What language do you want the plugin to read? The list langs are in the lang/ folder.
-  lang: en_US
+  lang: "en_US"
   # Very useful to tell if there are any memory leaks or if the author needs
   # information.
   # Current debug levels are:
   # - NONE = No debug
   # - MINOR = Debug for info on what the plugin is doing
   # - MAJOR - High level of debug info (which is normally used by developers)
-  debug: NONE
+  debug: "NONE"
   # Notifies you if there is an update (Only people with pw.admin.update can see this when they join)
   notify-update: true
   # Plugin metrics, this is very useful for the author to
@@ -33,6 +33,8 @@ settings:
   main-command: "pw"
   # Extra aliases for the main command.
   command-aliases:
+  - "playerwarp"
+  - "pw"
   # What order should the warps be listed?
   # Options:
   # - HIGHEST_VISITS = The order will be from the warp most visits.
@@ -46,7 +48,7 @@ settings:
   # - FAVOURITE_COUNT = The order will be from the most favourites.
   # - PURGED_HIGHEST_VISITS = The order will be from the warp most visits, but purged.
   # - PURGED_LOWEST_VISITS = The order will be from the warp less visits, but purged.
-  order: OLDEST_DATE
+  order: "OLDEST_DATE"
   # How should the order be displayed instead of HIGHEST_VISITS etc...
   # Set to "" to disable that specific order when using the sort item change cycle.
   order-name:
@@ -70,13 +72,13 @@ settings:
 
   # What should the world type look like? [world_type]
   world-type:
+    end: "&dThe End"
+    nether: "&cNether"
+    overworld: "%world%"
     # (If you wish for it to display the world name, just enter %world%)
     # When the world is the end
-    end: "&dThe End"
     # When the world is the nether
-    nether: "&cNether"
     # When the world is the overworld
-    overworld: "%world%"
 
   # How should the timer look like?
   timer-display:
@@ -110,18 +112,26 @@ settings:
   # Should the plugin use the short number format? (1.2k instead of 1,200)
   number-format-short: false
   # If the above option is true, how should the format look like?
-  number-format-short-suffix: ["", "K", "M", "B", "T", "Q", "s", "S"]
+  number-format-short-suffix:
+  - ""
+  - "K"
+  - "M"
+  - "B"
+  - "T"
+  - "Q"
+  - "s"
+  - "S"
 
   # You can see the java documentation on how to use the decimal format here:
   # https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html
-  number-format: "#,###.##" # Formatting full number
-  number-format-decimal: "#,##0.00" # Formatting decimal number
+  number-format: "#,###.##"
+  number-format-decimal: "#,##0.00"
 
   # How should the plugin format dates?
   # You can see the java documentation on how to use the simple date format here:
   # https://docs.oracle.com/javase/8/docs/api/java/text/SimpleDateFormat.html
-  date-format: "dd/MM/yyy" # Formatting dates with no time
-  date-format-time: "dd/MM/yyy HH:mm:ss" # Formatting dates with time
+  date-format: "dd/MM/yyy"
+  date-format-time: "dd/MM/yyy HH:mm:ss"
   # What timezone should the plugin format dates in? If you wish to use the server timezone, leave it as ""
   # You can see the java documentation on how to use the time zone here: https://docs.oracle.com/javase/8/docs/api/java/util/TimeZone.html
   date-format-timezone: ""
@@ -311,15 +321,15 @@ settings:
     icon-set-item-in-hand: true
     # What are the blacklisted items that players cannot set to their warp icon to?
     blacklisted-items:
-      - "AIR"
+    - "AIR"
     # What are the hidden attributes that should be displayed?
     hidden-attributes:
-      - "HIDE_ENCHANTS"
-      - "HIDE_ATTRIBUTES"
-      - "HIDE_UNBREAKABLE"
-      - "HIDE_DESTROYS"
-      - "HIDE_PLACED_ON"
-      - "HIDE_POTION_EFFECTS"
+    - "HIDE_ENCHANTS"
+    - "HIDE_ATTRIBUTES"
+    - "HIDE_UNBREAKABLE"
+    - "HIDE_DESTROYS"
+    - "HIDE_PLACED_ON"
+    - "HIDE_POTION_EFFECTS"
 
   set:
     # Should there be a confirmation before setting a warp?
@@ -335,7 +345,7 @@ settings:
     # This uses a regex pattern compiler to detect the names. 
     # So please escape regex characters if you're using them.
     blacklisted-names:
-      - "olzieisbad"
+    - "olzieisbad"
     # What should represent a space in a warp name? This is mainly used for the commands.
     # If you do not want to use a space, please use ""
     display-space: "_"
@@ -343,7 +353,7 @@ settings:
     cooldown: 5
     # Should players not be able to set warps in these worlds?
     disabled-worlds:
-      - "world_nether"
+    - "world_nether"
     # Should a warp be automatically locked by default when the player has created the warp?
     automatically-lock: false
 
@@ -370,19 +380,23 @@ settings:
       # Every x days do they have to pay?
       time: 1
       # How much time left until they rent, to be reminded? Set to [] to disable this. (These times are in hours)
-      time-reminding: [24, 12, 6, 1]
+      time-reminding:
+      - 24
+      - 12
+      - 6
+      - 1
       # Should these players not get charged for rent Please put UUIDS otherwise it will not work.
       # here is an uuid converter (https://mcuuid.net/), make sure to get the "full uuid" not the "trimmed uuid".
       restricted-players:
-        - "5ca251ab-589d-4f04-8f0c-28404d0686b0"
+      - "5ca251ab-589d-4f04-8f0c-28404d0686b0"
 
       # If a warp is in this category below then the warp will not be rented.
       restricted-categories:
-        - ""
+      - ""
 
       # If a warp is in this world below then the warp will not be rented.
       restricted-worlds:
-        - ""
+      - ""
 
       # To prevent warps from being rented, you can use a placeholder condition.
       # This will only work if you have the PlaceholderAPI plugin installed.
@@ -414,7 +428,7 @@ settings:
 
       items:
         name: ""
-        material: DIAMOND
+        material: "DIAMOND"
         data: 0
         lore: []
         # set the amount to -1 to disable
@@ -440,12 +454,12 @@ settings:
       enabled: false
       # What are the needed lines for the player to put down? %warp% is where the warp name needs to be.
       lines:
-        - "[pwarp]"
-        - "%warp%"
+      - "[pwarp]"
+      - "%warp%"
       # What the lines that will look like once the player has placed down a warp sign?
       finished-lines:
-        - "&b&lPLAYER WARP"
-        - "&d%warp_display%"
+      - "&b&lPLAYER WARP"
+      - "&d%warp_display%"
       # What is the block off set from the sign? This is the location where the player will be teleported to.
       # The offset takes away the x amount of blocks from the face of the sign.
       # Keep in mind wallsigns also exist. This will only work for 1.13+ due to the new BlockData API.
@@ -476,15 +490,15 @@ settings:
       # Should these players not get removed if they are offline for x amount of days? Please put UUIDS otherwise it will not work.
       # here is an uuid converter (https://mcuuid.net/), make sure to get the "full uuid" not the "trimmed uuid".
       restricted-players:
-        - "5ca251ab-589d-4f04-8f0c-28404d0686b0"
+      - "5ca251ab-589d-4f04-8f0c-28404d0686b0"
 
       # If a warp is in this category below then the warp will not be purged.
       restricted-categories:
-        - ""
+      - ""
 
       # If a warp is in this world below then the warp will not be purged.
       restricted-worlds:
-        - ""
+      - ""
 
       # To prevent warps from being purged, you can use a placeholder condition.
       # This will only work if you have the PlaceholderAPI plugin installed.
@@ -501,8 +515,8 @@ settings:
 
       # Commands to be executed on this purge. (Cannot use player action types)
       commands:
-        - "[server] %cmd% remove %warp%"
-        - "[server<delay=3>] %cmd% remove %warp%" # only twice if confirmation is enabled
+      - "[server] %cmd% remove %warp%"
+      - "[server<delay=3>] %cmd% remove %warp%"
 
     # Should a warp be deleted after x amount of days when it was set even though the player has logged on?
     # THIS IS NOT RECOMMEND BEING ENABLED DUE TO THIS IS RISK OF WARPS BEING DELETED!
@@ -515,15 +529,15 @@ settings:
       # Should these players not get removed if they are offline for x amount of days? Please put UUIDS otherwise it will not work.
       # here is an uuid converter (https://mcuuid.net/), make sure to get the "full uuid" not the "trimmed uuid".
       restricted-players:
-        - "5ca251ab-589d-4f04-8f0c-28404d0686b0"
+      - "5ca251ab-589d-4f04-8f0c-28404d0686b0"
 
       # If a warp is in this category below then the warp will not be purged.
       restricted-categories:
-        - ""
+      - ""
 
       # If a warp is in this world below then the warp will not be purged.
       restricted-worlds:
-        - ""
+      - ""
 
       # To prevent warps from being purged, you can use a placeholder condition.
       # This will only work if you have the PlaceholderAPI plugin installed.
@@ -540,8 +554,8 @@ settings:
 
       # Commands to be executed on this purge. (Cannot use player action types)
       commands:
-        - "[server] %cmd% remove %warp%"
-        - "[server<delay=3>] pwarp remove %warp%" # only twice if confirmation is enabled
+      - "[server] %cmd% remove %warp%"
+      - "[server<delay=3>] pwarp remove %warp%"
 
     # Should the warps be deleted if the player no longer has permission to set that many.
     # THIS IS NOT RECOMMEND BEING ENABLED DUE TO THIS IS RISK OF WARPS BEING DELETED!
@@ -558,7 +572,7 @@ settings:
 
       # Should the warps in these worlds be ignored even if the world has been deleted?
       restricted-worlds:
-        - "warp_world"
+      - "warp_world"
 
   teleport:
     # Should there be a confirmation before teleporting to a warp?
@@ -590,13 +604,13 @@ settings:
     # The plugin will check before they warp to see if the warp is unsafe, these are the blocks that get checked below the warp.
     # Valid material names: https://javadocs.olziedev.com/spigot/latest/org/bukkit/Material.html
     unsafe-blocks:
-      - "STATIONARY_LAVA"
-      - "AIR"
-      - "MAGMA" # This is a 1.12+ block, so this won't work for 1.11- so remove it :)
-    unsafe-blocks-air: # This is for used when checking if the warp will suffocate the player, put blocks here that will not suffocate the player.
-      - "AIR"
-      - "CAVE_AIR"
-      - "VOID_AIR"
+    - "STATIONARY_LAVA"
+    - "AIR"
+    - "MAGMA"
+    unsafe-blocks-air:
+    - "AIR"
+    - "CAVE_AIR"
+    - "VOID_AIR"
     # How many seconds, show the timer expire for the unsafe warp. This means how many seconds they have to click
     # the warp again to teleport to an unsafe warp. Recommended is 3. Set to -1 to disable
     time-expire-unsafe: 3
@@ -632,7 +646,7 @@ settings:
     specific-wait: false
     # If the above option is true, what are the names of the warps that bypass the wait?
     specific-wait-list:
-      - ""
+    - ""
     # Here you can choose specific ranks of the waiting time, if you have not put a rank there the waiting time will be above.
     # WARNING This will not work if you're using the default Bukkit Permissions system due to vault not supporting groups.
     # Please list the ranks from the highest to the lowest, as if your groups inherit each other than it'll find the first one on the list instead of the highest one.
@@ -648,7 +662,7 @@ settings:
     specific-cooldown: false
     # If the above option is true, what are the names of the warps?
     specific-cooldown-list:
-      - ""
+    - ""
     # Should the specific cooldown option be reversed? So instead of a whitelist to have a cooldown, it's a blacklist
     reverse: false
     # Can players only teleport to warp's that are in the same world?
@@ -666,7 +680,7 @@ settings:
     # [server] means the command is executed as the console
     # [player] means the command is executed as the player
     commands:
-      - "[broadcast] &d%player%&b has just teleported to the warp &d%warp_display%&b (/pwarp)!"
+    - "[broadcast] &d%player%&b has just teleported to the warp &d%warp_display%&b (/pwarp)!"
 
     # When teleported to a warp and a password is prompted
     password:
@@ -684,7 +698,7 @@ settings:
     particles:
       # What particle should be shown when they are teleporting to a playerwarp? Set this too none to disable.
       # YOU WILL NEED TO CHANGE THE PARTICLE IF YOU ARE ON A DIFFERENT VERSION!
-      particle-teleport: none
+      particle-teleport: "none"
       # How many particles should there be?
       particle-count: 2
       # Should the player see the particle, or should everyone see the particle? This is recommended as just the player.
@@ -693,7 +707,7 @@ settings:
     sounds:
       # What sound should be played when they are teleporting to a playerwarp? Set this too none to disable.
       # YOU WILL NEED TO CHANGE THE SOUND IF YOU ARE ON A DIFFERENT VERSION!
-      sound-teleport: none
+      sound-teleport: "none"
       # What should the volume be when the sound is played?
       volume-teleport: 1.0
       # What should the pitch be when the sound is played?
@@ -717,7 +731,7 @@ settings:
 
       items:
         name: ""
-        material: DIAMOND
+        material: "DIAMOND"
         data: 0
         lore: []
         # set the amount to -1 to disable
@@ -767,12 +781,12 @@ settings:
       enabled: false
       # What are the needed lines for the player to put down? %warp% is where the warp name needs to be.
       lines:
-        - "[teleport]"
-        - "%warp%"
+      - "[teleport]"
+      - "%warp%"
       # What the lines that will look like once the player has placed down a teleport sign?
       finished-lines:
-        - "&b&lTELEPORT WARP"
-        - "&d%warp_display%"
+      - "&b&lTELEPORT WARP"
+      - "&d%warp_display%"
 
   ban:
     # The amount of characters a ban atleast needs to have.
@@ -806,7 +820,7 @@ settings:
     # This uses a regex pattern compiler to detect the names.
     # So please escape regex characters if you're using them.
     blacklisted-desc:
-      - "bad"
+    - "bad"
 
   rate:
     # What is the maximum amount a player can rate for a warp?
@@ -841,19 +855,23 @@ settings:
       value: "49"
     # Here you can create rewards that the owner of the warp will receive.
     rate-rewards-owner:
-      1: # the reward id, this is what the DB will save
-        required-amount: 50 # the amount of total stars
-        maximum-amount: -1 # If this is not -1, the player will only be able to get this amount of rewards. This will ignore the required-amount.
-        allowed-ratings: [ 4, 5 ] # only these ratings will work for the requirement amount. So for example either 5 stars by 10 people or 4 stars by 12/13 people.
-        commands: [] # The player may not be online when the reward is given, so make sure to use [server] as the command action. %warp% and %player% are valid placeholder.
+      1:
+        required-amount: 50
+        maximum-amount: -1
+        allowed-ratings:
+        - 4
+        - 5
+        commands: []
 
     # Here you can create rewards that the player who rated the warp will receive.
     rate-rewards-rater:
-      1: # the reward id, this is what the DB will save
-        required-amount: 50 # The amount of total stars a player needs to rate.
-        maximum-amount: -1 # If this is not -1, the player will only be able to get this amount of rewards. This will ignore the required-amount.
-        allowed-ratings: [ 4, 5 ] # Only these ratings will work for the required amount.
-        commands: [] # Player will always be online, so you may use [player] as the command action. %warp% and %player% are valid placeholders.
+      1:
+        required-amount: 50
+        maximum-amount: -1
+        allowed-ratings:
+        - 4
+        - 5
+        commands: []
 
   reset:
     # What is the cost for someone to re-set their warps' location. Set to -1 to disable.
@@ -900,4 +918,4 @@ settings:
   # any support for duplicate items.
   dangerous-ignore-update-inventory: false
   # This is to change the priority of the chat wait action, if you have any issues with the chat wait action, you may want to change this from HIGHEST to LOWEST.
-  wait-chat-event-priority: HIGHEST
+  wait-chat-event-priority: "HIGHEST"

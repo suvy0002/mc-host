@@ -91,7 +91,7 @@ Crate:
       # 25 is 25% if Max Range is 100
       # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
       #
-      Chance: 25 # The chance out of MaxRange to win an item.
+      Chance: 50 # The chance out of MaxRange to win an item.
       
       # Can be a name as well.
       # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
@@ -124,67 +124,267 @@ Crate:
         Commands: []
         Items: []
     '2':
-      DisplayName: '&b&lCheap Helmet'
-      DisplayItem: GOLDEN_HELMET
+      # Name of the item shown by the crate.
+      DisplayName: '&d&l2000 XP'
+      # ITem shown by the crate.
+      DisplayItem: EXPERIENCE_BOTTLE
+      # The amount displayed.
       DisplayAmount: 1
-      Lore:
-      - '&7Win a cheap helmet.'
-      - '&6&lChance: &c&l60%'
-      MaxRange: 100
-      Chance: 60
-      Items:
-      - Item:GOLDEN_HELMET, Amount:1, Name:&bCheap Helmet, PROTECTION_ENVIRONMENTAL:1,
-        OXYGEN:1
-    '3':
-      DisplayName: '&e&l$1,000'
-      DisplayItem: SUNFLOWER
-      DisplayAmount: 1
-      Lore:
-      - '&7Make it rain Money.'
-      - '&6&lChance: &c&l20%'
-      MaxRange: 100
-      Chance: 20
-      Firework: true
-      Commands:
-      - eco give %player% 1000
-      # - 'lp user %player% permission set crazycrates.blacklist.basic.3' -> This is the line where you would give the user the permission.
-      Messages:
-      - '&7You just won &r%reward%.'
-      BlackListed-Permissions:
-      - crazycrates.blacklist.basic.3
-      Alternative-Prize:
-        Toggle: true
-        Messages:
-        - '&r &8[&bCrazyCrates&8]: &7You have already won that prize, so enjoy some
-          gold nuggets.'
-        Commands:
-        - give %player% gold_nugget 16
-    '4':
-      DisplayName: §6§lGolden Helmet
-      DisplayEnchantments:
-      - aqua_affinity:1
-      - mending:1
-      - protection:4
-      - respiration:3
-      - unbreaking:3
-      DisplayItem: DIAMOND_HELMET
-      DisplayAmount: 1
-      MaxRange: 100
-      Chance: 50
+      
+      # The lore in the crate preview
+      # Lore:
+      # - '&7Want a player head?'
+      # - ''
+      # - '&cChance: &e25%'
+      # If you do not want a lore, Set the "Lore:" to look like the line below.
+      # Lore: []
+
+      MaxRange: 100 # Available values: 100, 1000, 10000, 100000, 1000000, 10000000
+      #
+      # 25 is 25% if Max Range is 100
+      # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
+      #
+      Chance: 50 # The chance out of MaxRange to win an item.
+      
+      # Can be a name as well.
+      # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
+
+            # If you do not want a player supplied, Set the "Player:" to look like the line below.
+      Player: ''
+      
+      # Items: # Give any item you want to the winning player & with a custom texture.
+      # - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
+      # If you do not want to give items, Set the "Items:" to look like the line below.
+      Items: []
+      
+      Commands: # You can run any plugin command here.
+        - experience add @p 2000 points
+      # If you do not want to send commands, Set the "Commands:" to look like the line below.
+      # Commands: []
+
       Messages: # Send any message you want to the player.
         - '&6You got %reward% &6from the golden chest!'
-      Editor-Items:
-      - ==: org.bukkit.inventory.ItemStack
-        v: 3337
-        type: DIAMOND_HELMET
-        meta:
-          ==: ItemMeta
-          meta-type: ARMOR
-          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Golden
-            Helmet"}],"text":""}'
-          enchants:
-            WATER_WORKER: 1
-            MENDING: 1
-            PROTECTION_ENVIRONMENTAL: 4
-            OXYGEN: 3
-            DURABILITY: 3
+      # If you do not want to send messages, Set the "Messages:" to look like the line below.
+      # Messages: []
+
+            # This allows for one time winnable prizes. If a player has one of the permissions then they will not be able to win it.
+      BlackListed-Permissions: []
+      # This allows users who have won the same prize before to get alternative prizes. They must have a BlackListed-Permission to get an alternative prize.
+      Alternative-Prize:
+        # Toggle if the prize will use alternative prizes for the blacklisted permission.
+        Toggle: false
+        Messages: []
+        Commands: []
+        Items: []
+    '3':
+      # Name of the item shown by the crate.
+      DisplayName: '&7&lSimple Enchantment Book'
+      # ITem shown by the crate.
+      DisplayItem: BOOK
+      # The amount displayed.
+      DisplayAmount: 1
+      
+      # The lore in the crate preview
+      # Lore:
+      # - '&7Want a player head?'
+      # - ''
+      # - '&cChance: &e25%'
+      # If you do not want a lore, Set the "Lore:" to look like the line below.
+      # Lore: []
+
+      MaxRange: 100 # Available values: 100, 1000, 10000, 100000, 1000000, 10000000
+      #
+      # 25 is 25% if Max Range is 100
+      # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
+      #
+      Chance: 50 # The chance out of MaxRange to win an item.
+      
+      # Can be a name as well.
+      # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
+
+            # If you do not want a player supplied, Set the "Player:" to look like the line below.
+      Player: ''
+      
+      # Items: # Give any item you want to the winning player & with a custom texture.
+      # - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
+      # If you do not want to give items, Set the "Items:" to look like the line below.
+      Items: []
+      
+      Commands: # You can run any plugin command here.
+        - ae giverandombook %player% SIMPLE 1 
+      # If you do not want to send commands, Set the "Commands:" to look like the line below.
+      # Commands: []
+
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
+      # If you do not want to send messages, Set the "Messages:" to look like the line below.
+      # Messages: []
+
+            # This allows for one time winnable prizes. If a player has one of the permissions then they will not be able to win it.
+      BlackListed-Permissions: []
+      # This allows users who have won the same prize before to get alternative prizes. They must have a BlackListed-Permission to get an alternative prize.
+      Alternative-Prize:
+        # Toggle if the prize will use alternative prizes for the blacklisted permission.
+        Toggle: false
+        Messages: []
+        Commands: []
+        Items: []
+    '4':
+      # Name of the item shown by the crate.
+      DisplayName: '&a&lUnique Enchantment Book'
+      # ITem shown by the crate.
+      DisplayItem: BOOK
+      # The amount displayed.
+      DisplayAmount: 1
+      
+      # The lore in the crate preview
+      # Lore:
+      # - '&7Want a player head?'
+      # - ''
+      # - '&cChance: &e25%'
+      # If you do not want a lore, Set the "Lore:" to look like the line below.
+      # Lore: []
+
+      MaxRange: 100 # Available values: 100, 1000, 10000, 100000, 1000000, 10000000
+      #
+      # 25 is 25% if Max Range is 100
+      # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
+      #
+      Chance: 50 # The chance out of MaxRange to win an item.
+      
+      # Can be a name as well.
+      # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
+
+            # If you do not want a player supplied, Set the "Player:" to look like the line below.
+      Player: ''
+      
+      # Items: # Give any item you want to the winning player & with a custom texture.
+      # - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
+      # If you do not want to give items, Set the "Items:" to look like the line below.
+      Items: []
+      
+      Commands: # You can run any plugin command here.
+        - ae giverandombook %player% UNIQUE 1 
+      # If you do not want to send commands, Set the "Commands:" to look like the line below.
+      # Commands: []
+
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
+      # If you do not want to send messages, Set the "Messages:" to look like the line below.
+      # Messages: []
+
+            # This allows for one time winnable prizes. If a player has one of the permissions then they will not be able to win it.
+      BlackListed-Permissions: []
+      # This allows users who have won the same prize before to get alternative prizes. They must have a BlackListed-Permission to get an alternative prize.
+      Alternative-Prize:
+        # Toggle if the prize will use alternative prizes for the blacklisted permission.
+        Toggle: false
+        Messages: []
+        Commands: []
+        Items: []
+    '5':
+      # Name of the item shown by the crate.
+      DisplayName: '&b&lElite Enchantment Book'
+      # ITem shown by the crate.
+      DisplayItem: BOOK
+      # The amount displayed.
+      DisplayAmount: 1
+      
+      # The lore in the crate preview
+      # Lore:
+      # - '&7Want a player head?'
+      # - ''
+      # - '&cChance: &e25%'
+      # If you do not want a lore, Set the "Lore:" to look like the line below.
+      # Lore: []
+
+      MaxRange: 100 # Available values: 100, 1000, 10000, 100000, 1000000, 10000000
+      #
+      # 25 is 25% if Max Range is 100
+      # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
+      #
+      Chance: 50 # The chance out of MaxRange to win an item.
+      
+      # Can be a name as well.
+      # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
+
+            # If you do not want a player supplied, Set the "Player:" to look like the line below.
+      Player: ''
+      
+      # Items: # Give any item you want to the winning player & with a custom texture.
+      # - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
+      # If you do not want to give items, Set the "Items:" to look like the line below.
+      Items: []
+      
+      Commands: # You can run any plugin command here.
+        - ae giverandombook %player% ELITE 1 
+      # If you do not want to send commands, Set the "Commands:" to look like the line below.
+      # Commands: []
+
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
+      # If you do not want to send messages, Set the "Messages:" to look like the line below.
+      # Messages: []
+
+            # This allows for one time winnable prizes. If a player has one of the permissions then they will not be able to win it.
+      BlackListed-Permissions: []
+      # This allows users who have won the same prize before to get alternative prizes. They must have a BlackListed-Permission to get an alternative prize.
+      Alternative-Prize:
+        # Toggle if the prize will use alternative prizes for the blacklisted permission.
+        Toggle: false
+        Messages: []
+        Commands: []
+        Items: []
+    '6':
+      # Name of the item shown by the crate.
+      DisplayName: '&e&lUltimate Enchantment Book'
+      # ITem shown by the crate.
+      DisplayItem: BOOK
+      # The amount displayed.
+      DisplayAmount: 1
+      
+      # The lore in the crate preview
+      # Lore:
+      # - '&7Want a player head?'
+      # - ''
+      # - '&cChance: &e25%'
+      # If you do not want a lore, Set the "Lore:" to look like the line below.
+      # Lore: []
+
+      MaxRange: 100 # Available values: 100, 1000, 10000, 100000, 1000000, 10000000
+      #
+      # 25 is 25% if Max Range is 100
+      # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
+      #
+      Chance: 50 # The chance out of MaxRange to win an item.
+      
+      # Can be a name as well.
+      # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
+
+            # If you do not want a player supplied, Set the "Player:" to look like the line below.
+      Player: ''
+      
+      # Items: # Give any item you want to the winning player & with a custom texture.
+      # - 'Item:PLAYER_HEAD, Player:https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e, Amount:1'
+      # If you do not want to give items, Set the "Items:" to look like the line below.
+      Items: []
+      
+      Commands: # You can run any plugin command here.
+        - ae giverandombook %player% ULTIMATE 1 
+      # If you do not want to send commands, Set the "Commands:" to look like the line below.
+      # Commands: []
+
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
+      # If you do not want to send messages, Set the "Messages:" to look like the line below.
+      # Messages: []
+
+            # This allows for one time winnable prizes. If a player has one of the permissions then they will not be able to win it.
+      BlackListed-Permissions: []
+      # This allows users who have won the same prize before to get alternative prizes. They must have a BlackListed-Permission to get an alternative prize.
+      Alternative-Prize:
+        # Toggle if the prize will use alternative prizes for the blacklisted permission.
+        Toggle: false
+        Messages: []
+        Commands: []
+        Items: []

@@ -51,7 +51,7 @@ settings:
   - '&c&l(!) &cYou have deactivated the Mother of Yijki set!'
 items:
   helmet:
-    name: '&f&lMask of Yijki the Destroyer of Worlds'
+    name: '&f&lMother of Yjiki Helmet'
     # Custom Model Data (for 1.13+ servers with custom item packs)
     # Set custom model data integer
     customModelData: 0
@@ -82,7 +82,7 @@ items:
       - tank:%1-4%
       - hardened:%1-3%
   chestplate:
-    name: '&f&lMantel of Yijki the Destroyer of Worlds'
+    name: '&f&lMother of Yijki Chestplate'
     # Custom Model Data (for 1.13+ servers with custom item packs)
     # Set custom model data integer
     customModelData: 0
@@ -111,7 +111,7 @@ items:
       - angelic:%1-5%
       - tank:%1-4%
   leggings:
-    name: '&f&lRobset of Yijki the Destroyer of Worlds'
+    name: '&f&lMother of Yijki Leggings'
     # Custom Model Data (for 1.13+ servers with custom item packs)
     # Set custom model data integer
     customModelData: 0
@@ -144,7 +144,7 @@ items:
       - deathgod:%1-3%
       - metaphysical:%1-4%
   boots:
-    name: '&f&lFootwraps of Yijki the Destroyer of Worlds'
+    name: '&f&lMother of Yijki Boots'
     # Custom Model Data (for 1.13+ servers with custom item packs)
     # Set custom model data integer
     customModelData: 0

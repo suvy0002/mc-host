@@ -881,5 +881,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2024-03-11 16:11:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2024-03-11 16:11:11 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3337
 }

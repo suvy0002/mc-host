@@ -11,29 +11,29 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710154608166
+  lastteleport: 1710180383406
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710154705288
-  login: 1710154633398
-money: '1004400.5'
+  logout: 1710181710387
+  login: 1710169558796
+money: '1008400.5'
 last-account-name: Suvrajit
 lastlocation:
   world: df3deb25-4cbb-4827-8e61-7a348e9f4253
   world-name: bskyblock_world
-  x: 2999.3373847938665
-  y: 91.0
-  z: 2999.7021819544166
-  yaw: -89.23699951171875
-  pitch: 38.86619567871094
+  x: 44.06453024316233
+  y: 98.0
+  z: 63.92668769072776
+  yaw: -178.61891174316406
+  pitch: 29.318397521972656
 logoutlocation:
   world: df3deb25-4cbb-4827-8e61-7a348e9f4253
   world-name: bskyblock_world
-  x: 60.5
-  y: 99.0
-  z: 53.5
-  yaw: 0.7140204310417175
-  pitch: 8.525390625
+  x: 49.537747221038416
+  y: 98.0
+  z: 67.44509698656276
+  yaw: -77.99066162109375
+  pitch: 24.43840789794922
 nickname: Suv

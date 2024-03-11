@@ -51,7 +51,7 @@ settings:
   - '&c&l(!) &cYou have deactivated the Phantom set!'
 items:
   helmet:
-    name: '&c&lPhantom Hood'
+    name: '&c&lPhantom Helmet'
     # Custom Model Data (for 1.13+ servers with custom item packs)
     # Set custom model data integer
     customModelData: 0
@@ -75,7 +75,7 @@ items:
       - angelic:%1-5%
       - tank:%1-4%
   chestplate:
-    name: '&c&lPhantom Shroud'
+    name: '&c&lPhantom Chestplate'
     # Custom Model Data (for 1.13+ servers with custom item packs)
     # Set custom model data integer
     customModelData: 0
@@ -99,7 +99,7 @@ items:
       - angelic:%1-5%
       - tank:%1-4%
   leggings:
-    name: '&c&lPhantom Robeset'
+    name: '&c&lPhantom Leggings'
     # Custom Model Data (for 1.13+ servers with custom item packs)
     # Set custom model data integer
     customModelData: 0
@@ -124,7 +124,7 @@ items:
       - cactus:%1-2%
       - tank:%1-4%
   boots:
-    name: '&c&lPhantom Sandals'
+    name: '&c&lPhantom Boots'
     # Custom Model Data (for 1.13+ servers with custom item packs)
     # Set custom model data integer
     customModelData: 0

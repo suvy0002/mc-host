@@ -5,13 +5,13 @@
 # |
 # |------------------------------------------------------------------------
 config:
-  refresh-panels: true
-  refresh-delay: 20
+  refresh-panels: false
+  refresh-delay: 25
   panel-blocks: true
   hotbar-items: true
   custom-commands: true
-  auto-register-commands: false
-  auto-update-panels: false
+  auto-register-commands: true
+  auto-update-panels: true
   server-ping-timeout: 10
   stop-sound: true
   disabled-world-message: true
@@ -19,7 +19,7 @@ config:
   allow-unsafe-mini-message: false
   enable-import-command: false
   format:
-    tag: '&6[&bCommandPanels&6] '
+    tag: ''
     perms: '&cNo permission.'
     reload: '&aReloaded.'
     nopanel: '&cPanel not found.'

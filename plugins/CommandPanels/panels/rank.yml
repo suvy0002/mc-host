@@ -1,0 +1,317 @@
+panels:
+  rank:
+    perm: default
+    rows: 3
+    title: 'Ranks [%coinsengine_balance_gold% &0G]'
+    sound-on-open: BLOCK_NOTE_BLOCK_CHIME
+    empty: light_gray_stained_glass_pane
+    item:
+      '10':
+        commands:
+          - console= gold take %cp-player-name% 1000
+          - console= lp %cp-player-name% promote donator
+          - delay= 10 console= cp rank %cp-player-name%
+        material: red_stained_glass_pane
+        lore:
+          - "\_"
+          - •&f Get $100 when voting
+          - •&f Able to create player warps with /pw
+          - •&f Open crafting table with /craft
+          - •&f Sit on the ground with /sit
+          - •&f Lay on the ground with /lay
+          - •&f Silk mine spawners in the overworld
+          - "\_"
+          - '&bPrice 1,000 &6G'
+          - "\_"
+          - '&dUnlock Rank'
+        name: '&b&lVIP &fPermanent'
+        has0:
+          material: barrier
+          name: '&c%cp-y%'
+          value0: '%cp-x%'
+          compare0: '1'
+          commands:
+            - 'placeholder= [x:0]'
+            - 'placeholder= [y:0]'
+            - refresh
+        has1:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: rank.vip AND
+          material: red_stained_glass_pane
+          name: '&b&lVIP &fPermanent'
+          lore:
+            - "\_"
+            - •&f Get $100 when voting
+            - •&f Able to create player warps with /pw
+            - •&f Open crafting table with /craft
+            - •&f Sit on the ground with /sit
+            - •&f Lay on the ground with /lay
+            - •&f Silk mine spawners in the overworld
+            - "\_"
+            - '&bPrice 1,000 &6G'
+            - "\_"
+            - '&dUnlock Rank'
+          value1: '%coinsengine_balance_raw_gold% ISGREATER'
+          compare1: '1000'
+          commands:
+            - console= gold take %cp-player-name% 1000
+            - console= lp %cp-player-name% promote donator
+            - delay= 10 console= cp rank %cp-player-name%
+            - refresh
+        has2:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: rank.vip AND
+          material: red_stained_glass_pane
+          name: '&b&lVIP &fPermanent'
+          lore:
+            - "\_"
+            - •&f Get $100 when voting
+            - •&f Able to create player warps with /pw
+            - •&f Open crafting table with /craft
+            - •&f Sit on the ground with /sit
+            - •&f Lay on the ground with /lay
+            - •&f Silk mine spawners in the overworld
+            - "\_"
+            - '&bPrice 1,000 &6G'
+            - "\_"
+            - '&dUnlock Rank'
+          value1: NOT %coinsengine_balance_raw_gold% ISGREATER
+          compare1: '1000'
+          commands:
+            - 'placeholder= [x:1]'
+            - 'placeholder= [y:You can''t afford this!]'
+            - delay= 10 console= cp rank %cp-player-name%
+            - refresh
+        has3:
+          value0: '%cp-player-name% HASPERM'
+          compare0: rank.vip+
+          commands:
+            - 'placeholder= [x:1]'
+            - 'placeholder= [y:You already own a higher rank!]'
+            - delay= 10 console= cp rank %cp-player-name%
+            - refresh
+          material: >-
+            cps=
+            eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgzYWFhZWUyMjg2OGNhZmRhYTFmNmY0YTBlNTZiMGZkYjY0Y2QwYWVhYWJkNmU4MzgxOGMzMTJlYmU2NjQzNyJ9fX0=
+          lore:
+            - "\_"
+            - •&f Get $100 when voting
+            - •&f Able to create player warps with /pw
+            - •&f Open crafting table with /craft
+            - •&f Sit on the ground with /sit
+            - •&f Lay on the ground with /lay
+            - •&f Silk mine spawners in the overworld
+            - "\_"
+            - '&dRank Unlocked'
+          name: '&b&lVIP &fPermanent'
+        has4:
+          value0: '%cp-player-name% HASPERM'
+          compare0: rank.vip AND
+          commands:
+            - 'placeholder= [x:1]'
+            - 'placeholder= [y:You already own this rank!]'
+            - delay= 10 console= cp rank %cp-player-name%
+            - refresh
+          value1: NOT %cp-player-name% HASPERM
+          compare1: rank.vip+
+          lore:
+            - "\_"
+            - •&f Get $100 when voting
+            - •&f Able to create player warps with /pw
+            - •&f Open crafting table with /craft
+            - •&f Sit on the ground with /sit
+            - •&f Lay on the ground with /lay
+            - •&f Silk mine spawners in the overworld
+            - "\_"
+            - '&dRank Unlocked'
+          material: >-
+            cps=
+            eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzgzYWFhZWUyMjg2OGNhZmRhYTFmNmY0YTBlNTZiMGZkYjY0Y2QwYWVhYWJkNmU4MzgxOGMzMTJlYmU2NjQzNyJ9fX0=
+          name: '&b&lVIP &fPermanent'
+      '11':
+        material: COBBLESTONE
+        name: '&7Cobblestone'
+        lore:
+          - '&eCobble Rank'
+          - '&7/Feed'
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: rank.cobble
+          material: COBBLESTONE
+          name: '&7&lCobblestone'
+          enchanted: true
+          lore:
+            - '&a&lOwned'
+            - '&7/Feed'
+          has0:
+            value0: '%cp-player-name% HASPERM'
+            compare0: rank.iron
+            material: COBBLESTONE
+            name: '&7&lCobblestone'
+            lore:
+              - '&c&lOwn Higher Rank'
+              - '&7/Feed'
+        has1:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: rank.cobble
+          material: COBBLESTONE
+          name: '&7&lCobblestone'
+          lore:
+            - '&e&lPurchase! $1000'
+            - '&7/Feed'
+          commands:
+            - paywall= 1000
+            - console= lp user %cp-player-name% parent set cobble
+          has0:
+            value0: NOT %cp-player-name% HASPERM
+            compare0: rank.dirt
+            material: COBBLESTONE
+            name: '&7&lCobblestone'
+            lore:
+              - '&4&lNeed Previous Rank'
+              - '&7/Feed'
+      '13':
+        material: RAW_IRON
+        name: '&fIron'
+        lore:
+          - '&eIron Rank'
+          - '&7/Feed'
+          - '&7/Craft'
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: rank.iron
+          material: RAW_IRON
+          name: '&f&lIron'
+          enchanted: true
+          lore:
+            - '&a&lOwned'
+            - '&7/Feed'
+            - '&7/Craft'
+          has0:
+            value0: '%cp-player-name% HASPERM'
+            compare0: rank.diamond
+            material: RAW_IRON
+            name: '&f&lIron'
+            lore:
+              - '&c&lOwn Higher Rank'
+              - '&7/Feed'
+              - '&7/Craft'
+        has1:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: rank.iron
+          material: RAW_IRON
+          name: '&f&lIron'
+          lore:
+            - '&e&lPurchase! $2500'
+            - '&7/Feed'
+            - '&7/Craft'
+          commands:
+            - paywall= 2500
+            - console= lp user %cp-player-name% parent set iron
+          has0:
+            value0: NOT %cp-player-name% HASPERM
+            compare0: rank.cobble
+            material: RAW_IRON
+            name: '&f&lIron'
+            lore:
+              - '&4&lNeed Previous Rank'
+              - '&7/Feed'
+              - '&7/Craft'
+      '15':
+        material: DIAMOND
+        name: '&bDiamond'
+        lore:
+          - '&eDiamond Rank'
+          - '&7/Feed'
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: rank.diamond
+          material: DIAMOND
+          name: '&b&lDiamond'
+          enchanted: true
+          lore:
+            - '&a&lOwned'
+            - '&7/Feed'
+            - '&7/Craft'
+            - '&7/Stonecutter'
+          has0:
+            value0: '%cp-player-name% HASPERM'
+            compare0: rank.netherite
+            material: DIAMOND
+            name: '&b&lDiamond'
+            lore:
+              - '&c&lOwn Higher Rank'
+              - '&7/Feed'
+              - '&7/Craft'
+              - '&7/Stonecutter'
+        has1:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: rank.diamond
+          material: DIAMOND
+          name: '&b&lDiamond'
+          lore:
+            - '&e&lPurchase! $5000'
+            - '&7/Feed'
+            - '&7/Craft'
+            - '&7/Stonecutter'
+          commands:
+            - paywall= 5000
+            - console= lp user %cp-player-name% parent set diamond
+          has0:
+            value0: NOT %cp-player-name% HASPERM
+            compare0: rank.iron
+            material: DIAMOND
+            name: '&b&lDiamond'
+            lore:
+              - '&4&lNeed Previous Rank'
+              - '&7/Feed'
+              - '&7/Craft'
+              - '&7/Stonecutter'
+      '17':
+        material: NETHERITE_INGOT
+        name: '&8Netherite'
+        lore:
+          - '&eNetherite Rank'
+          - '&7/Feed'
+        has0:
+          value0: '%cp-player-name% HASPERM'
+          compare0: rank.netherite
+          material: NETHERITE_INGOT
+          name: '&8&lNetherite'
+          enchanted: true
+          lore:
+            - '&a&lOwned'
+            - '&7/Feed'
+            - '&7/Craft'
+            - '&7/Stonecutter'
+            - '&7/Enderchest'
+        has1:
+          value0: NOT %cp-player-name% HASPERM
+          compare0: rank.netherite
+          material: NETHERITE_INGOT
+          name: '&8&lNetherite'
+          lore:
+            - '&e&lPurchase! $10,000'
+            - '&7/Feed'
+            - '&7/Craft'
+            - '&7/Stonecutter'
+            - '&7/Enderchest'
+          commands:
+            - paywall= 10000
+            - console= lp user %cp-player-name% parent set netherite
+          has0:
+            value0: NOT %cp-player-name% HASPERM
+            compare0: rank.diamond
+            material: NETHERITE_INGOT
+            name: '&8&lNetherite'
+            lore:
+              - '&4&lNeed Previous Rank'
+              - '&7/Feed'
+              - '&7/Craft'
+              - '&7/Stonecutter'
+              - '&7/Enderchest'
+    commands:
+      - ranks
+    pre-load-commands:
+      - 'placeholder= [x:0]'
+      - 'placeholder= [y:0]'

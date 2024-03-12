@@ -98,7 +98,7 @@ Prevent_Vanilla_Mobs:
 
 Sort_By_Type: false
 
-Register_Tools: false
+Register_Tools: true
 
 Timestamp_Format: dd.MM.yyyy HH:mm:ss
 Location_Format: '{world} [{x}, {y}, {z}]'

@@ -1,5 +1,5 @@
 # PlayerWarps, 插件作者 Olzie-12
-# https://www.spigotmc.org/resources/66692/
+# https://www.spigotmc.org/resources/115286/
 # 我们也有用于寻求帮助的 Discord 聊天群组: https://olziedev.com/discord, 你也可以来查阅文档 https://docs.olziedev.com/projects/playerwarps
 # 若你找到了漏洞且愿意报告它们, 我很乐意修复 :)
 # 为爱发电
@@ -18,6 +18,7 @@ lang:
   console-name: "&d服务器传送点"
   console-uuid: "f78a4d8d-d51b-4b39-98a3-230f2de0c670"
   cancel-chat-wait: "取消"
+  chat-wait-cancelled: "&cCancelled your request!"
   friendly-max-auctions: "无限"
   prefix: "&b&lPA &7»"
   list: "%prefix% &b地标列表 &d(%page%&b/&d%pages%&b):&d\n* %list%\n%previous%      %next%"
@@ -240,6 +241,7 @@ lang:
     already-sponsored-other: "%prefix% &c其他玩家已经购买了该赞助栏位!"
     warp-max-categories: "%prefix% &c你不能拥有超过 %max% 个分类!"
     sponsor-cooldown: "%prefix% &cYou cannot sponsor this warp for another %time%!"
+    sponsor-restricted-category: "%prefix% &cYou cannot sponsor this warp in this slot. It is restricted to specific categories!"
 
 # 在这里你可以通过指定权限指定不同类型的无权限消息.
 # 或者你也可以将它们设置为空字符串以使其不提醒.

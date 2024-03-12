@@ -62,11 +62,11 @@ world:
   # both positively and negatively in a square grid.
   # If none of this makes sense, leave it at 0,0.
   # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
-  start-x: 1500
+  start-x: 500
   # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
-  start-z: 1500
-  offset-x: 1500
-  offset-z: 1500
+  start-z: 500
+  offset-x: 500
+  offset-z: 500
   # Island height - Lowest is 5.
   # It is the y coordinate of the bedrock block in the schem.
   island-height: 80
@@ -103,7 +103,7 @@ world:
     # Note: Some default challenges will not be possible if there is no nether.
     # Note that with a standard nether all players arrive at the same portal and entering a
     # portal will return them back to their islands.
-    generate: true
+    generate: false
     # Islands in Nether. Change to false for standard vanilla nether.
     # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
     islands: true
@@ -125,7 +125,7 @@ world:
   end:
     # End Nether - if this is false, the end world will not be made and access to
     # the end will not occur. Other plugins may still enable portal usage.
-    generate: true
+    generate: false
     # Islands in The End. Change to false for standard vanilla end.
     # /!\ BentoBox currently does not support changing this value mid-game. If you do need to change it, do a full reset of your databases and worlds.
     islands: true
@@ -138,9 +138,9 @@ world:
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
+  - ZOMBIE_VILLAGER
   - ENDERMAN
   - WITHER
-  - ZOMBIE_VILLAGER
   # World flags. These are boolean settings for various flags for this world
   flags:
     DRAGON_EGG: false

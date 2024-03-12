@@ -1,5 +1,5 @@
 # PlayerWarps by Olzie-12
-# https://www.spigotmc.org/resources/66692/
+# https://www.spigotmc.org/resources/115286/
 # We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerwarps
 # Also if you find any bugs be happy to report them I will fix them :)
 # Made with love
@@ -19,6 +19,7 @@ lang:
   console-name: "&0Варпы Сервера"
   console-uuid: "f78a4d8d-d51b-4b39-98a3-230f2de0c670"
   cancel-chat-wait: "Отмена"
+  chat-wait-cancelled: "&cCancelled your request!"
   friendly-max-warps: "Неограниченный"
   prefix: "&c&lWARPS &7»"
   list: "%prefix% &6Текущие варпы &e(%page%&6/&e%pages%&):&6\n* %list%\n%previous%      %next%"
@@ -237,6 +238,7 @@ lang:
     already-sponsored-other: "%prefix% &cSomeone has already purchased this sponsor slot!"
     warp-max-categories: "%prefix% &cYou cannot have more than %max% categories!"
     sponsor-cooldown: "%prefix% &cYou cannot sponsor this warp for another %time%!"
+    sponsor-restricted-category: "%prefix% &cYou cannot sponsor this warp in this slot. It is restricted to specific categories!"
 
 # Here you can specify different types of messages per no-permission message, using the specific permission node.
 # Or you may set it to blank to not send a message at all.

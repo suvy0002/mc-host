@@ -7,18 +7,25 @@
 Type: SKELETON
 Health: 500.0
 Equipment:
-  HAND:
+  HEAD:
     Key:
       ==: org.bukkit.inventory.ItemStack
       v: 3337
-      type: IRON_SWORD
-    Value: 0.0
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Yeti"}],"text":""}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 04049c90-d3e9-4621-9caf-0000aaa16792
+          name: Head Database
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWIxMjY4MTRmYzNmYTg0NmRhZDkzNGMzNDk2MjhhN2ExZGU1YjQxNTAyMWEwM2VmNDIxMWQ2MjUxNGQ1In19fQ==
+    Value: 1.0
 Random_Equipment_On_Empty_Slots: false
-Potion_Effects:
-  SPEED: 1
-  SATURATION: 1
-  INCREASE_DAMAGE: 3
-  FIRE_RESISTANCE: 1
+Potion_Effects: {}
 Riding:
   Vanilla: []
   Boss: []
@@ -26,214 +33,16 @@ Riding:
 Commands: []
 Commands_Stop_After_First: false
 Attributes:
-  ARMOR: 2.0
-  MOVEMENT_SPEED: 1.0
-  ARMOR_TOUGHNESS: 2.0
-  DAMAGE_MULTIPLIER: 2.0
+  MOVEMENT_SPEED: 0.5
 Lightning:
   Death: false
   Spawn: false
 Reinforcements: []
-Custom_Settings:
-  Targetable: false
-  Glowing: false
-  Custom_Name_Visible: true
-  Despawn: true
-Skills:
-  Confuse:
-    Delay: 10 seconds - 15 seconds
-    Messages:
-    - You have been &cconfused &7by the boss!
-    - OMG! What is happening?
-    - You were teleported to the wonderlands! Just kidding.
-    Settings: {}
-  Lightning:
-    Delay: 30 seconds - 1 minute
-    Messages:
-    - You have been &cstrucked by a lightning bolt&7!
-    - The {boss} has &csend a lightning &7at you!
-    - You are very attractive so a lightning bolt connected to you!
-    Settings:
-      Radius: 5
-  Potions:
-    Delay: 30 seconds - 1 minute
-    Messages:
-    - Watch out! The {boss} has &cgiven you a special potion effect&7!
-    - The {boss} has &cpoisoned you&7!
-    - You are now given special potion effects!
-    Settings:
-      Potions:
-      - BLINDNESS 100 0
-  Throw:
-    Delay: 30 seconds - 1 minute
-    Messages:
-    - Embrace the fresh air in the skies!
-    - The {boss} has decided to &ckick you&7!
-    - Good bye, {player}!
-    Settings:
-      Radius: 5
-      Power: 1.2
+Custom_Settings: {}
+Skills: {}
 Drops:
-  Vanilla: false
-  General:
-  - Key:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: DIAMOND_HELMET
-      meta:
-        ==: ItemMeta
-        meta-type: ARMOR
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Yeti Helmet"}],"text":""}'
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Hardened I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Angelic IV"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Implants II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Tank I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Valor IV"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Armored I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Deathbringer II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Drunk I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Enlighted I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"The savage mask of the Yeti."}],"text":""}'
-        - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"YETI SET BONUS"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"* Deal +10% damage to all enemies."}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"* Enemies deal 10% less damage to you."}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(Requires all 4 yeti items.)"}],"text":""}'
-        enchants:
-          PROTECTION_ENVIRONMENTAL: 4
-          DURABILITY: 3
-        internal: H4sIAAAAAAAA/23PwQrCMAwG4GgnTK+KCj6Kj+HJk8Q1rMU2lSz6/G6TXsJugY//588OwMEJ6UHcBWTNxHoNKJ6YPACsHByMfjEVGalxcDSEkovU3MWgJ9TwlMg9TfH1QnykFLt/99kgcYp90Nq+N6zIr+W9Xj6V7KMxv9N4D9OcFtp5/o0UmjtpdLAZUplxCz8uPNDuKAEAAA==
-    Value: 0.8999999999999999
-  - Key:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: DIAMOND_CHESTPLATE
-      meta:
-        ==: ItemMeta
-        meta-type: ARMOR
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Yeti Chestplate"}],"text":""}'
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Angelic III"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Dodge II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Guardians V"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Tank III"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Armored I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Enlighted II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Godly Overload I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"The impermeable chestplate of the Yeti."}],"text":""}'
-        - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"YETI SET BONUS"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"* Deal +10% damage to all enemies."}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"* Enemies deal 10% less damage to you."}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(Requires all 4 yeti items.)"}],"text":""}'
-        enchants:
-          PROTECTION_ENVIRONMENTAL: 4
-          DURABILITY: 3
-        internal: H4sIAAAAAAAA/3XOQQrCQAyF4aexWNwq4sKbeIyuXEnohOngNIFpFLy9bZeDrr/8vBwAwpXlIdoPrD6K+i1ayB97S8nGAcCGcK5OuIxW5B9qlJz6GYlwqVA0pzj42m4Jx4qd9fk7jC8uIbFOMzct2vWFThy7u3giNFM2X3BPOFVtsBBlGcQXxwNSDvEAAAA=
-    Value: 0.8999999999999999
-  - Key:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: DIAMOND_LEGGINGS
-      meta:
-        ==: ItemMeta
-        meta-type: ARMOR
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Yeti Leggings"}],"text":""}'
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Cactus I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Angelic II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Obsidianshield I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Valor III"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Armored II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Clarity I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Deathbringer I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Enlighted I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Natures Wrath II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Paladin Armored I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"The cozy yet monstrous legs of the Yeti."}],"text":""}'
-        - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"YETI SET BONUS"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"* Deal +10% damage to all enemies."}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"* Enemies deal 10% less damage to you."}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(Requires all 4 yeti items.)"}],"text":""}'
-        enchants:
-          PROTECTION_ENVIRONMENTAL: 4
-          DURABILITY: 3
-        internal: H4sIAAAAAAAA/22PwQrCMAyGM6swdlYRxCfxMTx5kqwNa6DLpM0U395uOwh15+//vpAGwMAe6UFiPYr2JHp9YRgiZGLgXCBBHSOld0T1ebExcCwWGPshkltgqTvKXhtZOpoOVCt6RoHtop8KSBK48zrXs3sosEWrY1rv2oCR9bPASwGHNrFjlOSZwhyvoZ4fuZHC9k7KBnYpDDrVm//AEwM6lt/vFXwBpb8sX1oBAAA=
-    Value: 0.8999999999999999
-  - Key:
-      ==: org.bukkit.inventory.ItemStack
-      v: 3337
-      type: DIAMOND_BOOTS
-      meta:
-        ==: ItemMeta
-        meta-type: ARMOR
-        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Yeti Boots"}],"text":""}'
-        lore:
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Hardened I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Rocket Escape I"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Springs II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Angelic III"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Ender Walker IV"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Tank III"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Valor II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Armored III"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Deathbringer II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Enlighted II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Gears II"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Bigfoot has nothing on these boots."}],"text":""}'
-        - '{"text":""}'
-        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"YETI SET BONUS"}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"* Deal +10% damage to all enemies."}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"* Enemies deal 10% less damage to you."}],"text":""}'
-        - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(Requires all 4 yeti items.)"}],"text":""}'
-        enchants:
-          PROTECTION_ENVIRONMENTAL: 4
-          DURABILITY: 3
-        internal: H4sIAAAAAAAA/22QsQ7CMAxEDSkSghEECD6Fz2BiQiaxmqhpUjkW/D5NypR2fufz3e0AFFyQXhS0xSA9BblT8K61QgYA1gpOFU4Du9CmCd4qaAjFvrOAeFKcK4VFNhSK+WpujuOhd3qESsGxgh/08e96qJBg6PLRFrbIfeQHCTRPEjePyFF3JJQ0DjSFuM4GMMRf9F3p0CjYJB8lN94vJM7vSp2FxC0hl6XgB/mhGBFqAQAA
-    Value: 0.8999999999999999
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
-  - null
+  Vanilla: true
+  General: []
   Player: []
   Player_Time_Threshold: 15 seconds
   Player_Commands: []
@@ -246,20 +55,16 @@ Limit:
   Worlds: {}
 Citizens:
   Enabled: true
-  Skin: default
   Goal_Target_Enabled: false
   Goal_Target_Aggressive: true
-  Goal_Target_Radius: 8
+  Goal_Target_Radius: 24
   Goal_Target_Entities:
   - PLAYER
+  - COW
   Goal_Wander_Enabled: false
   Goal_Wander_Radius: 18
 Keep_In_Spawn_Region: false
 Egg:
-  Lore:
-  - '&fSpawn a Yeti boss with this summoner at arena'
-  Material: SNOWBALL
-  Title: '&b&lYeti Summoner'
+  Lore: []
 Version: 2
-Alias: '&f&lYeti'
-Dropped_Exp: 0 - 0
+Alias: '&b&LYeti'

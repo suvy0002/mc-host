@@ -1,6 +1,6 @@
 # PlayerWarps by Olzie-12
-# https://www.spigotmc.org/resources/66692/
-# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playertreasury
+# https://www.spigotmc.org/resources/115286/
+# We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerwarps
 # Also if you find any bugs be happy to report them I will fix them :)
 # Made with love
 
@@ -10,7 +10,7 @@
 # list: []
 
 # DO NOT TOUCH THIS!
-config-version: 215
+config-version: 216
 
 settings:
   # What language do you want the plugin to read? The list langs are in the lang/ folder.
@@ -919,3 +919,9 @@ settings:
   dangerous-ignore-update-inventory: false
   # This is to change the priority of the chat wait action, if you have any issues with the chat wait action, you may want to change this from HIGHEST to LOWEST.
   wait-chat-event-priority: "HIGHEST"
+  # If you are using a software that is not Spigot and has forge, you may want to enable this to fix some issues with the plugin like modded items missing NBT tags.
+  # If this is enabled, you need ProtocolLib installed.
+  use-modded-serialization: false
+  # When handling items, should it remove public bukkit values? If you have are issues with items losing lore etc set this to false.
+  # Some plugins may remove the item from a menu if it is false, if youre having this issue set it to true.
+  remove-item-pbv: true

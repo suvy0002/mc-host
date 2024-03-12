@@ -9,4 +9,12 @@
 #
 # REMEMBER TO KEEP PERIODICAL BACKUPS.
 #
-regions: {}
+regions:
+    __global__:
+        members: {}
+        flags: {time-lock: '6000', item-drop: deny, creeper-explosion: deny, mob-damage: allow,
+            leaf-decay: deny, block-trampling: deny, mob-spawning: deny, weather-lock: clear,
+            fire-spread: deny}
+        owners: {}
+        type: global
+        priority: 0

@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 54
+last-created-npc-id: 160
 npc:
   '17':
     metadata:
@@ -52,11 +52,11 @@ npc:
         bodyYaw: -95.34363
         world: bskyblock_world
         x: '68.4866'
-        y: '-209425.2033'
+        y: '-1235172.6007'
         z: '60.4762'
         yaw: '-95.3436'
         pitch: '0.0'
-    traitnames: location,villagertrait,spawned,scoreboardtrait,rotationtrait,type,hologramtrait,owner,mounttrait,lookclose,profession
+    traitnames: mounttrait,lookclose,type,location,owner,villagertrait,spawned,rotationtrait,hologramtrait,scoreboardtrait,profession
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -112,11 +112,11 @@ npc:
         bodyYaw: -59.99996
         world: bskyblock_world
         x: '59.5426'
-        y: '-209426.2033'
+        y: '-1235173.6007'
         z: '39.7704'
         yaw: '-60.0'
         pitch: '0.0'
-    traitnames: location,villagertrait,spawned,scoreboardtrait,rotationtrait,type,hologramtrait,owner,mounttrait,profession,lookclose
+    traitnames: mounttrait,lookclose,type,location,owner,spawned,villagertrait,hologramtrait,rotationtrait,scoreboardtrait,profession
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -172,11 +172,11 @@ npc:
         bodyYaw: -10.060944
         world: bskyblock_world
         x: '70.5181'
-        y: '-209426.2033'
+        y: '-1235173.6007'
         z: '52.4907'
         yaw: '-10.0609'
         pitch: '0.0'
-    traitnames: location,villagertrait,spawned,scoreboardtrait,rotationtrait,type,hologramtrait,owner,mounttrait,lookclose,profession
+    traitnames: mounttrait,lookclose,type,location,owner,spawned,villagertrait,hologramtrait,rotationtrait,scoreboardtrait,profession
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -232,11 +232,11 @@ npc:
         bodyYaw: -52.328403
         world: bskyblock_world
         x: '61.5002'
-        y: '-209426.2033'
+        y: '-1235173.6007'
         z: '39.6652'
         yaw: '-52.3284'
         pitch: '0.0'
-    traitnames: location,villagertrait,spawned,scoreboardtrait,rotationtrait,type,hologramtrait,owner,mounttrait,lookclose,profession
+    traitnames: mounttrait,lookclose,type,location,owner,villagertrait,spawned,rotationtrait,hologramtrait,profession,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -292,100 +292,12 @@ npc:
         bodyYaw: 39.625526
         world: bskyblock_world
         x: '43.5196'
-        y: '-209426.2033'
+        y: '-1235173.6007'
         z: '53.528'
         yaw: '39.6255'
         pitch: '0.0'
-    traitnames: location,villagertrait,spawned,rotationtrait,scoreboardtrait,type,hologramtrait,owner,mounttrait,lookclose,profession
+    traitnames: mounttrait,lookclose,type,location,owner,spawned,villagertrait,hologramtrait,rotationtrait,scoreboardtrait,profession
     navigator:
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: false
-  '40':
-    metadata:
-      BossName: Yeti
-      collidable: true
-      damage-others: true
-      protected: false
-      drops-items: true
-      minecraft-ai: true
-    name: '&f&lYeti'
-    uuid: 26385e51-6f40-4cde-997b-3d377a5d14da
-    traits:
-      location:
-        bodyYaw: 312.01993
-        world: world
-        x: '326.7201'
-        y: '130.0'
-        z: '247.78'
-        yaw: '310.9467'
-        pitch: '2.2184'
-      spawned: true
-      scoreboardtrait:
-        tags:
-          '0': Boss%-%Boss_V4%-%Yeti
-          '1': Boss%-%Boss_Spawn_Location%-%world 370 132 261 -360 0
-      skintrait:
-        fetchDefaultSkin: true
-        skinName: default
-        updateSkins: false
-      type: SKELETON
-      inventory:
-        '0':
-          type_key: iron_sword
-          amount: 1
-      ma_healthtrait:
-        boss_health: 0.0
-      equipment:
-        hand:
-          type_key: iron_sword
-          amount: 1
-    traitnames: location,spawned,scoreboardtrait,skintrait,type,inventory,mounttrait,ma_healthtrait,equipment
-    navigator:
-      distancemargin: '0.5'
-      speedmodifier: '1.0'
-      avoidwater: false
-      usedefaultstuckaction: false
-  '54':
-    metadata:
-      BossName: Yeti
-      collidable: true
-      damage-others: true
-      protected: false
-      drops-items: true
-      minecraft-ai: true
-    name: '&b&LYeti'
-    uuid: de0e2e1a-c2e5-44e4-829c-2d2033a183d5
-    traits:
-      location:
-        bodyYaw: 86.20216
-        world: world
-        x: '361.7052'
-        y: '131.0'
-        z: '252.3721'
-        yaw: '86.2022'
-        pitch: '-46.8349'
-      spawned: true
-      scoreboardtrait:
-        tags:
-          '0': Boss%-%Boss_V4%-%Yeti
-          '1': Boss%-%Boss_Spawn_Location%-%world 355 131 250 -180 0
-      skintrait:
-        fetchDefaultSkin: true
-        skinName: '&b&LYeti'
-        updateSkins: false
-      type: SKELETON
-      ma_healthtrait:
-        boss_health: 448.0
-      equipment:
-        helmet:
-          type_key: player_head
-          amount: 1
-          meta:
-            encoded-meta: rO0ABXNyABpvcmcuYnVra2l0LnV0aWwuaW8uV3JhcHBlcvJQR+zxEm8FAgABTAADbWFwdAAPTGphdmEvdXRpbC9NYXA7eHBzcgA1Y29tLmdvb2dsZS5jb21tb24uY29sbGVjdC5JbW11dGFibGVNYXAkU2VyaWFsaXplZEZvcm0AAAAAAAAAAAIAAkwABGtleXN0ABJMamF2YS9sYW5nL09iamVjdDtMAAZ2YWx1ZXNxAH4ABHhwdXIAE1tMamF2YS5sYW5nLk9iamVjdDuQzlifEHMpbAIAAHhwAAAABHQAAj09dAAJbWV0YS10eXBldAAMZGlzcGxheS1uYW1ldAALc2t1bGwtb3duZXJ1cQB+AAYAAAAEdAAISXRlbU1ldGF0AAVTS1VMTHQAjHsiZXh0cmEiOlt7ImJvbGQiOmZhbHNlLCJpdGFsaWMiOmZhbHNlLCJ1bmRlcmxpbmVkIjpmYWxzZSwic3RyaWtldGhyb3VnaCI6ZmFsc2UsIm9iZnVzY2F0ZWQiOmZhbHNlLCJjb2xvciI6ImJsdWUiLCJ0ZXh0IjoiWWV0aSJ9XSwidGV4dCI6IiJ9c3EAfgAAc3EAfgADdXEAfgAGAAAABHEAfgAIdAAIdW5pcXVlSWR0AARuYW1ldAAKcHJvcGVydGllc3VxAH4ABgAAAAR0AA1QbGF5ZXJQcm9maWxldAAkMDQwNDljOTAtZDNlOS00NjIxLTljYWYtMDAwMGFhYTE2NzkydAANSGVhZCBEYXRhYmFzZXNyABNqYXZhLnV0aWwuQXJyYXlMaXN0eIHSHZnHYZ0DAAFJAARzaXpleHAAAAABdwQAAAABc3IAF2phdmEudXRpbC5MaW5rZWRIYXNoTWFwNMBOXBBswPsCAAFaAAthY2Nlc3NPcmRlcnhyABFqYXZhLnV0aWwuSGFzaE1hcAUH2sHDFmDRAwACRgAKbG9hZEZhY3RvckkACXRocmVzaG9sZHhwP0AAAAAAAAx3CAAAABAAAAACcQB+ABR0AAh0ZXh0dXJlc3QABXZhbHVldACwZXlKMFpYaDBkWEpsY3lJNmV5SlRTMGxPSWpwN0luVnliQ0k2SW1oMGRIQTZMeTkwWlhoMGRYSmxjeTV0YVc1bFkzSmhablF1Ym1WMEwzUmxlSFIxY21VdllXSXhNalk0TVRSbVl6Tm1ZVGcwTm1SaFpEa3pOR016TkRrMk1qaGhOMkV4WkdVMVlqUXhOVEF5TVdFd00yVm1OREl4TVdRMk1qVXhOR1ExSW4xOWZRPT14AHg=
-    traitnames: location,spawned,scoreboardtrait,skintrait,type,inventory,mounttrait,ma_healthtrait,equipment
-    navigator:
-      distancemargin: '0.5'
       speedmodifier: '1.0'
       avoidwater: false
       usedefaultstuckaction: false

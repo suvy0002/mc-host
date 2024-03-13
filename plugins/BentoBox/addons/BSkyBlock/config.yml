@@ -138,9 +138,9 @@ world:
     dragon-spawn: false
   # Mob white list - these mobs will NOT be removed when logging in or doing /island
   remove-mobs-whitelist:
-  - ENDERMAN
-  - ZOMBIE_VILLAGER
   - WITHER
+  - ZOMBIE_VILLAGER
+  - ENDERMAN
   # World flags. These are boolean settings for various flags for this world
   flags:
     DRAGON_EGG: false

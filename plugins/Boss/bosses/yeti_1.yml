@@ -70,8 +70,8 @@ Skills:
   Teleport:
     Delay: 45 seconds - 2 minutes
     Messages:
-    - You are now facing the {boss} himself!
-    - Welcome! {boss} has &cteleported you &7closer!
+    - You are now facing the Yeti himself!
+    - Welcome! Yeti has &cteleported you &7closer!
     - Don't run away from me! Fight like a man!
     Settings:
       Radius: 5
@@ -79,7 +79,7 @@ Skills:
     Delay: 30 seconds - 1 minute
     Messages:
     - Embrace the fresh air in the skies!
-    - The {boss} has decided to &ckick you&7!
+    - The Yeti has decided to &ckick you&7!
     - Good bye, {player}!
     Settings:
       Radius: 5

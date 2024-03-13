@@ -12,7 +12,7 @@ Type: LOCATION_PERIOD
 Enabled: false
 Bosses:
 - Yeti
-Delay: '0'
+Delay: 10 seconds
 Days:
 - MONDAY
 - TUESDAY

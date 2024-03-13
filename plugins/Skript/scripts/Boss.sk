@@ -1,0 +1,5 @@
+on right click holding snowball:
+    if name of player's tool is "&b&lYeti Summoner":
+        remove 1 of player's tool from player
+        execute console command "/boss spawn world 369 133 254 Yeti"
+        broadcast "&6&l%player% has summoned a Yeti at the arena!"

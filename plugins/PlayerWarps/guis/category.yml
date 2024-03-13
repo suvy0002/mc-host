@@ -1,5 +1,5 @@
 # PlayerWarps by Olzie-12
-# https://www.spigotmc.org/resources/66692/
+# https://www.spigotmc.org/resources/115286/
 # We also have a discord server for help: https://olziedev.com/discord or check docs https://docs.olziedev.com/projects/playerwarps
 # Also if you find any bugs be happy to report them I will fix them :)
 # Made with love
@@ -346,11 +346,21 @@ category:
         amount: 1
       # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
       # Time in seconds
+      # If this is empty, it will allow all categories.
+      # If you want this sponsor to only be available for certain categories, you can add them here.
       # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
       # Time in seconds
+      # If this is empty, it will allow all categories.
+      # If you want this sponsor to only be available for certain categories, you can add them here.
       # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
       # Time in seconds
+      # If this is empty, it will allow all categories.
+      # If you want this sponsor to only be available for certain categories, you can add them here.
       # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
       # Time in seconds
+      # If this is empty, it will allow all categories.
+      # If you want this sponsor to only be available for certain categories, you can add them here.
       # How should the player pay in for this sponsor? If the option below is disabled, the player will have to pay using an item
       # Time in seconds
+      # If this is empty, it will allow all categories.
+      # If you want this sponsor to only be available for certain categories, you can add them here.

@@ -281,6 +281,8 @@ items:
     name: '&c&lSoul Gem &7[&a%count%&7]'
     lore:
     - '&7Apply to an item to add souls.'
+    custom-model-data: 0
+    force-glow: false
   itemnametag:
     type: NAME_TAG
     id: 0
@@ -831,7 +833,7 @@ settings:
   
   # Should enchantment descriptions be added under enchant names in lores?
   lore-descriptions:
-    enabled: true
+    enabled: false
     display: '%group-color%* &8%description%'
   lore-organize-mode: 2
   use-experimental-damage: false
@@ -862,6 +864,7 @@ settings:
   - CAULDRON
   - BEDROCK
   grindstones-remove-custom-enchants: true
+  custom-enchants-cause-glow: false
 version: 1.0
 language: en-us
 armor-items:

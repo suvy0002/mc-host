@@ -2,14 +2,9 @@
   "homeLocations": {},
   "uniqueId": "4e652eb0-f42e-34fb-8424-539c2da8221f",
   "playerName": "Suvrajit",
-  "resets": {
-    "bskyblock_world": 16
-  },
+  "resets": {},
   "locale": "",
-  "deaths": {
-    "bskyblock_world": 0
-  },
+  "deaths": {},
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC",
-  "metaData": {}
+  "flagsDisplayMode": "BASIC"
 }

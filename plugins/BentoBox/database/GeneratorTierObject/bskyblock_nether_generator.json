@@ -12,11 +12,11 @@
   "priority": 3,
   "requiredMinIslandLevel": 100,
   "requiredBiomes": [
-    "NETHER_WASTES",
-    "BASALT_DELTAS",
-    "WARPED_FOREST",
     "CRIMSON_FOREST",
-    "SOUL_SAND_VALLEY"
+    "NETHER_WASTES",
+    "SOUL_SAND_VALLEY",
+    "WARPED_FOREST",
+    "BASALT_DELTAS"
   ],
   "requiredPermissions": [],
   "generatorTierCost": 5.0,

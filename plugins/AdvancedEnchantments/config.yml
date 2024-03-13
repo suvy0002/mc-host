@@ -484,6 +484,7 @@ white-scroll:
     - '&a&l(!) &aWhite scroll has been applied to your item.'
     failed:
     - '&c&l(!) &cWhite scroll saved the item.'
+  custom-model-data: 0
 
 enchanter:
   # set to 'none' to disable

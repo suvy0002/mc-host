@@ -4,7 +4,9 @@
   "playerName": "Suvrajit",
   "resets": {},
   "locale": "",
-  "deaths": {},
+  "deaths": {
+    "bskyblock_world": 0
+  },
   "pendingKicks": [],
   "flagsDisplayMode": "BASIC"
 }

@@ -388,3 +388,191 @@ Crate:
         Messages: []
         Commands: []
         Items: []
+    '7':
+      DisplayName: §b§lPhantom Summoner
+      Lore:
+      - §7
+      - §fRight click to summon a Phantom boss at the arena
+      DisplayEnchantments:
+      - unbreaking:1
+      HideItemFlags: true
+      DisplayItem: MAGMA_CREAM
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: MAGMA_CREAM
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"color":"aqua","text":"Phantom
+            Summoner"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"Right click to summon
+            a Phantom boss at the arena"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYOBi4HbKLy6O90sqCUlM52BgB/PCTBg4CzIS80ryc+MNGRgAZP9MiCgAAAA=
+    '8':
+      DisplayName: §b§lYeti Summoner
+      Lore:
+      - §7
+      - §fRight click to summon a Yeti boss at the arena
+      DisplayEnchantments:
+      - unbreaking:1
+      HideItemFlags: true
+      DisplayItem: SNOWBALL
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: SNOWBALL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"color":"aqua","text":"Yeti
+            Summoner"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"Right click to summon
+            a Yeti boss at the arena"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYOBi4HbKLy6O90sqCUlM52BgB/PCTBjYKlNLMuMNGRgA5kNlWCUAAAA=
+    '9':
+      DisplayName: §b§lYijki Summoner
+      Lore:
+      - §7
+      - §fRight click to summon a Yijki boss at the arena
+      DisplayEnchantments:
+      - unbreaking:1
+      HideItemFlags: true
+      DisplayItem: ENDER_PEARL
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: ENDER_PEARL
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"color":"aqua","text":"Yijki
+            Summoner"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":""}],"text":""}'
+          - '{"extra":[{"italic":false,"color":"white","text":"Right click to summon
+            a Yijki boss at the arena"}],"text":""}'
+          enchants:
+            DURABILITY: 1
+          ItemFlags:
+          - HIDE_ENCHANTS
+          internal: H4sIAAAAAAAA/+NiYOBi4HbKLy6O90sqCUlM52BgB/PCTBjYKzOzsjPjDRkYANu3RokmAAAA
+    '10':
+      DisplayName: §fWhite Scroll
+      Lore:
+      - §fPrevents an item from being destroyed
+      - §fdue to a failed Enchantment Book.
+      - §ePlace scroll on item to apply.
+      DisplayItem: MAP
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: MAP
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"White
+            Scroll"}],"text":""}'
+          lore:
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"Prevents
+            an item from being destroyed"}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"due
+            to a failed Enchantment Book."}],"text":""}'
+          - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Place
+            scroll on item to apply."}],"text":""}'
+          custom-model-data: 0
+          ItemFlags:
+          - HIDE_ENCHANTS
+          - HIDE_ATTRIBUTES
+          - HIDE_UNBREAKABLE
+          - HIDE_DESTROYS
+          - HIDE_PLACED_ON
+          - HIDE_POTION_EFFECTS
+          - HIDE_DYE
+          - HIDE_ARMOR_TRIM
+          internal: H4sIAAAAAAAA/+NiYOBg4ExMjS9OLsrPyWFgKSkqTWUAAEPbJD8WAAAA
+    '11':
+      DisplayName: §e§lRandom Spawn Egg
+      DisplayItem: PUFFERFISH_SPAWN_EGG
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: PUFFERFISH_SPAWN_EGG
+        meta:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Random
+            Spawn Egg"}],"text":""}'
+    '12':
+      DisplayName: §e§lZombie Villager Egg
+      DisplayItem: ZOMBIE_VILLAGER_SPAWN_EGG
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: ZOMBIE_VILLAGER_SPAWN_EGG
+        meta:
+          ==: ItemMeta
+          meta-type: SPAWN_EGG
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zombie
+            Villager Egg"}],"text":""}'
+    '13':
+      DisplayName: §d§lRandom Music Disc
+      DisplayItem: MUSIC_DISC_MELLOHI
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: MUSIC_DISC_MELLOHI
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Random
+            Music Disc"}],"text":""}'
+    '14':
+      DisplayName: §e§lInvisible Item Frame
+      DisplayItem: ITEM_FRAME
+      DisplayAmount: 1
+      MaxRange: 100
+      Chance: 50
+      Editor-Items:
+      - ==: org.bukkit.inventory.ItemStack
+        v: 3337
+        type: ITEM_FRAME
+        meta:
+          ==: ItemMeta
+          meta-type: ENTITY_TAG
+          display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Invisible
+            Item Frame"}],"text":""}'
+          internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTGdk4PTMK8sszkzKSWVkYAAAwtH3ph4AAAA=

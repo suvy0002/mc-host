@@ -1,5 +1,6 @@
 on right click holding ender pearl:
     if name of player's tool is "&b&lYijki Summoner":
+        cancel event
         remove 1 of player's tool from player
         set {_rand} to random integer between 1 and 4
         if {_rand} is 1:

@@ -1,5 +1,6 @@
 on right click holding magma cream:
     if name of player's tool is "&b&lPhantom Summoner":
+        cancel event
         remove 1 of player's tool from player
         set {_rand} to random integer between 1 and 4
         if {_rand} is 1:

@@ -211,7 +211,7 @@ Crate:
       Items: []
       
       Commands: # You can run any plugin command here.
-        - ae giverandombook %player% SIMPLE 1 
+        - ae giverandombook %player% SIMPLE 1
       # If you do not want to send commands, Set the "Commands:" to look like the line below.
       # Commands: []
 
@@ -264,7 +264,7 @@ Crate:
       Items: []
       
       Commands: # You can run any plugin command here.
-        - ae giverandombook %player% UNIQUE 1 
+        - ae giverandombook %player% UNIQUE 1
       # If you do not want to send commands, Set the "Commands:" to look like the line below.
       # Commands: []
 
@@ -317,7 +317,7 @@ Crate:
       Items: []
       
       Commands: # You can run any plugin command here.
-        - ae giverandombook %player% ELITE 1 
+        - ae giverandombook %player% ELITE 1
       # If you do not want to send commands, Set the "Commands:" to look like the line below.
       # Commands: []
 
@@ -370,7 +370,7 @@ Crate:
       Items: []
       
       Commands: # You can run any plugin command here.
-        - ae giverandombook %player% ULTIMATE 1 
+        - ae giverandombook %player% ULTIMATE 1
       # If you do not want to send commands, Set the "Commands:" to look like the line below.
       # Commands: []
 

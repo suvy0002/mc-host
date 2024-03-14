@@ -13,10 +13,10 @@ useWorldGuard: true
 explosionDropChance: 30
 
 # Percentage of dropping a iron bars when a spawner is mined
-destroyDropChance: 100
+destroyDropChance: 0
 
 # Percentage of dropping an egg when a spawner is mined
-eggDropChance: 100
+eggDropChance: 0
 
 # Percentage of dropping the spawner when mined
 silkDropChance: 100
@@ -51,7 +51,7 @@ dropAmount: 1
 preventXPFarming: true
 
 # Drops XP only when a spawner is destroyed and not mined via silk touch
-dropXPOnlyOnDestroy: false
+dropXPOnlyOnDestroy: true
 
 # If a spawner is destroyed, should iron bars be dropped
 destroyDropBars: 0
@@ -91,7 +91,7 @@ consumeEgg: true
 enableCreatureDefault: true
 
 # Disable left click to change spawners, spawns a mob instead. Still blocks Vanilla right click behavior.
-disableChangeTypeWithEgg: false
+disableChangeTypeWithEgg: true
 
 # Should instead of spawning a mob a MonsterSpawner be placed? (Uses consumeEgg value, too)
 spawnEggToSpawner: false
@@ -117,10 +117,10 @@ allowedTools:
 defaultAmountGive: 1
 
 # Notify the player about the spawner when he clicks it in the inventory
-notifyOnClick: true
+notifyOnClick: false
 
 # Notify the player about the spawner when he holds the spawner in the hand
-notifyOnHold: true
+notifyOnHold: false
 
 # Configure displaying with BarAPI, time is in seconds
 barAPI:

@@ -1,0 +1,5 @@
+on right click holding a prismarine crystal:
+    if name of player's tool is "&6&lRandom Golden Quest Scroll":
+        cancel event
+        remove 1 of player's tool from player
+        execute console command "/cluescroll give %player% scroll tier common 1"

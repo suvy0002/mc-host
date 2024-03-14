@@ -16,7 +16,7 @@ Crate:
   Max-Mass-Open: 1
   # If the crate shows in the /cc GUI.
   # If the type is QuickCrate/CrateOnTheGo/FireCracker, They will not work as they require a Physical Crate.
-  InGUI: true
+  InGUI: false
   # Slot the item is in the GUI.
   Slot: 21
   # Enables/Disables the Broadcasts message when they open a crate.
@@ -389,6 +389,8 @@ Crate:
         Commands: []
         Items: []
     '7':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §7§lPhantom Summoner
       DisplayEnchantments:
       - unbreaking:1
@@ -416,6 +418,8 @@ Crate:
           - HIDE_ENCHANTS
           internal: H4sIAAAAAAAA/+NiYOBi4HbKLy6O90sqCUlM52BgB/PCTBg4CzIS80ryc+MNGRgAZP9MiCgAAAA=
     '8':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §b§lYeti Summoner
       DisplayEnchantments:
       - unbreaking:1
@@ -443,6 +447,8 @@ Crate:
           - HIDE_ENCHANTS
           internal: H4sIAAAAAAAA/+NiYOBi4HbKLy6O90sqCUlM52BgB/PCTBjYKlNLMuMNGRgA5kNlWCUAAAA=
     '9':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §3§lYijki Summoner
       DisplayEnchantments:
       - unbreaking:1
@@ -470,6 +476,8 @@ Crate:
           - HIDE_ENCHANTS
           internal: H4sIAAAAAAAA/+NiYOBi4HbKLy6O90sqCUlM52BgB/PCTBjYKzOzsjPjDRkYANu3RokmAAAA
     '10':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §f&lWhite Scroll
       DisplayItem: MAP
       DisplayAmount: 1
@@ -503,6 +511,8 @@ Crate:
           - HIDE_ARMOR_TRIM
           internal: H4sIAAAAAAAA/+NiYOBg4ExMjS9OLsrPyWFgKSkqTWUAAEPbJD8WAAAA
     '11':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §e§lRandom Spawn Egg
       DisplayItem: PUFFERFISH_SPAWN_EGG
       DisplayAmount: 1
@@ -518,6 +528,8 @@ Crate:
           display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Random
             Spawn Egg"}],"text":""}'
     '12':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §e§lZombie Villager Egg
       DisplayItem: ZOMBIE_VILLAGER_SPAWN_EGG
       DisplayAmount: 1
@@ -533,6 +545,8 @@ Crate:
           display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Zombie
             Villager Egg"}],"text":""}'
     '13':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §d§lRandom Music Disc
       DisplayItem: MUSIC_DISC_MELLOHI
       DisplayAmount: 1
@@ -548,6 +562,8 @@ Crate:
           display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"light_purple","text":"Random
             Music Disc"}],"text":""}'
     '14':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §e§lInvisible Item Frame
       DisplayItem: ITEM_FRAME
       DisplayAmount: 1
@@ -564,6 +580,8 @@ Crate:
             Item Frame"}],"text":""}'
           internal: H4sIAAAAAAAA/+NiYOBi4HTNK8ksqQxJTGdk4PTMK8sszkzKSWVkYAAAwtH3ph4AAAA=
     '15':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayItem: ELYTRA
       DisplayName: §d§lElytra
       DisplayAmount: 1
@@ -574,6 +592,8 @@ Crate:
         v: 3337
         type: ELYTRA
     '16':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayItem: BEACON
       DisplayName: §b§lBeacon
       DisplayAmount: 1
@@ -584,6 +604,8 @@ Crate:
         v: 3337
         type: BEACON
     '17':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §e§lSingle-Use Safari Net
       DisplayItem: GHAST_SPAWN_EGG
       DisplayAmount: 1
@@ -604,6 +626,8 @@ Crate:
           - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"white","text":"to
             catch it!"}],"text":""}'
     '18':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §e§lChicken Pet
       DisplayItem: CHICKEN_SPAWN_EGG
       DisplayAmount: 1
@@ -640,6 +664,8 @@ Crate:
             - name: textures
               value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzODQ2OWE1OTljZWVmNzIwNzUzNzYwMzI0OGE5YWIxMWZmNTkxZmQzNzhiZWE0NzM1YjM0NmE3ZmFlODkzIn19fQ==
     '19':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §e§lSheep Pet
       DisplayItem: SHEEP_SPAWN_EGG
       DisplayAmount: 1
@@ -676,6 +702,8 @@ Crate:
             - name: textures
               value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjMxZjljY2M2YjNlMzJlY2YxM2I4YTExYWMyOWNkMzNkMThjOTVmYzczZGI4YTY2YzVkNjU3Y2NiOGJlNzAifX19
     '20':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §e§lPig Pet
       DisplayItem: PIG_SPAWN_EGG
       DisplayAmount: 1
@@ -712,6 +740,8 @@ Crate:
             - name: textures
               value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjIxNjY4ZWY3Y2I3OWRkOWMyMmNlM2QxZjNmNGNiNmUyNTU5ODkzYjZkZjRhNDY5NTE0ZTY2N2MxNmFhNCJ9fX0=
     '21':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lChicken Spawner
       DisplayItem: SPAWNER
       DisplayAmount: 1
@@ -729,6 +759,8 @@ Crate:
           internal: H4sIAAAAAAAA/3WOwQrCMBBEBw+aRlH8HY9iD94K9S5rGnVJmpRmQfx7NcF68rYMb96sBjRWLXvXDvQIdkwKcxuE5YmFubNxNryJ9d5H4+qcn+imUU23wow7bHsO1ox0ld2vVWXngYT0V/qXhoIqzmM3LRd62cfLOZX3NDZZ2kT5CMknAC/BNwVKxQAAAA==
           blockMaterial: SPAWNER
     '22':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lPig Spawner
       DisplayItem: SPAWNER
       DisplayAmount: 1
@@ -746,6 +778,8 @@ Crate:
           internal: H4sIAAAAAAAA/+NiYOBi4AnOzMkOLkgsz0stKuZgYEvNK8ksqWRgLshMB8ryOeXkJ2e7gsVCEtO5GDjhbA4GpswUBt7czLzU5KLEtBIriA5OsFkuiSWJXDDDsKpk4GDggJjlmQK2DaKKOzc/Kb4Y4hwuBn6wYQH5JSCDEnOKGRgYAMAEmPS1AAAA
           blockMaterial: SPAWNER
     '23':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lSheep Spawner
       DisplayItem: SPAWNER
       DisplayAmount: 1
@@ -763,6 +797,8 @@ Crate:
           internal: H4sIAAAAAAAA/+NiYOBi4AnOzMkOLkgsz0stKuZgYEvNK8ksqWRgLc5ITS0AyvM55eQnZ7uCRUMS07kYOOFsDgamzBQG/tzMvNTkosS0EiuYHk6weS6JJYlcMANxqGXgYOCAmOeZArUTopI7Nz8pvhjiLC4GfrCBAfklIMMSc4oZGBgAaKE5+70AAAA=
           blockMaterial: SPAWNER
     '24':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lCow Spawner
       DisplayItem: SPAWNER
       DisplayAmount: 1
@@ -780,6 +816,8 @@ Crate:
           internal: H4sIAAAAAAAA/+NiYOBi4AnOzMkOLkgsz0stKuZgYEvNK8ksqWRgTs4vB8ryOeXkJ2e7gsVCEtO5GDjhbA4GpswUBt7czLzU5KLEtBIriA5OsFkuiSWJXDDDsKpk4GDggJjlmQK2DaKKOzc/Kb4Y4hwuBn6wYQH5JSCDEnOKGRgYAJSmKP+1AAAA
           blockMaterial: SPAWNER
     '25':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lSpider Spawner
       DisplayItem: SPAWNER
       DisplayAmount: 1
@@ -797,6 +835,8 @@ Crate:
           internal: H4sIAAAAAAAA/3WOwQrCMBBEBw8lXUX9Ho+ih96Eepe1iRKaJiVZKP17NaG9eVuGN2+WAMKuta5vR568iUmhMl6szKjSaLWJX2B/dqHrrzm+85tQr7fCxmocB+tNF/klp7VUZ+OFhWlR/oOhoIqx0ctsYbdDeD5SeY1wyMpbkJ+OXQLwAekJAP/BAAAA
           blockMaterial: SPAWNER
     '26':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lZombie Spawner
       DisplayItem: SPAWNER
       DisplayAmount: 1
@@ -814,6 +854,8 @@ Crate:
           internal: H4sIAAAAAAAA/+NiYOBi4AnOzMkOLkgsz0stKuZgYEvNK8ksqWRgq8rPTcpMBSrgc8rJT852BQuHJKZzMfCDVQfkl4CUJuYUA9VwgoVcEksSuWAmcDAwZaYwCORm5qUmFyWmlVhBDQSphhuGSxFEnDs3Pym+GOI0DgYOiC7PFLjbGADCYvn1wQAAAA==
           blockMaterial: SPAWNER
     '27':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lSkeleton Spawner
       DisplayItem: SPAWNER
       DisplayAmount: 1
@@ -831,6 +873,8 @@ Crate:
           internal: H4sIAAAAAAAA/3WOTQvCMBBEBw+yjUXBn+NR9NCbUO+ytquEpIk0C8V/ryb4cfG2MG/erAEM6tZ61954CjImwlyCWr2DkhMvGsMTWW597Nw+B0e+GlSfmzCzPdaDDdKNfNHNT63K1h0rm7f2Pw4CFWvTf8cLvxji+ZTKiwarrD1EfSnZJwAPzfrrpckAAAA=
           blockMaterial: SPAWNER
     '28':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lBlaze Spawner
       DisplayItem: SPAWNER
       DisplayAmount: 1
@@ -848,6 +892,8 @@ Crate:
           internal: H4sIAAAAAAAA/+NiYOBi4AnOzMkOLkgsz0stKuZgYEvNK8ksqWRgTcpJrEoFyvM55eQnZ7uCRUMS07kYOOFsDgamzBQG/tzMvNTkosS0EiuYHk6weS6JJYlcMANxqGXgYOCAmOeZArUTopI7Nz8pvhjiLC4GfrCBAfklIMMSc4oZGBgAg4sc4L0AAAA=
           blockMaterial: SPAWNER
     '29':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Helmet
       DisplayEnchantments:
       - aqua_affinity:1
@@ -875,6 +921,8 @@ Crate:
             OXYGEN: 3
             DURABILITY: 3
     '30':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Chestplate
       DisplayEnchantments:
       - mending:1
@@ -898,6 +946,8 @@ Crate:
             PROTECTION_ENVIRONMENTAL: 4
             DURABILITY: 3
     '31':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Leggings
       DisplayEnchantments:
       - mending:1
@@ -921,6 +971,8 @@ Crate:
             PROTECTION_ENVIRONMENTAL: 4
             DURABILITY: 3
     '32':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Boots
       DisplayEnchantments:
       - depth_strider:3
@@ -948,6 +1000,8 @@ Crate:
             PROTECTION_ENVIRONMENTAL: 4
             DURABILITY: 3
     '33':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Sword
       DisplayEnchantments:
       - fire_aspect:2
@@ -977,6 +1031,8 @@ Crate:
             SWEEPING_EDGE: 3
             DURABILITY: 3
     '34':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden War Axe
       DisplayEnchantments:
       - mending:1
@@ -1000,6 +1056,8 @@ Crate:
             DAMAGE_ALL: 5
             DURABILITY: 3
     '35':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Bow
       DisplayEnchantments:
       - flame:1
@@ -1027,10 +1085,12 @@ Crate:
             ARROW_KNOCKBACK: 2
             DURABILITY: 3
     '36':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Crossbow
       DisplayEnchantments:
       - mending:1
-      - piercing:4
+      - piercing:5
       - quick_charge:3
       - unbreaking:3
       DisplayItem: CROSSBOW
@@ -1048,11 +1108,13 @@ Crate:
             Crossbow"}],"text":""}'
           enchants:
             MENDING: 1
-            PIERCING: 4
+            PIERCING: 5
             QUICK_CHARGE: 3
             DURABILITY: 3
           charged: false
     '37':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Trident
       DisplayEnchantments:
       - channeling:1
@@ -1080,6 +1142,8 @@ Crate:
             MENDING: 1
             DURABILITY: 3
     '38':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Pickaxe
       DisplayEnchantments:
       - efficiency:5
@@ -1105,6 +1169,8 @@ Crate:
             MENDING: 1
             DURABILITY: 3
     '39':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Silk Pickaxe
       DisplayEnchantments:
       - efficiency:5
@@ -1130,6 +1196,8 @@ Crate:
             SILK_TOUCH: 1
             DURABILITY: 3
     '40':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Axe
       DisplayEnchantments:
       - efficiency:5
@@ -1155,6 +1223,8 @@ Crate:
             MENDING: 1
             DURABILITY: 3
     '41':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §6§lGolden Shovel
       DisplayEnchantments:
       - efficiency:5
@@ -1180,6 +1250,8 @@ Crate:
             MENDING: 1
             DURABILITY: 3
     '42':
+      Messages: # Send any message you want to the player.
+        - '&6You got %reward% &6from the golden chest!'
       DisplayName: §d§lObsidian Quest Scroll
       DisplayEnchantments:
       - unbreaking:1

@@ -8,34 +8,34 @@
 # +----------------------------------------------------+
 
 tiers:
-  common:
+  golden:
     rewards: 1
     clueCount: 1
     expire: -1
     clueMode: RANDOM
     scroll:
-      title: '&8◆ &a&l&nCommon Clue Scroll&r &8◆'
+      title: '&6&lGolden Quest Scroll'
       lore-prefix:
-      - '&7Complete the tasks below to earn &ntreasure&r&7.'
-      - '&r'
-      - '&a&l➤ CLUES:'
+      - ' '
+      - '&fComplete the quest for'
+      - '&fa golden chest key.'
+      - ' '
+      - '&6&lQuest:'
       lore-suffix:
       - ''
       cross-out-completed: true
       one-clue-show: true
       material: PAPER
       hide-first-clue:
-        enabled: true
+        enabled: false
         lore:
         - '&7★ &7???'
         - '&7Right-click to reveal your first clue.'
         revealMessage: []
       receiveMessage:
-      - '&a&l+ %amount% Common Clue Scroll(s)'
+      - '&6You have received a golden quest in your inventory'
       completeMessage:
         broadcast:
-        - ''
-        - '&6&l(!) &7%player% has completed a &a&nCommon Clue Scroll'
         - ''
         player:
         - '<firework power="127" detonate="20"><effect type="BURST" flicker="true" color="GREEN" fade="WHITE"/><effect type="BURST" flicker="true" color="#5cd60a" fade="WHITE"/></firework>'
@@ -1581,7 +1581,7 @@ chestinv-auto-save: 10
 #Should the cluescroll command open the shop by default, or send a help message?
 default-command-open-shop: true
 #Enable the /cluescrolls chestinv
-enable-chestinv: true
+enable-chestinv: false
 #Automatically increase cluescrolls performance
 auto-optimize: true
 #Legacy check for scrolls prior to 2.0.0

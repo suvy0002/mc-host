@@ -3,16 +3,16 @@ no-permission:
 player-not-online:
 - '&cPlayer %player% not online.'
 clue-complete:
-- '&a&l(!) &aYou have completed the &a&l%clueName%&r&a clue!'
-- <title>&a&lClue Completed<subtitle>&7%objective%
+- '&6You have completed the &e%clueName% &6task!'
+- <title>&6&lTask Done<subtitle>&f%objective%
 dropped-rewards:
-- '&cYour reward items have been dropped in front of you!'
+- '&6Your reward items have been dropped in front of you!'
 no-inv-space:
-- '&4You don''t have enough space in your inventory!'
+- '&6You don''t have enough space in your inventory!'
 must-use-main-hand:
 - '&4Please use this item in your main hand.'
 scroll-not-completed:
-- '&4You have not yet completed this clue scroll.'
+- '&6You have not yet completed this quest.'
 - <sound>ENTITY_VILLAGER_NO
 scroll-not-completed-expiring:
 - '&4You have not yet completed this clue scroll. You have %remaining% left to complete
@@ -21,7 +21,7 @@ scroll-not-completed-expiring:
 command-successful:
 - '&a&l+ Command successfully executed'
 receive-rewards:
-- '&a&l+ %received% rewards!'
+- '&6You have received &e%received%.'
 next-clue:
 - ''
 - '&a&l(!) &a&lNEW CLUE: &r&a&n%clueName%'

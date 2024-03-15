@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710422249302
-  login: 1710414461524
+  logout: 1710430632041
+  login: 1710430157363
 money: '1018500.5'
 last-account-name: Suvrajit
 lastlocation:
@@ -31,9 +31,9 @@ lastlocation:
 logoutlocation:
   world: 4d3e590e-0c2a-4691-8626-c646778c75ad
   world-name: world
-  x: 47.17120992353237
+  x: 52.75127267290792
   y: 99.0
-  z: 52.25685112484609
-  yaw: -100.87808227539062
-  pitch: 16.58798599243164
+  z: 56.37849380710651
+  yaw: 82.65201568603516
+  pitch: 36.10794448852539
 nickname: Suv

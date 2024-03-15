@@ -91,7 +91,7 @@ Crate:
       # 25 is 25% if Max Range is 100
       # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
       #
-      Chance: 50 # The chance out of MaxRange to win an item.
+      Chance: 60 # The chance out of MaxRange to win an item.
       
       # Can be a name as well.
       # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
@@ -144,7 +144,7 @@ Crate:
       # 25 is 25% if Max Range is 100
       # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
       #
-      Chance: 50 # The chance out of MaxRange to win an item.
+      Chance: 60 # The chance out of MaxRange to win an item.
       
       # Can be a name as well.
       # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
@@ -250,7 +250,7 @@ Crate:
       # 25 is 25% if Max Range is 100
       # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
       #
-      Chance: 50 # The chance out of MaxRange to win an item.
+      Chance: 49 # The chance out of MaxRange to win an item.
       
       # Can be a name as well.
       # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
@@ -303,7 +303,7 @@ Crate:
       # 25 is 25% if Max Range is 100
       # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
       #
-      Chance: 50 # The chance out of MaxRange to win an item.
+      Chance: 48 # The chance out of MaxRange to win an item.
       
       # Can be a name as well.
       # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
@@ -356,7 +356,7 @@ Crate:
       # 25 is 25% if Max Range is 100
       # Read more on "Chance" @ https://github.com/Crazy-Crew/Crazy-Crates/wiki/Chance-System
       #
-      Chance: 50 # The chance out of MaxRange to win an item.
+      Chance: 47 # The chance out of MaxRange to win an item.
       
       # Can be a name as well.
       # Player: 'https://textures.minecraft.net/texture/1ee3126ff2c343da525eef2b93272b9fed36273d0ea08c2616b80009948ad57e' # Custom Texture Example.
@@ -398,7 +398,7 @@ Crate:
       DisplayItem: MAGMA_CREAM
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 45
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -427,7 +427,7 @@ Crate:
       DisplayItem: SNOWBALL
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 44
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -456,7 +456,7 @@ Crate:
       DisplayItem: ENDER_PEARL
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 43
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -482,7 +482,7 @@ Crate:
       DisplayItem: MAP
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 45
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -517,7 +517,7 @@ Crate:
       DisplayItem: PUFFERFISH_SPAWN_EGG
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 42
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -534,7 +534,7 @@ Crate:
       DisplayItem: ZOMBIE_VILLAGER_SPAWN_EGG
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 42
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -551,7 +551,7 @@ Crate:
       DisplayItem: MUSIC_DISC_MELLOHI
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 42
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -568,7 +568,7 @@ Crate:
       DisplayItem: ITEM_FRAME
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 42
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -586,7 +586,7 @@ Crate:
       DisplayName: §d§lElytra
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -598,7 +598,7 @@ Crate:
       DisplayName: §b§lBeacon
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 45
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -610,7 +610,7 @@ Crate:
       DisplayItem: GHAST_SPAWN_EGG
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -632,7 +632,7 @@ Crate:
       DisplayItem: CHICKEN_SPAWN_EGG
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -670,7 +670,7 @@ Crate:
       DisplayItem: SHEEP_SPAWN_EGG
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 43
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -708,7 +708,7 @@ Crate:
       DisplayItem: PIG_SPAWN_EGG
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 39
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -746,7 +746,7 @@ Crate:
       DisplayItem: SPAWNER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -765,7 +765,7 @@ Crate:
       DisplayItem: SPAWNER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -784,7 +784,7 @@ Crate:
       DisplayItem: SPAWNER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -803,7 +803,7 @@ Crate:
       DisplayItem: SPAWNER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -822,7 +822,7 @@ Crate:
       DisplayItem: SPAWNER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 37
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -841,7 +841,7 @@ Crate:
       DisplayItem: SPAWNER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 35
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -860,7 +860,7 @@ Crate:
       DisplayItem: SPAWNER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 35
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -879,7 +879,7 @@ Crate:
       DisplayItem: SPAWNER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 25
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -904,7 +904,7 @@ Crate:
       DisplayItem: DIAMOND_HELMET
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -931,7 +931,7 @@ Crate:
       DisplayItem: DIAMOND_CHESTPLATE
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -956,7 +956,7 @@ Crate:
       DisplayItem: DIAMOND_LEGGINGS
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -983,7 +983,7 @@ Crate:
       DisplayItem: DIAMOND_BOOTS
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1013,7 +1013,7 @@ Crate:
       DisplayItem: DIAMOND_SWORD
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1041,7 +1041,7 @@ Crate:
       DisplayItem: DIAMOND_AXE
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1068,7 +1068,7 @@ Crate:
       DisplayItem: BOW
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1096,7 +1096,7 @@ Crate:
       DisplayItem: CROSSBOW
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1125,7 +1125,7 @@ Crate:
       DisplayItem: TRIDENT
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1153,7 +1153,7 @@ Crate:
       DisplayItem: DIAMOND_PICKAXE
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1180,7 +1180,7 @@ Crate:
       DisplayItem: DIAMOND_PICKAXE
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1207,7 +1207,7 @@ Crate:
       DisplayItem: DIAMOND_AXE
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1234,7 +1234,7 @@ Crate:
       DisplayItem: DIAMOND_SHOVEL
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337
@@ -1259,7 +1259,7 @@ Crate:
       DisplayItem: PAPER
       DisplayAmount: 1
       MaxRange: 100
-      Chance: 50
+      Chance: 40
       Editor-Items:
       - ==: org.bukkit.inventory.ItemStack
         v: 3337

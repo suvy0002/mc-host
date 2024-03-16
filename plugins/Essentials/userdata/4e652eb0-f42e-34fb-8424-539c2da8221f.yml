@@ -3,7 +3,7 @@ teleportauto: false
 godmode: false
 muted: false
 jailed: false
-ip-address: 0:0:0:0:0:0:0:1%0
+ip-address: 127.0.0.1
 afk: false
 socialspy: false
 npc: false
@@ -11,29 +11,29 @@ powertoolsenabled: true
 accepting-pay: true
 baltop-exempt: false
 timestamps:
-  lastteleport: 1710511536968
+  lastteleport: 1710568648618
   lastheal: 0
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710511598614
-  login: 1710511340837
+  logout: 1710568785569
+  login: 1710565276257
 money: '1018500.5'
 last-account-name: Suvrajit
 lastlocation:
   world: 6e2dcfee-d374-4ca9-be35-c7bc3da012da
   world-name: bskyblock_world
-  x: 1002.1800490155408
-  y: 85.0
-  z: 203.4461202409307
-  yaw: -173.2873077392578
-  pitch: 34.45564270019531
+  x: 1003.6473663637234
+  y: -7.0851603138453525
+  z: 197.6214694321277
+  yaw: 66.04165649414062
+  pitch: -85.12001037597656
 logoutlocation:
   world: 6e2dcfee-d374-4ca9-be35-c7bc3da012da
   world-name: bskyblock_world
-  x: 1002.3337618073424
+  x: 1002.5596646805506
   y: 85.0
-  z: 201.6972022199277
-  yaw: 114.35983276367188
-  pitch: 17.26958465576172
+  z: 200.97061617013816
+  yaw: -90.75456237792969
+  pitch: 2.2954790592193604
 nickname: Suv

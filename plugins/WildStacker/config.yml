@@ -328,6 +328,7 @@ entities:
   # If you don't want instant-kill, use "instant-kill: []"
   instant-kill:
   - FALL
+  - ENTITY_ATTACK
 
   # Nerfed entities are entities that cannot attack / target other entities and players.
   # EntityType list: https://bg-software.com/entities/
@@ -337,7 +338,7 @@ entities:
     # A list of entities that will be nerfed.
     # If you want all entities to be nerfed, set this to [].
     whitelist:
-    - EXAMPLE_MOB
+    - SPAWNER
     # A list of entities that won't be nerfed.
     blacklist: []
     # A list of worlds that entities can be nerfed in.
@@ -492,8 +493,7 @@ spawners:
   # Blacklisted spawners are spawners that won't get stacked.
   # EntityType list: https://bg-software.com/entities/
   # If you wish to disable blacklisted spawners, use "blacklist: []"
-  blacklist:
-  - BLAZE
+  blacklist: []
 
   # Whitelisted spawners are spawners that will get stacked.
   # EntityType list: https://bg-software.com/entities/

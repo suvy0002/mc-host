@@ -185,8 +185,8 @@ Drops:
   Player_Commands: []
 Limit_Reasons:
 - EGG
-- COMMAND
 - SPAWN_RULE
+- COMMAND
 Limit:
   Nearby_Bosses:
     Key: 100

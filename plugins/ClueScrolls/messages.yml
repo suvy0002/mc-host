@@ -21,7 +21,7 @@ scroll-not-completed-expiring:
 command-successful:
 - '&a&l+ Command successfully executed'
 receive-rewards:
-- '&6You have received &e%received%.'
+- '&6You have received &e%received%x chest key.'
 next-clue:
 - ''
 - '&a&l(!) &a&lNEW CLUE: &r&a&n%clueName%'

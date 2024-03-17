@@ -124,7 +124,7 @@ settings:
       - "&7Right-click to unequip your current cosmetics!"
 
   coins:
-    enable: true
+    enable: false
     material: SUNFLOWER
     amount: 1
     slot: 22

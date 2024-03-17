@@ -1,0 +1,4 @@
+treasure-chest-stations:
+  '0':
+    location: world:40.0:99.0:46.0
+    chest-data: 0

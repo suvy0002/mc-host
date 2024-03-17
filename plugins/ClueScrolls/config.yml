@@ -98,86 +98,14 @@ tiers:
         clueName: Cookie Crafter
         data:
           material: cookie
-      common5:
-        lore: '• &fCraft %amount% iron blocks: %completed%'
-        clueType: craft
-        amount: 4-9
-        objective: Craft %amount% iron blocks
-        clueName: Iron Block Crafter
-        data:
-          material: iron_block
-      common6:
-        lore: '• &fCraft %amount% chests: %completed%'
-        clueType: craft
-        amount: 12-16
-        objective: Craft %amount% chests
-        clueName: Chest Crafter
-        data:
-          material: chest
       common7:
-        lore: '• &fBake %amount% cakes: %completed%'
+        lore: '• &fCraft %amount% cakes: %completed%'
         clueType: craft
         amount: 3-8
-        objective: Bake %amount% cakes
-        clueName: Cake Baker
+        objective: Craft %amount% cakes
+        clueName: Cake Crafter
         data:
           material: cake
-      common8:
-        lore: '• &fCraft %amount% anvil: %completed%'
-        clueType: craft
-        amount: 1
-        objective: Craft %amount% anvil
-        clueName: Anvil Crafter
-        data:
-          material: anvil
-      common9:
-        lore: '• &fCraft %amount% minecarts: %completed%'
-        clueType: craft
-        amount: 2-5
-        objective: Craft %amount% minecarts
-        clueName: Minecart Crafter
-        data:
-          material: minecart
-      common10:
-        lore: '• &fCraft %amount% jack o''lanterns: %completed%'
-        clueType: craft
-        amount: 10-15
-        objective: 'Craft %amount% jack o''lanterns'
-        clueName: Lantern Crafter
-        data:
-          material: jack_o_lantern
-      common11:
-        lore: '• &fMine %amount% stone: %completed%'
-        clueType: break
-        amount: 75-125
-        objective: Mine %amount% stone
-        clueName: Stone Miner
-        data:
-          material: stone
-      common12:
-        lore: '• &fMine %amount% dirt: %completed%'
-        clueType: break
-        amount: 75-125
-        objective: Mine %amount% dirt
-        clueName: Dirt Miner
-        data:
-          material: dirt
-      common13:
-        lore: '• &fMine %amount% coal ore: %completed%'
-        clueType: break
-        amount: 24-32
-        objective: Mine %amount% coal ore
-        clueName: Coal Miner
-        data:
-          material: coal_ore
-      common14:
-        lore: '• &fMine %amount% iron ore: %completed%'
-        clueType: break
-        amount: 24-32
-        objective: Mine %amount% iron ore
-        clueName: Iron Miner
-        data:
-          material: iron_ore
       common15:
         lore: '• &fMine %amount% logs: %completed%'
         clueType: break
@@ -212,22 +140,6 @@ tiers:
         clueName: Sheep Shearer
         data:
           entitytype: sheep
-      common19:
-        lore: '• &fCraft %amount% droppers: %completed%'
-        clueType: craft
-        amount: 4-8
-        objective: Craft %amount% droppers
-        clueName: Dropper Crafter
-        data:
-          material: dropper
-      common20:
-        lore: '• &fCraft %amount% dispensers: %completed%'
-        clueType: craft
-        amount: 4-8
-        objective: Craft %amount% dispensers
-        clueName: Dispenser Crafter
-        data:
-          material: dispenser
       common21:
         lore: '• &fCraft %amount% TNT: %completed%'
         clueType: craft

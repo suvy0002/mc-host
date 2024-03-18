@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710647333796
-  login: 1710647292392
+  logout: 1710761443107
+  login: 1710761384661
 money: '0'
 last-account-name: Btest
 lastlocation:
@@ -35,4 +35,4 @@ logoutlocation:
   y: 98.0
   z: 57.9357111642624
   yaw: 91.65931701660156
-  pitch: 22.104480743408203
+  pitch: 17.18873405456543

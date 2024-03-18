@@ -334,6 +334,8 @@ items:
     messages:
       noEnchantments: '&c&l(!)&c This item has &l0&c enchantments!'
       cannotBeRemoved: '&c&l(!)&c %enchant% cannot be removed as it''s invalid.'
+    custom-model-data: 0
+    force-glow: false
   secret-dust:
     type: FIREBALL
     id: 0
@@ -484,6 +486,7 @@ white-scroll:
     - '&a&l(!) &aWhite scroll has been applied to your item.'
     failed:
     - '&c&l(!) &cWhite scroll saved the item.'
+  custom-model-data: 0
 
 enchanter:
   # set to 'none' to disable

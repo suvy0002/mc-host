@@ -1069,3 +1069,23 @@ FoException Report: Cannot remove 'WEDNESDAY' as it is not in the set!
 ----------------------------------------------------------------------------------------------
 
 
+------------------------------------[ 15.03.2024 13:56:27 ]-----------------------------------
+Boss 4.9.10 encountered a FoException
+Running Paper 1.19.4-R0.1-SNAPSHOT and Java 21.0.2
+Plugins: ViaVersion v4.9.2, LuckPerms v5.4.116, Vault v1.7.3-b131, WorldEdit v7.2.18+6616-abda4e0, WorldGuard v7.0.8+33cdb4a, PlaceholderAPI v2.11.5, ProtocolLib v5.1.0, Essentials v2.20.1, mcMMO v2.1.228-SNAPSHOT, Citizens v2.0.33-SNAPSHOT (build 3314), SilkSpawners v8.0.0, Boss v4.9.10, HeadDatabase v4.18.0, WildStacker v3.5.1, DecentHolograms v2.8.6, Votifier v2.7.3, BentoBox v2.1.1, AdvancedEnchantments v9.5.21, ViaBackwards v4.9.1, CrazyCrates v1.11.14.4, VotingPlugin v6.15.1, ChatReaction v1.8.0, nightcore v2.5.1, ChestSort v14.0.0, EntityClearer v2.0.0, PlayerWarps v6.29.0, PinataParty v2.63.9, zAuctionHouseV3 v3.1.3.0, ProCosmetics v13.9.4, OmegaVision v2.5.16, GSit v1.7.0, NexEngine v2.2.12, DynamicShop v3.16.1, EpicRename v3.12, SafariNet v1.16.1-b1-SNAPSHOT, playit-gg v0.1.4, AdvancedServerList v3.8.0, Skript v2.8.3, ClueScrolls v4.9.0, EssentialsSpawn v2.20.1, TAB v4.1.2, TradeSystem v2.5.3, HideStream v3.10, AdvancedPortals v0.9.3, CoinsEngine v2.2.0, SkinsRestorer v15.0.7, AntiPopup v7.3, VoidGen v2.2.1, CommandPanels v3.20.0.2, ElitePets v1.5.4, UltimateBroadcast v1.0-SNAPSHOT, AxShulkers v1.8.1, EssentialsChat v2.20.1, QuickShop v5.1.2.5, InvUnload v5.0.2, BentoBox-Biomes v2.1.1, BentoBox-MagicCobblestoneGenerator v2.5.1, BentoBox-BSkyBlock v1.17.1, BentoBox-Challenges v1.2.0
+----------------------------------------------------------------------------------------------
+
+More Information: 
+Boss could not hook into WildStacker as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'WildStacker')
+FoException Report: Boss could not hook into WildStacker as the plugin is disabled! (DO NOT REPORT THIS TO Boss, look for errors above and contact support of 'WildStacker')
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Valid.checkBoolean(Valid.java:90)
+	 at Boss-4.9.10.jar//org.mineacademy.boss.lib.Common.lambda$doesPluginExist$2(Common.java:1136)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftTask.run(CraftTask.java:101)
+	 at org.bukkit.craftbukkit.v1_19_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	 at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	 at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	 at java.base/java.lang.Thread.run(Thread.java:1583)
+----------------------------------------------------------------------------------------------
+
+

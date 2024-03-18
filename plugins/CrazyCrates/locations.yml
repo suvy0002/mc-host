@@ -1,0 +1,13 @@
+Locations:
+  '1':
+    Crate: GoldenChest
+    World: world
+    X: 51
+    Y: 99
+    Z: 54
+  '2':
+    Crate: ObsidianChest
+    World: world
+    X: 51
+    Y: 99
+    Z: 56

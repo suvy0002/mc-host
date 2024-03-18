@@ -1,5 +1,5 @@
 # This line affects the new naming of spawners, to DISABLE this, change the message back to Monster Spawner
-spawnerName: '&e%creature% &fSpawner'
+spawnerName: '&6&l%creature% Spawner'
 
 addedEgg: '&2Successfully added &e%amount% %creature% spawn egg(s) &2to your inventory.'
 addedEggOtherPlayer: '&2Added &e%amount% %creature% spawn egg(s) &2to &e%player%&2''s

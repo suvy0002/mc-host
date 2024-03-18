@@ -1,0 +1,198 @@
+#  -------------------------------------------------------------------------------------------------
+#  The main Boss configuration file. Send it to friends or publish online, we'll load it automatically.
+#  We recommend AGAINST editing it here. Use /boss menu instead. MineAcademy.org is not responsible
+#  for data loss, hair loss, your ego or thermonuclear war from mistakes in your edit.
+#  -------------------------------------------------------------------------------------------------
+
+Type: WITHER_SKELETON
+Health: 250.0
+Equipment:
+  HAND:
+    Key:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: STONE_SWORD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          DAMAGE_ALL: 5
+          DURABILITY: 255
+    Value: 0.0
+  HEAD:
+    Key:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: PLAYER_HEAD
+      meta:
+        ==: ItemMeta
+        meta-type: SKULL
+        display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"blue","text":"Wither Skeleton"}],"text":""}'
+        skull-owner:
+          ==: PlayerProfile
+          uniqueId: 04049c90-d3e9-4621-9caf-0000aaa71717
+          name: Head Database
+          properties:
+          - name: textures
+            value: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTljODMwMDllNjI0ZjE4ZGM3YmNhY2M4M2QxOTA2YjE1ZmI1M2M3Y2RiMjg0NmYwNGNkNWY5MmIxMjhkMzIwZSJ9fX0=
+    Value: 0.0
+Random_Equipment_On_Empty_Slots: false
+Potion_Effects:
+  INCREASE_DAMAGE: 5
+  FIRE_RESISTANCE: 1
+Riding:
+  Vanilla: []
+  Boss: []
+  Remove_On_Death: false
+Commands: []
+Commands_Stop_After_First: false
+Attributes:
+  DAMAGE_MULTIPLIER: 2.0
+  MOVEMENT_SPEED: 0.5
+  KNOCKBACK_RESISTANCE: 0.25
+  ARMOR_TOUGHNESS: 1.0
+  ARMOR: 1.0
+Lightning:
+  Death: false
+  Spawn: false
+Reinforcements: []
+Custom_Settings:
+  Targetable: false
+  Glowing: false
+Skills:
+  Confuse:
+    Delay: 10 seconds - 15 seconds
+    Messages:
+    - You have been &cconfused &7by the boss!
+    - OMG! What is happening?
+    - You were teleported to the wonderlands! Just kidding.
+    Settings: {}
+  Ignite:
+    Delay: 20 seconds - 50 seconds
+    Messages:
+    - You have been &cignited &7by the boss!
+    - The Phantom has &cignited you&7!
+    - It is getting warmer and warmer. Wonder why?
+    Settings:
+      Duration: 5 seconds
+  Teleport:
+    Delay: 45 seconds - 2 minutes
+    Messages:
+    - You are now facing the Phantom himself!
+    - Welcome! Phantom has &cteleported you &7closer!
+    - Don't run away from me! Fight like a man!
+    Settings:
+      Radius: 5
+  Throw:
+    Delay: 30 seconds - 1 minute
+    Messages:
+    - Embrace the fresh air in the skies!
+    - The Phantom has decided to &ckick you&7!
+    - Good bye, {player}!
+    Settings:
+      Radius: 5
+      Power: 1.2
+Drops:
+  Vanilla: false
+  General:
+  - Key:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3337
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: ARMOR
+        display-name: '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Phantom Leggings"}],"text":""}'
+        lore:
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Cactus I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Angelic IV"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Obsidianshield I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"yellow","text":"Tank II"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Armored I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Deathbringer I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gold","text":"Enlighted I"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"The demonic robe of the Phantom."}],"text":""}'
+        - '{"text":""}'
+        - '{"extra":[{"bold":true,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"PHANTOM SET BONUS"}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"red","text":"Deal +25% damage to all enemies."}],"text":""}'
+        - '{"extra":[{"bold":false,"italic":true,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"gray","text":"(Requires all 4 phantom items.)"}],"text":""}'
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 4
+          DURABILITY: 3
+        internal: H4sIAAAAAAAA/2XPUQrCMBAE0NEoLf6KIogn8RKCB5BtsjTBdAPJen/TFn/i95sZmANgcCZ+sVhPohOL3ilPKbMDsDG4NuiY1A85yMh5TfzVK8VgK+4MLg2yxDB6/a0fG1aSd5WtwakRS1Y/ZW3dGktDCS6QFB84Lss9+uXFkxXdYw6myWBfYtJ5o8MXAIQ5hPkAAAA=
+    Value: 0.8
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Player: []
+  Player_Time_Threshold: 15 seconds
+  Player_Commands: []
+Limit_Reasons:
+- SPAWN_RULE
+- EGG
+- COMMAND
+Limit:
+  Nearby_Bosses:
+    Key: 100
+    Value: 20.0
+  Worlds: {}
+Citizens:
+  Enabled: true
+  Goal_Target_Enabled: true
+  Goal_Target_Aggressive: true
+  Goal_Target_Radius: 24
+  Goal_Target_Entities:
+  - PLAYER
+  Goal_Wander_Enabled: false
+  Goal_Wander_Radius: 18
+Keep_In_Spawn_Region: false
+Egg:
+  Lore:
+  - ''
+  - '&fRight click to summon a Phantom boss at the arena'
+  Material: MAGMA_CREAM
+  Title: '&b&lPhantom Summoner'
+Version: 2
+Alias: '&b&lPhantom'
+Dropped_Exp: 0 - 0

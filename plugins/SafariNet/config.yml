@@ -59,14 +59,14 @@ per-mob-permissions: false
 use-permission-for-crafting: false
 
 # Adds the recipes to the recipe book of the player upon join
-auto-discover-recipes: true
+auto-discover-recipes: false
 
 # Recipes for SafariNets
 single-use:
-  display-name: '&7SafariNet &3(&7Single-Use&3)'
-  lore: Right click on an entity%to catch it!
+  display-name: '&e&lSingle-Use Safari Net'
+  lore: '&fRight click on an entity%&fto catch it!'
   recipe:
-    enabled: true
+    enabled: false
     line1: aaa
     line2: aba
     line3: aaa
@@ -74,10 +74,10 @@ single-use:
     - a:STRING
     - b:ENDER_PEARL
 reusable:
-  display-name: '&7SafariNet &3(&7Reusable&3)'
-  lore: Right click on an entity%to catch it!
+  display-name: '&d&lReusable Safari Net'
+  lore: '&fRight click on an entity%&fto catch it!'
   recipe:
-    enabled: true
+    enabled: false
     line1: aaa
     line2: aba
     line3: aaa

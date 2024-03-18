@@ -305,7 +305,7 @@ commands:
             # When enabled, the command will not run for players that voted offline and then logged in.
             ignore-offline-vote: true
             command:
-            - 'say %player% has voted for the server!'
+            - 'broadcast %player% has voted for the server!'
         '2':
             chance: 75.0
             command:

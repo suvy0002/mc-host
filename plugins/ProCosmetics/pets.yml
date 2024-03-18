@@ -1,5 +1,5 @@
 pets:
-  enable: true
+  enable: false
 
   menu:
     title: "Pets"
@@ -67,7 +67,7 @@ pets:
       cost: 500
 
     # This feature makes the entity toss items in different directions.
-    tossing-items: true
+    tossing-items: false
 
   cosmetics:
     allay:

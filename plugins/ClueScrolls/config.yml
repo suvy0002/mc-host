@@ -8,34 +8,34 @@
 # +----------------------------------------------------+
 
 tiers:
-  common:
+  golden:
     rewards: 1
     clueCount: 1
     expire: -1
     clueMode: RANDOM
     scroll:
-      title: '&8◆ &a&l&nCommon Clue Scroll&r &8◆'
+      title: '&6&lGolden Quest Scroll'
       lore-prefix:
-      - '&7Complete the tasks below to earn &ntreasure&r&7.'
-      - '&r'
-      - '&a&l➤ CLUES:'
+      - ' '
+      - '&fComplete the quest for'
+      - '&fa golden chest key.'
+      - ' '
+      - '&6&lQuest:'
       lore-suffix:
       - ''
       cross-out-completed: true
       one-clue-show: true
       material: PAPER
       hide-first-clue:
-        enabled: true
+        enabled: false
         lore:
         - '&7★ &7???'
         - '&7Right-click to reveal your first clue.'
         revealMessage: []
       receiveMessage:
-      - '&a&l+ %amount% Common Clue Scroll(s)'
+      - '&6You have received a golden quest in your inventory'
       completeMessage:
         broadcast:
-        - ''
-        - '&6&l(!) &7%player% has completed a &a&nCommon Clue Scroll'
         - ''
         player:
         - '<firework power="127" detonate="20"><effect type="BURST" flicker="true" color="GREEN" fade="WHITE"/><effect type="BURST" flicker="true" color="#5cd60a" fade="WHITE"/></firework>'
@@ -59,7 +59,7 @@ tiers:
       hideAttributes: true
     clues:
       common0:
-        lore: '&a★ &fKill %amount% chickens: %completed%'
+        lore: '• &fKill %amount% chickens: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% chickens
@@ -67,7 +67,7 @@ tiers:
         data:
           entitytype: chicken
       common1:
-        lore: '&a★ &fKill %amount% pigs: %completed%'
+        lore: '• &fKill %amount% pigs: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% pigs
@@ -75,7 +75,7 @@ tiers:
         data:
           entitytype: pig
       common2:
-        lore: '&a★ &fKill %amount% sheep: %completed%'
+        lore: '• &fKill %amount% sheep: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% sheep
@@ -83,7 +83,7 @@ tiers:
         data:
           entitytype: sheep
       common3:
-        lore: '&a★ &fKill %amount% cows: %completed%'
+        lore: '• &fKill %amount% cows: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% cows
@@ -91,95 +91,23 @@ tiers:
         data:
           entitytype: cow
       common4:
-        lore: '&a★ &fCraft %amount% coal blocks: %completed%'
+        lore: '• &fCraft %amount% cookies: %completed%'
         clueType: craft
         amount: 8-16
-        objective: Craft %amount% coal blocks
-        clueName: Coal Block Crafter
+        objective: Craft %amount% cookies
+        clueName: Cookie Crafter
         data:
-          material: coal_block
-      common5:
-        lore: '&a★ &fCraft %amount% iron blocks: %completed%'
-        clueType: craft
-        amount: 4-9
-        objective: Craft %amount% iron blocks
-        clueName: Iron Block Crafter
-        data:
-          material: iron_block
-      common6:
-        lore: '&a★ &fCraft %amount% chests: %completed%'
-        clueType: craft
-        amount: 12-16
-        objective: Craft %amount% chests
-        clueName: Chest Crafter
-        data:
-          material: chest
+          material: cookie
       common7:
-        lore: '&a★ &fBake %amount% cakes: %completed%'
+        lore: '• &fCraft %amount% cakes: %completed%'
         clueType: craft
         amount: 3-8
-        objective: Bake %amount% cakes
-        clueName: Cake Baker
+        objective: Craft %amount% cakes
+        clueName: Cake Crafter
         data:
           material: cake
-      common8:
-        lore: '&a★ &fCraft %amount% anvil: %completed%'
-        clueType: craft
-        amount: 1
-        objective: Craft %amount% anvil
-        clueName: Anvil Crafter
-        data:
-          material: anvil
-      common9:
-        lore: '&a★ &fCraft %amount% minecarts: %completed%'
-        clueType: craft
-        amount: 2-5
-        objective: Craft %amount% minecarts
-        clueName: Minecart Crafter
-        data:
-          material: minecart
-      common10:
-        lore: '&a★ &fCraft %amount% jack o''lanterns: %completed%'
-        clueType: craft
-        amount: 10-15
-        objective: 'Craft %amount% jack o''lanterns'
-        clueName: Lantern Crafter
-        data:
-          material: jack_o_lantern
-      common11:
-        lore: '&a★ &fMine %amount% stone: %completed%'
-        clueType: break
-        amount: 75-125
-        objective: Mine %amount% stone
-        clueName: Stone Miner
-        data:
-          material: stone
-      common12:
-        lore: '&a★ &fMine %amount% dirt: %completed%'
-        clueType: break
-        amount: 75-125
-        objective: Mine %amount% dirt
-        clueName: Dirt Miner
-        data:
-          material: dirt
-      common13:
-        lore: '&a★ &fMine %amount% coal ore: %completed%'
-        clueType: break
-        amount: 24-32
-        objective: Mine %amount% coal ore
-        clueName: Coal Miner
-        data:
-          material: coal_ore
-      common14:
-        lore: '&a★ &fMine %amount% iron ore: %completed%'
-        clueType: break
-        amount: 24-32
-        objective: Mine %amount% iron ore
-        clueName: Iron Miner
-        data:
-          material: iron_ore
       common15:
-        lore: '&a★ &fMine %amount% logs: %completed%'
+        lore: '• &fMine %amount% logs: %completed%'
         clueType: break
         amount: 16-24
         objective: Mine %amount% logs
@@ -193,43 +121,27 @@ tiers:
             - oak_log
             - spruce_log
       common16:
-        lore: '&a★ &fTravel %amount% meters: %completed%'
+        lore: '• &fTravel %amount% meters: %completed%'
         clueType: walk
         amount: 100-150
         objective: Travel %amount% meters
         clueName: Traveller
       common17:
-        lore: '&a★ &fSwim %amount% meters: %completed%'
+        lore: '• &fSwim %amount% meters: %completed%'
         clueType: swim
         amount: 75-125
         objective: Swim %amount% meters
         clueName: Swimmer
       common18:
-        lore: '&a★ &fShear %amount% sheep: %completed%'
+        lore: '• &fShear %amount% sheep: %completed%'
         clueType: shear
         amount: 8-16
         objective: Shear %amount% sheep
         clueName: Sheep Shearer
         data:
           entitytype: sheep
-      common19:
-        lore: '&a★ &fCraft %amount% droppers: %completed%'
-        clueType: craft
-        amount: 4-8
-        objective: Craft %amount% droppers
-        clueName: Dropper Crafter
-        data:
-          material: dropper
-      common20:
-        lore: '&a★ &fCraft %amount% dispensers: %completed%'
-        clueType: craft
-        amount: 4-8
-        objective: Craft %amount% dispensers
-        clueName: Dispenser Crafter
-        data:
-          material: dispenser
       common21:
-        lore: '&a★ &fCraft %amount% TNT: %completed%'
+        lore: '• &fCraft %amount% TNT: %completed%'
         clueType: craft
         amount: 6-12
         objective: Craft %amount% TNT
@@ -237,7 +149,7 @@ tiers:
         data:
           material: tnt
       common22:
-        lore: '&a★ &fNorth, East, South, West. Which way do I go?'
+        lore: '• &fNorth, East, South, West. Which way do I go?'
         clueType: craft
         amount: 1
         objective: Solve the riddle
@@ -245,7 +157,7 @@ tiers:
         data:
           material: compass
       common23:
-        lore: '&a★ &fYou break me but you do not get me.'
+        lore: '• &fYou break me but you do not get me.'
         clueType: break
         amount: 1
         objective: Solve the riddle
@@ -253,7 +165,7 @@ tiers:
         data:
           material: glass
       common24:
-        lore: '&a★ &fThe warmer I am, the fresher I am.'
+        lore: '• &fThe warmer I am, the fresher I am.'
         clueType: craft
         amount: 1
         objective: Solve the riddle
@@ -503,7 +415,7 @@ tiers:
         data:
           material: arrow
       common0:
-        lore: '&a★ &fKill %amount% chickens: %completed%'
+        lore: '• &fKill %amount% chickens: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% chickens
@@ -511,7 +423,7 @@ tiers:
         data:
           entitytype: chicken
       common1:
-        lore: '&a★ &fKill %amount% pigs: %completed%'
+        lore: '• &fKill %amount% pigs: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% pigs
@@ -519,7 +431,7 @@ tiers:
         data:
           entitytype: pig
       common2:
-        lore: '&a★ &fKill %amount% sheep: %completed%'
+        lore: '• &fKill %amount% sheep: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% sheep
@@ -527,7 +439,7 @@ tiers:
         data:
           entitytype: sheep
       common3:
-        lore: '&a★ &fKill %amount% cows: %completed%'
+        lore: '• &fKill %amount% cows: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% cows
@@ -535,7 +447,7 @@ tiers:
         data:
           entitytype: cow
       common4:
-        lore: '&a★ &fCraft %amount% coal blocks: %completed%'
+        lore: '• &fCraft %amount% coal blocks: %completed%'
         clueType: craft
         amount: 8-16
         objective: Craft %amount% coal blocks
@@ -543,7 +455,7 @@ tiers:
         data:
           material: coal_block
       common5:
-        lore: '&a★ &fCraft %amount% iron blocks: %completed%'
+        lore: '• &fCraft %amount% iron blocks: %completed%'
         clueType: craft
         amount: 4-9
         objective: Craft %amount% iron blocks
@@ -551,7 +463,7 @@ tiers:
         data:
           material: iron_block
       common6:
-        lore: '&a★ &fCraft %amount% chests: %completed%'
+        lore: '• &fCraft %amount% chests: %completed%'
         clueType: craft
         amount: 12-16
         objective: Craft %amount% chests
@@ -559,7 +471,7 @@ tiers:
         data:
           material: chest
       common7:
-        lore: '&a★ &fBake %amount% cakes: %completed%'
+        lore: '• &fBake %amount% cakes: %completed%'
         clueType: craft
         amount: 3-8
         objective: Bake %amount% cakes
@@ -567,7 +479,7 @@ tiers:
         data:
           material: cake
       common8:
-        lore: '&a★ &fCraft %amount% anvil: %completed%'
+        lore: '• &fCraft %amount% anvil: %completed%'
         clueType: craft
         amount: 1
         objective: Craft %amount% anvil
@@ -575,7 +487,7 @@ tiers:
         data:
           material: anvil
       common9:
-        lore: '&a★ &fCraft %amount% minecarts: %completed%'
+        lore: '• &fCraft %amount% minecarts: %completed%'
         clueType: craft
         amount: 2-5
         objective: Craft %amount% minecarts
@@ -583,7 +495,7 @@ tiers:
         data:
           material: minecart
       common10:
-        lore: '&a★ &fCraft %amount% jack o''lanterns: %completed%'
+        lore: '• &fCraft %amount% jack o''lanterns: %completed%'
         clueType: craft
         amount: 10-15
         objective: 'Craft %amount% jack o''lanterns'
@@ -591,7 +503,7 @@ tiers:
         data:
           material: jack_o_lantern
       common11:
-        lore: '&a★ &fMine %amount% stone: %completed%'
+        lore: '• &fMine %amount% stone: %completed%'
         clueType: break
         amount: 75-125
         objective: Mine %amount% stone
@@ -599,7 +511,7 @@ tiers:
         data:
           material: stone
       common12:
-        lore: '&a★ &fMine %amount% dirt: %completed%'
+        lore: '• &fMine %amount% dirt: %completed%'
         clueType: break
         amount: 75-125
         objective: Mine %amount% dirt
@@ -607,7 +519,7 @@ tiers:
         data:
           material: dirt
       common13:
-        lore: '&a★ &fMine %amount% coal ore: %completed%'
+        lore: '• &fMine %amount% coal ore: %completed%'
         clueType: break
         amount: 24-32
         objective: Mine %amount% coal ore
@@ -615,7 +527,7 @@ tiers:
         data:
           material: coal_ore
       common14:
-        lore: '&a★ &fMine %amount% iron ore: %completed%'
+        lore: '• &fMine %amount% iron ore: %completed%'
         clueType: break
         amount: 24-32
         objective: Mine %amount% iron ore
@@ -623,7 +535,7 @@ tiers:
         data:
           material: iron_ore
       common15:
-        lore: '&a★ &fMine %amount% logs: %completed%'
+        lore: '• &fMine %amount% logs: %completed%'
         clueType: break
         amount: 16-24
         objective: Mine %amount% logs
@@ -637,19 +549,19 @@ tiers:
             - oak_log
             - spruce_log
       common16:
-        lore: '&a★ &fTravel %amount% meters: %completed%'
+        lore: '• &fTravel %amount% meters: %completed%'
         clueType: walk
         amount: 100-150
         objective: Travel %amount% meters
         clueName: Traveller
       common17:
-        lore: '&a★ &fSwim %amount% meters: %completed%'
+        lore: '• &fSwim %amount% meters: %completed%'
         clueType: swim
         amount: 75-125
         objective: Swim %amount% meters
         clueName: Swimmer
       common18:
-        lore: '&a★ &fShear %amount% sheep: %completed%'
+        lore: '• &fShear %amount% sheep: %completed%'
         clueType: shear
         amount: 8-16
         objective: Shear %amount% sheep
@@ -657,7 +569,7 @@ tiers:
         data:
           entitytype: sheep
       common19:
-        lore: '&a★ &fCraft %amount% droppers: %completed%'
+        lore: '• &fCraft %amount% droppers: %completed%'
         clueType: craft
         amount: 4-8
         objective: Craft %amount% droppers
@@ -665,7 +577,7 @@ tiers:
         data:
           material: dropper
       common20:
-        lore: '&a★ &fCraft %amount% dispensers: %completed%'
+        lore: '• &fCraft %amount% dispensers: %completed%'
         clueType: craft
         amount: 4-8
         objective: Craft %amount% dispensers
@@ -673,7 +585,7 @@ tiers:
         data:
           material: dispenser
       common21:
-        lore: '&a★ &fCraft %amount% TNT: %completed%'
+        lore: '• &fCraft %amount% TNT: %completed%'
         clueType: craft
         amount: 6-12
         objective: Craft %amount% TNT
@@ -681,7 +593,7 @@ tiers:
         data:
           material: tnt
       common22:
-        lore: '&a★ &fNorth, East, South, West. Which way do I go◆'
+        lore: '• &fNorth, East, South, West. Which way do I go◆'
         clueType: craft
         amount: 1
         objective: Solve the riddle
@@ -689,7 +601,7 @@ tiers:
         data:
           material: compass
       common23:
-        lore: '&a★ &fYou break me but you do not get me.'
+        lore: '• &fYou break me but you do not get me.'
         clueType: break
         amount: 1
         objective: Solve the riddle
@@ -697,7 +609,7 @@ tiers:
         data:
           material: glass
       common24:
-        lore: '&a★ &fThe warmer I am, the fresher I am.'
+        lore: '• &fThe warmer I am, the fresher I am.'
         clueType: craft
         amount: 1
         objective: Solve the riddle
@@ -1170,7 +1082,7 @@ tiers:
         data:
           material: arrow
       common0:
-        lore: '&a★ &fKill %amount% chickens: %completed%'
+        lore: '• &fKill %amount% chickens: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% chickens
@@ -1178,7 +1090,7 @@ tiers:
         data:
           entitytype: chicken
       common1:
-        lore: '&a★ &fKill %amount% pigs: %completed%'
+        lore: '• &fKill %amount% pigs: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% pigs
@@ -1186,7 +1098,7 @@ tiers:
         data:
           entitytype: pig
       common2:
-        lore: '&a★ &fKill %amount% sheep: %completed%'
+        lore: '• &fKill %amount% sheep: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% sheep
@@ -1194,7 +1106,7 @@ tiers:
         data:
           entitytype: sheep
       common3:
-        lore: '&a★ &fKill %amount% cows: %completed%'
+        lore: '• &fKill %amount% cows: %completed%'
         clueType: kill
         amount: 15-25
         objective: Kill %amount% cows
@@ -1202,7 +1114,7 @@ tiers:
         data:
           entitytype: cow
       common4:
-        lore: '&a★ &fCraft %amount% coal blocks: %completed%'
+        lore: '• &fCraft %amount% coal blocks: %completed%'
         clueType: craft
         amount: 8-16
         objective: Craft %amount% coal blocks
@@ -1210,7 +1122,7 @@ tiers:
         data:
           material: coal_block
       common5:
-        lore: '&a★ &fCraft %amount% iron blocks: %completed%'
+        lore: '• &fCraft %amount% iron blocks: %completed%'
         clueType: craft
         amount: 4-9
         objective: Craft %amount% iron blocks
@@ -1218,7 +1130,7 @@ tiers:
         data:
           material: iron_block
       common6:
-        lore: '&a★ &fCraft %amount% chests: %completed%'
+        lore: '• &fCraft %amount% chests: %completed%'
         clueType: craft
         amount: 12-16
         objective: Craft %amount% chests
@@ -1226,7 +1138,7 @@ tiers:
         data:
           material: chest
       common7:
-        lore: '&a★ &fBake %amount% cakes: %completed%'
+        lore: '• &fBake %amount% cakes: %completed%'
         clueType: craft
         amount: 3-8
         objective: Bake %amount% cakes
@@ -1234,7 +1146,7 @@ tiers:
         data:
           material: cake
       common8:
-        lore: '&a★ &fCraft %amount% anvil: %completed%'
+        lore: '• &fCraft %amount% anvil: %completed%'
         clueType: craft
         amount: 1
         objective: Craft %amount% anvil
@@ -1242,7 +1154,7 @@ tiers:
         data:
           material: anvil
       common9:
-        lore: '&a★ &fCraft %amount% minecarts: %completed%'
+        lore: '• &fCraft %amount% minecarts: %completed%'
         clueType: craft
         amount: 2-5
         objective: Craft %amount% minecarts
@@ -1250,7 +1162,7 @@ tiers:
         data:
           material: minecart
       common10:
-        lore: '&a★ &fCraft %amount% jack o''lanterns: %completed%'
+        lore: '• &fCraft %amount% jack o''lanterns: %completed%'
         clueType: craft
         amount: 10-15
         objective: 'Craft %amount% jack o''lanterns'
@@ -1258,7 +1170,7 @@ tiers:
         data:
           material: jack_o_lantern
       common11:
-        lore: '&a★ &fMine %amount% stone: %completed%'
+        lore: '• &fMine %amount% stone: %completed%'
         clueType: break
         amount: 75-125
         objective: Mine %amount% stone
@@ -1266,7 +1178,7 @@ tiers:
         data:
           material: stone
       common12:
-        lore: '&a★ &fMine %amount% dirt: %completed%'
+        lore: '• &fMine %amount% dirt: %completed%'
         clueType: break
         amount: 75-125
         objective: Mine %amount% dirt
@@ -1274,7 +1186,7 @@ tiers:
         data:
           material: dirt
       common13:
-        lore: '&a★ &fMine %amount% coal ore: %completed%'
+        lore: '• &fMine %amount% coal ore: %completed%'
         clueType: break
         amount: 24-32
         objective: Mine %amount% coal ore
@@ -1282,7 +1194,7 @@ tiers:
         data:
           material: coal_ore
       common14:
-        lore: '&a★ &fMine %amount% iron ore: %completed%'
+        lore: '• &fMine %amount% iron ore: %completed%'
         clueType: break
         amount: 24-32
         objective: Mine %amount% iron ore
@@ -1290,7 +1202,7 @@ tiers:
         data:
           material: iron_ore
       common15:
-        lore: '&a★ &fMine %amount% logs: %completed%'
+        lore: '• &fMine %amount% logs: %completed%'
         clueType: break
         amount: 16-24
         objective: Mine %amount% logs
@@ -1304,19 +1216,19 @@ tiers:
             - oak_log
             - spruce_log
       common16:
-        lore: '&a★ &fTravel %amount% meters: %completed%'
+        lore: '• &fTravel %amount% meters: %completed%'
         clueType: walk
         amount: 100-150
         objective: Travel %amount% meters
         clueName: Traveller
       common17:
-        lore: '&a★ &fSwim %amount% meters: %completed%'
+        lore: '• &fSwim %amount% meters: %completed%'
         clueType: swim
         amount: 75-125
         objective: Swim %amount% meters
         clueName: Swimmer
       common18:
-        lore: '&a★ &fShear %amount% sheep: %completed%'
+        lore: '• &fShear %amount% sheep: %completed%'
         clueType: shear
         amount: 8-16
         objective: Shear %amount% sheep
@@ -1324,7 +1236,7 @@ tiers:
         data:
           entitytype: sheep
       common19:
-        lore: '&a★ &fCraft %amount% droppers: %completed%'
+        lore: '• &fCraft %amount% droppers: %completed%'
         clueType: craft
         amount: 4-8
         objective: Craft %amount% droppers
@@ -1332,7 +1244,7 @@ tiers:
         data:
           material: dropper
       common20:
-        lore: '&a★ &fCraft %amount% dispensers: %completed%'
+        lore: '• &fCraft %amount% dispensers: %completed%'
         clueType: craft
         amount: 4-8
         objective: Craft %amount% dispensers
@@ -1340,7 +1252,7 @@ tiers:
         data:
           material: dispenser
       common21:
-        lore: '&a★ &fCraft %amount% TNT: %completed%'
+        lore: '• &fCraft %amount% TNT: %completed%'
         clueType: craft
         amount: 6-12
         objective: Craft %amount% TNT
@@ -1348,7 +1260,7 @@ tiers:
         data:
           material: tnt
       common22:
-        lore: '&a★ &fNorth, East, South, West. Which way do I go◆'
+        lore: '• &fNorth, East, South, West. Which way do I go◆'
         clueType: craft
         amount: 1
         objective: Solve the riddle
@@ -1356,7 +1268,7 @@ tiers:
         data:
           material: compass
       common23:
-        lore: '&a★ &fYou break me but you do not get me.'
+        lore: '• &fYou break me but you do not get me.'
         clueType: break
         amount: 1
         objective: Solve the riddle
@@ -1364,7 +1276,7 @@ tiers:
         data:
           material: glass
       common24:
-        lore: '&a★ &fThe warmer I am, the fresher I am.'
+        lore: '• &fThe warmer I am, the fresher I am.'
         clueType: craft
         amount: 1
         objective: Solve the riddle
@@ -1581,7 +1493,7 @@ chestinv-auto-save: 10
 #Should the cluescroll command open the shop by default, or send a help message?
 default-command-open-shop: true
 #Enable the /cluescrolls chestinv
-enable-chestinv: true
+enable-chestinv: false
 #Automatically increase cluescrolls performance
 auto-optimize: true
 #Legacy check for scrolls prior to 2.0.0

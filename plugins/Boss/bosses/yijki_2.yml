@@ -180,8 +180,8 @@ Drops:
   Player_Time_Threshold: 15 seconds
   Player_Commands: []
 Limit_Reasons:
-- SPAWN_RULE
 - EGG
+- SPAWN_RULE
 - COMMAND
 Limit:
   Nearby_Bosses:

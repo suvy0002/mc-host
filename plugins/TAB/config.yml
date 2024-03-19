@@ -105,7 +105,7 @@ scoreboard:
       - '&eTier: &f%luckperms_suffix%'
       - '&eVotes: &f%pinataparty_votes_total%'
       - ''
-      - '&6Herobrine.org v2.O'
+      - '&6Herobrine.org v2.0'
     scoreboard:
       title: '&e&l     SKYBLOCK     '
       lines:
@@ -122,7 +122,7 @@ scoreboard:
       - '&eTier: &f%luckperms_suffix%'
       - '&eVotes: &f%pinataparty_votes_total%'
       - ''
-      - '&6Herobrine.org v2.O'
+      - '&6Herobrine.org v2.0'
 layout:
   enabled: false
   direction: COLUMNS

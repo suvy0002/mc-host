@@ -1,6 +1,6 @@
 # Citizens NPC Storage
 
-last-created-npc-id: 327
+last-created-npc-id: 328
 npc:
   '17':
     metadata:
@@ -52,11 +52,11 @@ npc:
         bodyYaw: -95.34363
         world: bskyblock_world
         x: '68.4866'
-        y: '-8390187.0057'
+        y: '-8897968.6183'
         z: '60.4762'
         yaw: '-95.3436'
         pitch: '0.0'
-    traitnames: owner,scoreboardtrait,rotationtrait,hologramtrait,profession,location,lookclose,type,mounttrait,villagertrait,spawned
+    traitnames: location,lookclose,rotationtrait,mounttrait,owner,type,spawned,profession,hologramtrait,villagertrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -112,11 +112,11 @@ npc:
         bodyYaw: -59.99996
         world: bskyblock_world
         x: '59.5426'
-        y: '-8390188.0057'
+        y: '-8897969.6183'
         z: '39.7704'
         yaw: '-60.0'
         pitch: '0.0'
-    traitnames: owner,scoreboardtrait,rotationtrait,hologramtrait,profession,location,lookclose,type,mounttrait,villagertrait,spawned
+    traitnames: location,lookclose,rotationtrait,mounttrait,owner,type,spawned,profession,hologramtrait,villagertrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -172,11 +172,11 @@ npc:
         bodyYaw: -10.060944
         world: bskyblock_world
         x: '70.5181'
-        y: '-8390188.0057'
+        y: '-8897969.6183'
         z: '52.4907'
         yaw: '-10.0609'
         pitch: '0.0'
-    traitnames: owner,scoreboardtrait,rotationtrait,hologramtrait,profession,location,lookclose,type,mounttrait,villagertrait,spawned
+    traitnames: location,lookclose,rotationtrait,mounttrait,owner,type,spawned,profession,hologramtrait,villagertrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -232,11 +232,11 @@ npc:
         bodyYaw: -52.328403
         world: bskyblock_world
         x: '61.5002'
-        y: '-8390188.0057'
+        y: '-8897969.6183'
         z: '39.6652'
         yaw: '-52.3284'
         pitch: '0.0'
-    traitnames: owner,scoreboardtrait,rotationtrait,profession,hologramtrait,location,lookclose,type,mounttrait,villagertrait,spawned
+    traitnames: location,lookclose,rotationtrait,mounttrait,owner,type,profession,spawned,hologramtrait,villagertrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -292,11 +292,11 @@ npc:
         bodyYaw: 39.625526
         world: bskyblock_world
         x: '43.5196'
-        y: '-8390188.0057'
+        y: '-8897969.6183'
         z: '53.528'
         yaw: '39.6255'
         pitch: '0.0'
-    traitnames: owner,scoreboardtrait,rotationtrait,hologramtrait,profession,location,lookclose,type,mounttrait,villagertrait,spawned
+    traitnames: location,lookclose,rotationtrait,mounttrait,owner,type,spawned,profession,hologramtrait,villagertrait,scoreboardtrait
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

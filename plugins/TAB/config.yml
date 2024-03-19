@@ -90,38 +90,39 @@ scoreboard:
   respect-other-plugins: true
   scoreboards:
     scoreboard-1.20.3+:
-      title: <#E0B11E>MyServer</#FF0000>
-      display-condition: '%player-version-id%>=765'
+      title: '&e&l     SKYBLOCK     '
       lines:
-      - '&7%date%'
-      - '%animation:MyAnimation1%'
-      - '&6Online:'
-      - '* &eOnline&7:||%online%'
-      - '* &eCurrent World&7:||%worldonline%'
-      - '* &eStaff&7:||%staffonline%'
       - ''
-      - '&6Personal Info:'
-      - '* &bRank&7:||%group%'
-      - '* &bPing&7:||%ping%&8ms'
-      - '* &bWorld&7:||%world%'
-      - '%animation:MyAnimation1%'
+      - '&eRank: &f%group%'
+      - '&eGold: &f%coinsengine_balance_rounded_gold% &6G'
+      - '&eSilver: &f%coinsengine_balance_rounded_silver% &7S'
+      - ''
+      - '&eMoney: &f$%vault_eco_balance_formatted%'
+      - '&eLevel: &f%level_bskyblock_island_level%'
+      - ''
+      - '&eChallenges: &f%bskyblock_challenges_completed_count%/%bskyblock_challenges_uncompleted_count%'
+      - ''
+      - '&eTier: &f%luckperms_suffix%'
+      - '&eVotes: &f%pinataparty_votes_total%'
+      - ''
+      - '&6Herobrine.org v2.O'
     scoreboard:
       title: '&e&l     SKYBLOCK     '
       lines:
       - ''
       - '&eRank: &f%group%'
       - '&eGold: &f%coinsengine_balance_rounded_gold% &6G'
-      - '&eSilver: &cComing Soon'
+      - '&eSilver: &f%coinsengine_balance_rounded_silver% &7S'
       - ''
       - '&eMoney: &f$%vault_eco_balance_formatted%'
-      - '&eLevel: &f'
+      - '&eLevel: &f%level_bskyblock_island_level%'
       - ''
-      - '&eChallenges: &f'
+      - '&eChallenges: &f%bskyblock_challenges_completed_count%/%bskyblock_challenges_uncompleted_count%'
       - ''
       - '&eTier: &f%luckperms_suffix%'
-      - '&eVotes: &f'
+      - '&eVotes: &f%pinataparty_votes_total%'
       - ''
-      - '&6Herobrine.org'
+      - '&6Herobrine.org v2.O'
 layout:
   enabled: false
   direction: COLUMNS
@@ -176,19 +177,19 @@ placeholder-output-replacements:
     "jrmod": "JRMOD"
     "srmod": "SRMOD"
     "owner": "OWNER"
-    "tier-1": NONE
-    "tier-2": NONE
-    "tier-3": NONE
-    "tier-4": NONE
-    "tier-5": NONE
-    "default": NONE
+    "tier-1": None
+    "tier-2": None
+    "tier-3": None
+    "tier-4": None
+    "tier-5": None
+    "default": None
   "%luckperms_suffix%":
     " [I]": "I"
     " [II]": "II"
     " [III]": "III"
     " [IV]": "IV"
     " [V]": "V"
-    "": "NONE"
+    "": "None"
   '%essentials_vanished%':
     'yes': '&7| Vanished'
     'no': ''

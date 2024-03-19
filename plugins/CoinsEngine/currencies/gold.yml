@@ -40,4 +40,4 @@ Exchange:
     other: 5.0
 # Currency symbol, like '$'.
 # Text formation allowed: https://github.com/nulli0n/nightcore-spigot/wiki/Text-Formation
-Symbol: gold
+Symbol: ''

@@ -526,7 +526,7 @@ send-info-after-death: false
 # Should players with permissions be able to join and part silently?
 # You can control this with essentials.silentjoin and essentials.silentquit permissions if it is enabled.
 # In addition, people with essentials.silentjoin.vanish will be vanished on join.
-allow-silent-join-quit: false
+allow-silent-join-quit: true
 
 # You can set custom join and quit messages here. Set this to "none" to use the default Minecraft message,
 # or set this to "" to hide the message entirely.
@@ -1141,7 +1141,7 @@ newbies:
   # If so, use this format, replacing {DISPLAYNAME} with the player name.
   # If not, set to ''
   #announce-format: ''
-  announce-format: '&dWelcome {DISPLAYNAME}&d to the server!'
+  announce-format: '&e&lWelcome {USERNAME} to Hera Skyblock!'
 
   # When we spawn for the first time, which spawnpoint do we use?
   # Set to "none" if you want to use the spawn point of the world.
@@ -1150,7 +1150,7 @@ newbies:
   # Do we want to give users anything on first join? Set to '' to disable
   # This kit will be given regardless of cost and permissions, and will not trigger the kit delay.
   #kit: ''
-  kit: tools
+  kit: ''
 
 # What priority should we use for handling respawns?
 # Set this to none, if you want vanilla respawning behaviour.
@@ -1158,7 +1158,7 @@ newbies:
 # Set this to high, if you want EssentialsSpawn to handle the respawning.
 # Set this to highest, if you want to force EssentialsSpawn to handle the respawning.
 # Note: Changes will not apply until after the server is restarted.
-respawn-listener-priority: high
+respawn-listener-priority: highest
 
 # What priority should we use for handling spawning on joining the server?
 # See respawn-listener-priority for possible values.

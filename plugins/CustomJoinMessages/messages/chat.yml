@@ -1,0 +1,56 @@
+# Toggles whether chat messages should be sent.
+Enabled: true
+
+Public:
+  # Whether public chat messages should be sent to the server's console.
+  Send-To-Console: true
+  First-Join:
+    1:
+      Permission: cjm.default
+      Radius: -1
+      Max-Players: -1
+      Messages:
+        1:
+          - ""
+  Join:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - ""
+  Quit:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - ""
+
+Private:
+  First-Join:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - "&e&l---------------------------------------"
+          - "&e&lWelcome to Hera Skyblock, %name%!"
+          - " &r"
+          - "&fLearn how to play skyblock with &e/help"
+          - "&fVote today for rewards with &e/vote"
+          - "&fUpgrade your experience with &e/ranks"
+          - " &r"
+          - ""
+          - "&e&l---------------------------------------"
+  Join:
+    1:
+      Permission: cjm.default
+      Messages:
+        1:
+          - "&e&l---------------------------------------"
+          - "&e&lWelcome back to Hera Skyblock, %name%!"
+          - " &r"
+          - "&fLearn how to play skyblock with &e/help"
+          - "&fVote today for rewards with &e/vote"
+          - "&fUpgrade your experience with &e/ranks"
+          - " &r"
+          - ""
+          - "&e&l---------------------------------------"

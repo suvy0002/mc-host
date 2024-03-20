@@ -1,0 +1,18 @@
+location: world:60.500:101.000:54.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lHera Skyblock'
+    height: 0.3
+  - content: '&fSurvive on a small island'
+    height: 0.3
+  - content: '&fin the sky with friends!'
+    height: 0.3
+  - content: '&6Learn more with /help.'
+    height: 0.3
+  actions: {}

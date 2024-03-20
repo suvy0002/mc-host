@@ -65,8 +65,8 @@ messages:
       cosmetics-disabled: "&cYou cannot use cosmetics at this time. Please try again later!"
 
     world-guard:
-      entered-blacklisted-region: "&cYou entered a region where some cosmetics are not allowed!"
-      equip-denied-blacklisted-region: "&cYou cannot equip that cosmetic in this region!"
+      entered-blacklisted-region: "&6Unequipped all cosmetics!"
+      equip-denied-blacklisted-region: "&6You cannot use cosmetics here!"
 
     remove-item: "&cPlease remove your current item from the %slot%th slot in order to equip this gadget!"
     must-stand-on-ground: "&cYou must stand on the ground to use this cosmetic."

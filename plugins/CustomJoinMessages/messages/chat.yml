@@ -14,11 +14,13 @@ Public:
   Join:
     1:
       Permission: cjm.default
+      Max-Players: 0
       Messages:
         1: []
   Quit:
     1:
       Permission: cjm.default
+      Max-Players: 0
       Messages:
         1: []
 

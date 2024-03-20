@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710925875482
-  login: 1710925854903
+  logout: 1710933915073
+  login: 1710931628118
 money: '0'
 last-account-name: Btest
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 4d3e590e-0c2a-4691-8626-c646778c75ad
   world-name: world
-  x: 368.5
+  x: 368.4301699484069
   y: 136.5
-  z: 269.5
+  z: 269.4579587711139
   yaw: -83.99725341796875
   pitch: 60.08356475830078

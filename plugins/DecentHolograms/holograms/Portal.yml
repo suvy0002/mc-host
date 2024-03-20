@@ -1,0 +1,14 @@
+location: world:60.500:104.000:70.500
+enabled: true
+display-range: 48
+update-range: 48
+update-interval: 20
+facing: 0.0
+down-origin: false
+pages:
+- lines:
+  - content: '&e&lWarps'
+    height: 0.3
+  - content: '&fEnter the portal'
+    height: 0.3
+  actions: {}

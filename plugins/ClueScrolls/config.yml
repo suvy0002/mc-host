@@ -70,7 +70,7 @@ tiers:
         lore: '• &fKill %amount% pigs: %completed%'
         clueType: kill
         amount: 15-25
-        objective: Kill %amount% pigs
+        objective: Kill %amount% pigs 
         clueName: Pig Killer
         data:
           entitytype: pig
@@ -172,13 +172,13 @@ tiers:
         clueName: Riddles! (3)
         data:
           material: bread
-  special:
-    rewards: 2-5
-    clueCount: 5-7
+  obsidian:
+    rewards: 1
+    clueCount: 3
     expire: -1
     clueMode: RANDOM
     scroll:
-      title: '&8◆ &d&l&nSpecial Clue Scroll&r &8◆'
+      title: '&d&lObsidian Quest Scroll'
       lore-prefix:
       - '&7Complete the tasks below to earn &ntreasure&r&7.'
       - '&r'

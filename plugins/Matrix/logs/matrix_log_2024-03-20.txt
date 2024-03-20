@@ -207,3 +207,22 @@
 (07:33:28) Matrix Enabled! Version: 7.4.18
 (07:37:33) Matrix Enabled! Version: 7.4.18
 (07:42:57) Matrix Enabled! Version: 7.4.18
+(08:27:38) Matrix Enabled! Version: 7.4.18
+(08:45:59) Btest failed Phase(phase.main) check | moved into block (block: spruce_slab, move: -0.135,-0.312,-0.023, at: 360.300,132.000,274.767, dist: 0.137, loop: false) | vl:2(+2) ping: 38 tps: 20.0 ver: 1.20.X
+(08:46:04) Btest failed Phase(phase.main) check | moved into block (block: spruce_slab, move: -0.135,0.361,0.300, at: 360.300,132.361,275.090, dist: 0.329, loop: false) | vl:4(+4) ping: 38 tps: 20.0 ver: 1.20.X
+(08:46:31) Btest failed Phase(phase.main) check | moved into block (block: granite, move: -0.016,0.000,0.020, at: 362.727,131.000,287.700, dist: 0.025, loop: false) | vl:2(+2) ping: 39 tps: 20.0 ver: 1.20.X
+(08:58:14) Btest failed Phase(phase.main) check | moved into block (block: spruce_planks, move: 0.200,0.361,-0.126, at: 370.700,141.361,271.374, dist: 0.236, loop: false) | vl:2(+2) ping: 39 tps: 20.0 ver: 1.20.X
+(09:03:24) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: 0.200,0.361,0.200, at: 366.700,132.361,268.700, dist: 0.283, loop: false) | vl:2(+2) ping: 40 tps: 20.0 ver: 1.20.X
+(09:03:24) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: 0.000,0.275,0.000, at: 366.700,132.636,268.700, dist: 0.0, loop: false) | vl:4(+2) ping: 40 tps: 20.0 ver: 1.20.X
+(09:03:24) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: 0.000,0.275,0.000, at: 366.700,132.636,268.700, dist: 0.0, loop: false) | vl:6(+2) ping: 40 tps: 20.0 ver: 1.20.X
+(09:03:25) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: 0.000,0.275,0.000, at: 366.700,132.636,268.700, dist: 0.0, loop: false) | vl:8(+2) ping: 39 tps: 20.0 ver: 1.20.X
+(09:03:25) Execute command: matrix notify Btest is phase into block (Phase)
+(09:03:29) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: 0.000,0.275,0.000, at: 366.700,132.636,268.700, dist: 0.0, loop: false) | vl:10(+2) ping: 39 tps: 20.0 ver: 1.20.X
+(09:03:33) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: 0.000,0.275,0.000, at: 366.700,132.636,268.700, dist: 0.0, loop: false) | vl:2(+2) ping: 39 tps: 20.0 ver: 1.20.X
+(09:03:45) Btest failed Phase(phase.main) check | moved into block (block: spruce_planks, move: -0.053,0.361,0.200, at: 365.447,132.361,270.700, dist: 0.207, loop: false) | vl:4(+2) ping: 39 tps: 20.0 ver: 1.20.X
+(09:03:46) Btest failed Phase(phase.main) check | moved into block (block: spruce_planks, move: -0.029,0.275,0.000, at: 365.418,132.636,270.700, dist: 0.029, loop: false) | vl:6(+2) ping: 39 tps: 20.0 ver: 1.20.X
+(09:04:14) Btest failed Phase(phase.main) check | moved into block (block: spruce_planks, move: -0.200,0.361,0.200, at: 373.300,132.361,270.700, dist: 0.283, loop: false) | vl:2(+2) ping: 40 tps: 20.0 ver: 1.20.X
+(09:04:14) Btest failed Phase(phase.main) check | moved into block (block: spruce_planks, move: 0.000,0.275,0.000, at: 373.300,132.636,270.700, dist: 0.0, loop: false) | vl:4(+2) ping: 40 tps: 20.0 ver: 1.20.X
+(09:07:32) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: -0.007,0.361,-0.200, at: 369.493,131.361,275.300, dist: 0.2, loop: false) | vl:2(+2) ping: 38 tps: 20.0 ver: 1.20.X
+(09:07:32) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: -0.004,0.275,0.000, at: 369.489,131.636,275.300, dist: 0.004, loop: false) | vl:4(+2) ping: 38 tps: 20.0 ver: 1.20.X
+(09:07:33) Btest failed Phase(phase.main) check | moved into block (block: cobblestone, move: -0.006,0.275,0.000, at: 369.466,131.636,275.300, dist: 0.006, loop: false) | vl:6(+2) ping: 38 tps: 20.0 ver: 1.20.X

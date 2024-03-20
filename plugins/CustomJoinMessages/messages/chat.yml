@@ -10,20 +10,17 @@ Public:
       Radius: -1
       Max-Players: -1
       Messages:
-        1:
-          - ""
+        1: []
   Join:
     1:
       Permission: cjm.default
       Messages:
-        1:
-          - ""
+        1: []
   Quit:
     1:
       Permission: cjm.default
       Messages:
-        1:
-          - ""
+        1: []
 
 Private:
   First-Join:

@@ -2,7 +2,7 @@ panels:
   rank:
     perm: default
     rows: 3
-    title: 'Ranks [%coinsengine_balance_gold% &0G]'
+    title: Ranks | %coinsengine_balance_gold% &0G
     sound-on-open: BLOCK_NOTE_BLOCK_CHIME
     empty: light_gray_stained_glass_pane
     item:
@@ -882,7 +882,7 @@ panels:
         material: red_stained_glass_pane
         lore:
           - "\_"
-          - '•&f Remaining time&e: &f%luckperms_group_expiry_time_herobrine%'
+          - '&fRemaining time&e: &f%luckperms_group_expiry_time_herobrine%'
           - "\_"
           - •&f Previous rank perks
           - •&f Get $1000 when voting
@@ -892,6 +892,8 @@ panels:
           - •&f Fly using /fly
           - •&f Use color codes on signs
           - •&f Spawn decoration heads with /headdb
+          - •&f Ride the ender dragon with /cosmetics
+          - "\_"
           - "\_"
           - '&bPrice&e: &f1,000 &6G'
           - "\_\_"
@@ -921,6 +923,7 @@ panels:
             - •&f Fly using /fly
             - •&f Use color codes on signs
             - •&f Spawn decoration heads with /headdb
+            - •&f Ride the ender dragon with /cosmetics
             - "\_"
             - '&bPrice&e: &f1,000 &6G'
             - "\_\_"
@@ -947,6 +950,7 @@ panels:
             - •&f Fly using /fly
             - •&f Use color codes on signs
             - •&f Spawn decoration heads with /headdb
+            - •&f Ride the ender dragon with /cosmetics
             - "\_"
             - '&bPrice&e: &f1,000 &6G'
             - "\_\_"
@@ -975,6 +979,7 @@ panels:
             - •&f Fly using /fly
             - •&f Use color codes on signs
             - •&f Spawn decoration heads with /headdb
+            - •&f Ride the ender dragon with /cosmetics
             - "\_"
             - '&bPrice&e: &f1,000 &6G'
             - "\_\_"
@@ -997,7 +1002,7 @@ panels:
           name: '&b&lHEROBRINE &f1 month'
           lore:
             - "\_"
-            - '•&f Remaining time&e: &f%luckperms_group_expiry_time_herobrine%'
+            - '&fRemaining time&e: &f%luckperms_group_expiry_time_herobrine%'
             - "\_"
             - •&f Previous rank perks
             - •&f Get $1000 when voting
@@ -1007,6 +1012,7 @@ panels:
             - •&f Fly using /fly
             - •&f Use color codes on signs
             - •&f Spawn decoration heads with /headdb
+            - •&f Ride the ender dragon with /cosmetics
             - "\_"
             - '&bPrice&e: &f1,000 &6G'
             - "\_\_"
@@ -1027,7 +1033,7 @@ panels:
           name: '&b&lHEROBRINE &f1 month'
           lore:
             - "\_"
-            - '•&f Remaining time&e: &f%luckperms_group_expiry_time_herobrine%'
+            - '&fRemaining time&e: &f%luckperms_group_expiry_time_herobrine%'
             - "\_"
             - •&f Previous rank perks
             - •&f Get $1000 when voting
@@ -1037,6 +1043,7 @@ panels:
             - •&f Fly using /fly
             - •&f Use color codes on signs
             - •&f Spawn decoration heads with /headdb
+            - •&f Ride the ender dragon with /cosmetics
             - "\_"
             - '&bPrice&e: &f1,000 &6G'
             - "\_\_"

@@ -12,32 +12,31 @@ multi-world:
   blacklisted-worlds: true
   worlds:
     - world_no_cosmetics
-    - world_example
-
 # World Guard Support
 world-guard:
   enable: true
   # Setting this to false will invert the feature to whitelisted-regions.
   blacklisted-regions: true
   # This feature allows you to automatically re-equip players' cosmetics when they can use them again.
-  restore-cosmetics: true
+  restore-cosmetics: false
   unequip:
-    arrow-effects: false
+    arrow-effects: true
     balloons: true
     banners: true
-    death-effects: false
+    death-effects: true
     emotes: true
     gadgets: true
     miniatures: true
     morphs: true
     mounts: true
     music: true
-    particle-effects: false
+    particle-effects: true
     pets: true
-    statuses: false
+    statuses: true
   regions:
-    - "Region1"
-    - "Region2"
+    - "spawn"
+    - "arena"
+    - "healer"
 
 3d-menu:
   # This feature allows you to enable the 3D menu, note that the 2D menu will be disabled.
@@ -95,16 +94,9 @@ settings:
     fill-empty-slots: true
     able-to-move: false
     give-on:
-      join: true
-      world-change: true
+      join: false
+      world-change: false
 
-    material: CHEST
-    amount: 1
-    slot: 0
-    custom-model-data: 0
-    displayname: "&aCosmetic Menu &7(Right-click)"
-    lore:
-      - "&7Right-click to open the Cosmetic menu."
 
   fill-empty-slots:
     material: GRAY_STAINED_GLASS_PANE

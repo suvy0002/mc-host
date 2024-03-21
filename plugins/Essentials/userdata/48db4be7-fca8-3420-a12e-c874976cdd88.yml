@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1710647333796
-  login: 1710647292392
+  logout: 1710933915073
+  login: 1710931628118
 money: '0'
 last-account-name: Btest
 lastlocation:
   world: 4d3e590e-0c2a-4691-8626-c646778c75ad
   world-name: world
-  x: 0.5
-  y: 65.0
-  z: 0.5
-  yaw: 0.0
-  pitch: 0.0
+  x: 373.5
+  y: 141.0
+  z: 271.5
+  yaw: 91.04513549804688
+  pitch: 78.3304672241211
 logoutlocation:
   world: 4d3e590e-0c2a-4691-8626-c646778c75ad
   world-name: world
-  x: 61.73205159631456
-  y: 98.0
-  z: 57.9357111642624
-  yaw: 91.65931701660156
-  pitch: 22.104480743408203
+  x: 368.4301699484069
+  y: 136.5
+  z: 269.4579587711139
+  yaw: -83.99725341796875
+  pitch: 60.08356475830078

@@ -1,97 +1,94 @@
-#########################################################################################################################################
 #
+# This configuration uses zMenu, please refer to zMenu documentation
+# zMenu: https://docs.zmenu.dev/
+# zAuctionHouse: https://zauctionhouse.groupez.dev/
 #
-#   Sponsor: https://serveur-minecraft-vote.fr/
-#   Documentation: https://zauctionhouse.groupez.dev/
-#   Discord: https://discord.groupez.dev/
-# 
-#
-######################################################################################################################################### 
 
-name: "&7Categories"
+name: '&8ᴄᴀᴛᴇɢᴏʀɪᴇs'
 size: 54
-type: CATEGORIES
+
+patterns:
+  - "zauctionhouse_decoration"
+
 items:
-  slots:
-    type: NONE_SLOT
-    isPermanent: true
-    item:
-      material: GRAY_STAINED_GLASS_PANE
-      name: "&e"
-    slots:
-      - 0
-      - 1
-      - 2
-      - 3
-      - 4
-      - 5
-      - 6
-      - 7
-      - 8
-      - 9
-      - 18
-      - 27
-      - 17
-      - 26
-      - 35
-      - 36
-      - 44
-      - 45
-      - 46
-      - 47
-      - 53
-      - 52
-      - 51
-      - 48
-      - 50
   back:
     type: BACK
+    slot: 49
     item:
-      material: NETHER_STAR
-      name: "&cBack"
-    slot: 49   
+      url: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjllYTFkODYyNDdmNGFmMzUxZWQxODY2YmNhNmEzMDQwYTA2YzY4MTc3Yzc4ZTQyMzE2YTEwOThlNjBmYjdkMyJ9fX0="
+      name: ""
+      lore:
+        - "          #92bed8ʙᴀᴄᴋ"
+        - "          #8c8c8c&m      "
+        - ""
+        - " #8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ɢᴏ ʙᴀᴄᴋ #8c8c8c• "
   block:
-    type: CATEGORIES
-    category: "blocks"
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: blocks
     item:
       material: GRASS_BLOCK
-      name: "&fCategory: Block"
+      name: '&f'
       lore:
-        - "&f» &7There are &b%zauctionhouse_category_item_blocks% &7items in the blocks category."
+        - "                       #92bed8ʙʟᴏᴄᴋs"
+        - "                         #8c8c8c&m     "
+        - ""
+        - " #e6fff3ᴛʜᴇʀᴇ ᴀʀᴇ #ffacd5%zauctionhouse_category_item_blocks% #e6fff3ɪᴛᴇᴍs ɪɴ ᴛʜᴇ ʙʟᴏᴄᴋ ᴄᴀᴛᴇɢᴏʀʏ "
+        - ""
+        - "                  #8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ᴏᴘᴇɴ #8c8c8c• "
     slot: 20
   weapons:
-    type: CATEGORIES
-    category: "weapons"
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: weapons
     item:
       material: DIAMOND_SWORD
-      name: "&fCategory: Weapons"
+      name: '&f'
       lore:
-        - "&f» &7There are &b%zauctionhouse_category_item_weapons% &7items in the blocks weapons."
-    slot: 21         
+        - "                      #92bed8ᴡᴇᴀᴘᴏɴs"
+        - "                         #8c8c8c&m     "
+        - ""
+        - " #e6fff3ᴛʜᴇʀᴇ ᴀʀᴇ #ffacd5%zauctionhouse_category_item_weapons% #e6fff3ɪᴛᴇᴍs ɪɴ ᴛʜᴇ ᴡᴇᴀᴘᴏɴs ᴄᴀᴛᴇɢᴏʀʏ "
+        - ""
+        - "                  #8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ᴏᴘᴇɴ #8c8c8c• "
+    slot: 21
   tools:
-    type: CATEGORIES
-    category: "tools"
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: tools
     item:
       material: IRON_AXE
-      name: "&fCategory: Tools"
+      name: '&f'
       lore:
-        - "&f» &7There are &b%zauctionhouse_category_item_tools% &7items in the blocks tools."
+        - "                       #92bed8ᴛᴏᴏʟs"
+        - "                         #8c8c8c&m     "
+        - ""
+        - " #e6fff3ᴛʜᴇʀᴇ ᴀʀᴇ #ffacd5%zauctionhouse_category_item_tools% #e6fff3ɪᴛᴇᴍs ɪɴ ᴛʜᴇ ᴛᴏᴏʟs ᴄᴀᴛᴇɢᴏʀʏ "
+        - ""
+        - "                  #8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ᴏᴘᴇɴ #8c8c8c• "
     slot: 22
   potions:
-    type: CATEGORIES
-    category: "potions"
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: potions
     item:
       material: BLAZE_ROD
-      name: "&fCategory: Potions"
+      name: '&f'
       lore:
-        - "&f» &7There are &b%zauctionhouse_category_item_potions% &7items in the blocks potions."
-    slot: 23    
+        - "                      #92bed8ᴘᴏᴛɪᴏɴs"
+        - "                         #8c8c8c&m     "
+        - ""
+        - " #e6fff3ᴛʜᴇʀᴇ ᴀʀᴇ #ffacd5%zauctionhouse_category_item_potions% #e6fff3ɪᴛᴇᴍs ɪɴ ᴛʜᴇ ᴘᴏᴛɪᴏɴs ᴄᴀᴛᴇɢᴏʀʏ "
+        - ""
+        - "                  #8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ᴏᴘᴇɴ #8c8c8c• "
+    slot: 23
   misc:
-    type: CATEGORIES
-    category: "misc"
+    type: ZAUCTIONHOUSE_CATEGORIES
+    category: misc
     item:
       material: EXPERIENCE_BOTTLE
-      name: "&fCategory: Misc"
+      name: '&f'
       lore:
-        - "&f» &7There are &b%zauctionhouse_category_item_misc% &7items in the blocks misc."
-    slot: 24    
+        - "                   #92bed8ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs"
+        - "                         #8c8c8c&m     "
+        - ""
+        - " #e6fff3ᴛʜᴇʀᴇ ᴀʀᴇ #ffacd5%zauctionhouse_category_item_misc% #e6fff3ɪᴛᴇᴍs ɪɴ ᴛʜᴇ ᴍɪsᴄᴇʟʟᴀɴᴇᴏᴜs ᴄᴀᴛᴇɢᴏʀʏ "
+        - ""
+        - "                  #8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ᴏᴘᴇɴ #8c8c8c• "
+    slot: 24

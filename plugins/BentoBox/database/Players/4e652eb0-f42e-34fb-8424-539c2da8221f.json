@@ -7,9 +7,9 @@
   },
   "locale": "",
   "deaths": {
-    "bskyblock_world": 0
+    "bskyblock_world": 1
   },
   "pendingKicks": [],
-  "flagsDisplayMode": "BASIC",
+  "flagsDisplayMode": "EXPERT",
   "metaData": {}
 }

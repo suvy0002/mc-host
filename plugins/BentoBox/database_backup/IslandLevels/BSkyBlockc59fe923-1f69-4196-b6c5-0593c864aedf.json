@@ -1,0 +1,25 @@
+{
+  "uniqueId": "BSkyBlockc59fe923-1f69-4196-b6c5-0593c864aedf",
+  "level": 3,
+  "initialLevel": 0,
+  "pointsToNextLevel": 41,
+  "maxLevel": 3,
+  "totalPoints": 359,
+  "uwCount": {},
+  "mdCount": {
+    "COBBLESTONE_STAIRS": 2,
+    "OAK_LEAVES": 56,
+    "STONE": 9,
+    "CHEST": 1,
+    "OAK_SIGN": 1,
+    "COBWEB": 3,
+    "DIRT": 40,
+    "COBBLESTONE_SLAB": 2,
+    "SAND": 3,
+    "AIR": 3839832,
+    "OAK_LOG": 5,
+    "BEDROCK": 1,
+    "WALL_TORCH": 1,
+    "GRASS_BLOCK": 44
+  }
+}

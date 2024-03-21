@@ -1,4 +1,4 @@
-CREATE TABLE IF NOT EXISTS transactions
+CREATE TABLE IF NOT EXISTS zauctionhouse_transactions
 (
 	id int not null auto_increment,
 	seller varchar(36) not null,

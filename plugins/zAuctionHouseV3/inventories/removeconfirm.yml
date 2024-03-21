@@ -1,139 +1,49 @@
-#########################################################################################################################################
 #
+# This configuration uses zMenu, please refer to zMenu documentation
+# zMenu: https://docs.zmenu.dev/
+# zAuctionHouse: https://zauctionhouse.groupez.dev/
 #
-#   Sponsor: https://serveur-minecraft-vote.fr/
-#   Documentation: https://zauctionhouse.groupez.dev/
-#   Discord: https://discord.groupez.dev/
-# 
-#
-######################################################################################################################################### 
 
-name: "&8Remove"
+name: '&8ʀᴇᴍᴏᴠᴇ'
 size: 27
-type: REMOVE_CONFIRM
 items:
   remove:
-    type: REMOVE_ITEM
+    type: ZAUCTIONHOUSE_REMOVE_CONFIRM
     item:
       material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 0 
-  remove1:
-    type: REMOVE_ITEM
-    item:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 1    
-  remove2:
-    type: REMOVE_ITEM
-    item:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 2 
-  remove3:
-    type: REMOVE_ITEM
-    item:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 9
-  remove4:
-    type: REMOVE_ITEM
-    item:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 10
-  remove5:
-    type: REMOVE_ITEM
-    item:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 11   
-  remove6:
-    type: REMOVE_ITEM
-    item:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 18
-  remove7:
-    type: REMOVE_ITEM
-    item:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 19
-  remove8:
-    type: REMOVE_ITEM
-    item:
-      material: GREEN_STAINED_GLASS_PANE
-      name: "&aRemove"
-    slot: 20     
+      name: ''
+      lore:
+        - "         #2bba43ʀᴇᴍᴏᴠᴇ"
+        - "          #8c8c8c&m      "
+        - ""
+        - " #8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ʀᴇᴍᴏᴠᴇ #8c8c8c• "
+    slots:
+    - 0-2
+    - 9-11
+    - 18-20
   deny:
     type: BACK
     item:
       material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 6
-  deny2:
-    type: BACK
-    item:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 7
-  deny3:
-    type: BACK
-    item:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 8
-  deny4:
-    type: BACK
-    item:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 15
-  deny5:
-    type: BACK
-    item:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 16
-  deny6:
-    type: BACK
-    item:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 17
-  deny7:
-    type: BACK
-    item:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 24
-  deny8:
-    type: BACK
-    item:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 25
-  deny9:
-    type: BACK
-    item:
-      material: RED_STAINED_GLASS_PANE
-      name: "&cBack"
-    slot: 26
+      name: ""
+      lore:
+        - "          #c42323ʙᴀᴄᴋ"
+        - "          #8c8c8c&m      "
+        - ""
+        - " #8c8c8c• #92bed8ᴄʟɪᴄᴋ #e6fff3ᴛᴏ ɢᴏ ʙᴀᴄᴋ #8c8c8c• "
+    slots:
+    - 6-8
+    - 15-17
+    - 24-26
   slot:
-    type: NONE_SLOT
     item:
       material: GRAY_STAINED_GLASS_PANE
-      name: "&e"
+      name: '&e'
     slots:
-      - 3
-      - 4
-      - 5
-      - 12
-      - 14
-      - 21
-      - 22
-      - 23 
+    - 3-5
+    - 12
+    - 14
+    - 21-23
   show:
-    type: SHOW_ITEM
-    slot: 13  
+    type: ZAUCTIONHOUSE_SHOW_REMOVE
+    slot: 13

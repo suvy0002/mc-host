@@ -27,6 +27,3 @@ spawn:
     X: 57
     Y: 101
     Z: 71
-  portalArgs:
-    command:
-      '1': ranks

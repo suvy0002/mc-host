@@ -9,6 +9,10 @@ pages:
 - lines:
   - content: '&e&lWarps'
     height: 0.3
-  - content: '&fEnter the portal'
+  - content: '&fEnter the portal to'
+    height: 0.3
+  - content: '&fteleport to a warp'
+    height: 0.3
+  - content: '&for type &6/warps'
     height: 0.3
   actions: {}

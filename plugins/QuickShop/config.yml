@@ -41,11 +41,11 @@ dev-mode: false
 
 #Tax amount (decimal)
 #Example: P1 buys $50 worth of stuff from P2.  Therefore, P1 loses $50, P2 gains $(1-0.05)*50, and the tax-account gains $(0.05)*50.
-tax: 0.05
+tax: 0.00
 
 #The fake player where the tax money goes to.
 #Set this to "" to disable it (Taxing will still work but not deposit to any account)
-tax-account: tax
+tax-account: ""
 
 #Turn on this option will migrate shop owner to specified account when you set a shop to unlimited.
 #It won't affect exists shops, you will need switch to unlimited again to apply it.
@@ -176,7 +176,7 @@ database:
 #Limits the number of shops a person can create and own at a time.
 limits:
   #Disable these if you're not using them! If this is false, the rest of this section gets ignored.
-  use: false
+  use: true
 
   #The default number of shops a players can make.
   default: 10
@@ -187,9 +187,13 @@ limits:
   #Here you can setup shop amount limits with permissions.
   #You can create as many as you like!
   ranks:
-    quickshop:
+    tier:
       #Players with the quickshop.example permission can create 20 shops.
-      example: 20
+      one: 20
+      two: 30
+      three: 40
+      four: 50
+      five: 100
 
 #The list of blocks that can be used to create shops.
 #By default, chests are added to this list.
@@ -203,8 +207,6 @@ limits:
 #-Etc...
 shop-blocks:
 - CHEST
-- TRAPPED_CHEST
-- ENDER_CHEST
 
 shop:
   #The cost to make a shop.

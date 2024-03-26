@@ -18,13 +18,13 @@ messages:
   outdated-server: Outdated server! I'm still on {0}
   restart: Server is restarting
 advancements:
-  disable-saving: true
+  disable-saving: false
   disabled:
-  - '*'
+  - minecraft:story/disabled
 settings:
   timeout-time: 60
   restart-on-crash: true
-  restart-script: ./start_server.sh
+  restart-script: ./start.sh
   save-user-cache-on-stop-only: false
   sample-count: 12
   bungeecord: false
@@ -57,7 +57,6 @@ world-settings:
     arrow-despawn-rate: 1200
     trident-despawn-rate: 1200
     nerf-spawner-mobs: false
-    enable-zombie-pigmen-portal-spawns: true
     wither-spawn-sound-radius: 0
     end-portal-sound-radius: 0
     hanging-tick-frequency: 100
@@ -83,6 +82,7 @@ world-settings:
       weepingvines-modifier: 100
       cavevines-modifier: 100
       glowberry-modifier: 100
+      pitcherplant-modifier: 100
     entity-activation-range:
       animals: 32
       monsters: 32
@@ -138,6 +138,8 @@ world-settings:
     seed-fossil: 14357921
     seed-portal: 34222645
     seed-ancientcity: 20083232
+    seed-trailruins: 83469867
+    seed-trialchambers: 94251327
     seed-buriedtreasure: 10387320
     seed-mineshaft: default
     seed-stronghold: default
@@ -154,8 +156,7 @@ world-settings:
       tile: 50
       entity: 50
     zombie-aggressive-towards-villager: true
-    verbose: false
-  worldeditregentempworld:
+    enable-zombie-pigmen-portal-spawns: true
     verbose: false
 commands:
   tab-complete: 0

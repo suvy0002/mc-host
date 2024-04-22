@@ -6057,3 +6057,24 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [22Apr2024 13:48:38.420] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [22Apr2024 13:48:38.423] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [22Apr2024 13:48:56.780] [Thread-5/INFO] [gg.playit.control.ChannelSetup/]: send keep alive
+[22Apr2024 13:49:28.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22Apr2024 13:49:28.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Apr2024 13:49:28.860] [Server thread/INFO] [playit-gg/]: Disabling playit-gg v0.1.4
+[22Apr2024 13:49:28.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Apr2024 13:49:28.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Apr2024 13:49:29.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Apr2024 13:49:29.832] [Thread-5/INFO] [gg.playit.minecraft.PlayitManager/]: control channel shutdown
+[22Apr2024 13:49:45.213] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Apr2024 13:49:45.215] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Apr2024 13:49:45.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[22Apr2024 13:49:45.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/man/halucination]'/man:halucination
+[22Apr2024 13:49:45.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[22Apr2024 13:49:45.553] [Server thread/DEBUG] [net.minecraftforge.fml.loading.FileUtils/CORE]: Found existing serverconfig directory : ./world/serverconfig
+[22Apr2024 13:49:45.554] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
+[22Apr2024 13:49:45.554] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file cave_dweller-server.toml changed, sending notifies
+[22Apr2024 13:49:45.555] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[22Apr2024 13:49:45.556] [Server thread/DEBUG] [org.jline/]: Removing shutdown-hook: Thread[#22,JLine Shutdown Hook,5,main]
+[22Apr2024 13:49:45.559] [Thread-0/DEBUG] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Config file cave_dweller-server.toml changed, sending notifies
+[22Apr2024 13:49:45.559] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[22Apr2024 13:49:50.558] [Exit Thread/DEBUG] [Arclight/]: Threads nioEventLoopGroup-2-5, nioEventLoopGroup-2-6, nioEventLoopGroup-2-4, nioEventLoopGroup-2-8, nioEventLoopGroup-2-7, nioEventLoopGroup-2-1, nioEventLoopGroup-2-2, nioEventLoopGroup-2-3 not shutting down
+[22Apr2024 13:49:50.558] [Exit Thread/INFO] [Arclight/]: 8 threads not shutting down correctly, force exiting

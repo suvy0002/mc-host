@@ -2000,3 +2000,16 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [22Apr2024 13:47:14.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] is any1 playing
 [22Apr2024 13:47:28.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hello??
 [22Apr2024 13:48:56.780] [Thread-5/INFO] [gg.playit.control.ChannelSetup/]: send keep alive
+[22Apr2024 13:49:28.809] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22Apr2024 13:49:28.860] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Apr2024 13:49:28.860] [Server thread/INFO] [playit-gg/]: Disabling playit-gg v0.1.4
+[22Apr2024 13:49:28.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Apr2024 13:49:28.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Apr2024 13:49:29.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Apr2024 13:49:29.832] [Thread-5/INFO] [gg.playit.minecraft.PlayitManager/]: control channel shutdown
+[22Apr2024 13:49:45.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[22Apr2024 13:49:45.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/man/halucination]'/man:halucination
+[22Apr2024 13:49:45.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[22Apr2024 13:49:45.555] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[22Apr2024 13:49:45.559] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[22Apr2024 13:49:50.558] [Exit Thread/INFO] [Arclight/]: 8 threads not shutting down correctly, force exiting

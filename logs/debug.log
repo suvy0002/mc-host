@@ -6054,3 +6054,6 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1:
 [22Apr2024 13:44:56.426] [Thread-5/INFO] [gg.playit.control.ChannelSetup/]: send keep alive
 [22Apr2024 13:47:14.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] is any1 playing
 [22Apr2024 13:47:28.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] [Server] hello??
+[22Apr2024 13:48:38.420] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[22Apr2024 13:48:38.423] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[22Apr2024 13:48:56.780] [Thread-5/INFO] [gg.playit.control.ChannelSetup/]: send keep alive

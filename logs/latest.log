@@ -1,0 +1,277 @@
+[22Apr2024 15:29:33.659] [main/INFO] [Arclight/]: 
+
+       ___           ___     __   /\
+      /   | ________/ (_)__ / /  / /
+     / /| |/ __/ __/ / / _ / _ \/__/
+    / ___ / / / /_/ / / / / // / /
+   /_/  |/_/  \__/_/_/\_ /_//_/ /
+                     /__/     \/
+
+    运行版本 角 / arclight-1.19.2-1.0.5-696a298
+    构建日期 2024-02-28 14:53:59
+
+[22Apr2024 15:29:33.702] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.8, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[22Apr2024 15:29:33.703] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.2 by Microsoft; OS Linux arch amd64 version 6.2.0-1019-azure
+[22Apr2024 15:29:33.864] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/mc-host/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2396!/ Service=ModLauncher Env=SERVER
+[22Apr2024 15:29:34.213] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-host/libraries/net/minecraftforge/fmlcore/1.19.2-43.3.8/fmlcore-1.19.2-43.3.8.jar is missing mods.toml file
+[22Apr2024 15:29:34.217] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-host/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.3.8/javafmllanguage-1.19.2-43.3.8.jar is missing mods.toml file
+[22Apr2024 15:29:34.219] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-host/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.3.8/lowcodelanguage-1.19.2-43.3.8.jar is missing mods.toml file
+[22Apr2024 15:29:34.221] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/mc-host/libraries/net/minecraftforge/mclanguage/1.19.2-43.3.8/mclanguage-1.19.2-43.3.8.jar is missing mods.toml file
+[22Apr2024 15:29:34.328] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22Apr2024 15:29:35.981] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22Apr2024 15:29:36.041] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [io.izzel.arclight.common.mod.ArclightConnector]
+[22Apr2024 15:29:36.088] [main/INFO] [Arclight/]: 核心 Mixin 配置已加载
+[22Apr2024 15:29:36.093] [main/INFO] [Arclight/]: 服务端优化 Mixin 配置已加载
+[22Apr2024 15:29:36.099] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[22Apr2024 15:29:43.236] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[22Apr2024 15:29:45.954] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.8, for MC 1.19.2 with MCP 20220805.130853
+[22Apr2024 15:29:45.955] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.8 Initialized
+[22Apr2024 15:29:46.093] [modloading-worker-0/INFO] [Arclight/]: Arclight Mod 已加载
+[22Apr2024 15:29:46.149] [modloading-worker-0/INFO] [Arclight/]: Arclight 事件系统已注册
+[22Apr2024 15:29:46.648] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 18
+[22Apr2024 15:29:46.673] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[22Apr2024 15:29:47.037] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://update.maxhenkel.de/forge/voicechat
+[22Apr2024 15:29:47.076] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[22Apr2024 15:29:47.081] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 0 plugin(s)
+[22Apr2024 15:29:47.081] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[22Apr2024 15:29:47.081] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 0 plugin(s)
+[22Apr2024 15:29:48.002] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22Apr2024 15:29:48.337] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: AHEAD Current: 1.19.2-2.5.12 Target: null
+[22Apr2024 15:29:48.338] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22Apr2024 15:29:48.624] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/mc-host/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23173!/assets/.mcassetsroot' uses unexpected schema
+[22Apr2024 15:29:48.624] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/workspaces/mc-host/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23173!/data/.mcassetsroot' uses unexpected schema
+[22Apr2024 15:29:50.879] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.3.8 Target: 43.3.13
+[22Apr2024 15:29:51.379] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[22Apr2024 15:29:51.741] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?] {re:mixin}
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?] {re:mixin}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?] {}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?] {}
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?] {}
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?] {}
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?] {}
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23173!/:?] {re:classloading}
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23173!/:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?] {}
+	... 6 more
+[22Apr2024 15:29:51.868] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement man:thetear: Non [a-z0-9/._-] character in path of location: man:tearoftheman
+
+[22Apr2024 15:29:51.898] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1279 advancements
+[22Apr2024 15:29:52.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[22Apr2024 15:29:52.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[22Apr2024 15:29:52.404] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[22Apr2024 15:29:52.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22Apr2024 15:29:52.539] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[22Apr2024 15:29:52.559] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[22Apr2024 15:29:52.644] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22Apr2024 15:29:52.644] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[22Apr2024 15:29:52.644] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22Apr2024 15:29:52.644] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[22Apr2024 15:29:52.980] [Server thread/INFO] [Minecraft/]: This server is running Arclight version arclight-1.19.2-1.0.5-696a298 (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
+[22Apr2024 15:29:53.085] [Server thread/INFO] [Arclight/]: 正在向 Bukkit 注册 ...
+[22Apr2024 15:29:53.984] [Server thread/INFO] [Arclight/]: 注册了 13 个材料，其中 4 个方块 9 个物品
+[22Apr2024 15:29:53.988] [Server thread/INFO] [Arclight/]: 注册了 3 个新的药水效果
+[22Apr2024 15:29:53.998] [Server thread/INFO] [Arclight/]: 注册了 39 个新的附魔
+[22Apr2024 15:29:54.002] [Server thread/INFO] [Arclight/]: 注册了 11 个新的生物类型
+[22Apr2024 15:29:54.004] [Server thread/INFO] [Arclight/]: 注册了 1 个新的村民职业
+[22Apr2024 15:29:54.005] [Server thread/INFO] [Arclight/]: 注册了 1 个新的生物群系
+[22Apr2024 15:29:54.038] [Server thread/INFO] [STDOUT/]: Server Ping Player Sample Count: 12
+[22Apr2024 15:29:54.042] [Server thread/INFO] [Minecraft/]: Using 4 threads for Netty based IO
+[22Apr2024 15:29:54.044] [Server thread/INFO] [Minecraft/]: Debug logging is enabled
+[22Apr2024 15:29:54.147] [Server thread/INFO] [Arclight/]: 正在加载混淆数据 ...
+[22Apr2024 15:29:54.606] [Server thread/INFO] [Arclight/]: 正在加载 Plugin Patcher ...
+[22Apr2024 15:29:54.675] [Server thread/INFO] [playit-gg/]: Loading playit-gg v0.1.4
+[22Apr2024 15:29:54.690] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[22Apr2024 15:29:54.691] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
+[22Apr2024 15:29:54.726] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[22Apr2024 15:29:54.741] [Server thread/INFO] [Arclight/]: 注册了 1 个新的世界类型
+[22Apr2024 15:29:55.169] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world] --------
+[22Apr2024 15:29:55.170] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[22Apr2024 15:29:55.170] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[22Apr2024 15:29:55.170] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[22Apr2024 15:29:55.171] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22Apr2024 15:29:55.172] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22Apr2024 15:29:55.173] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22Apr2024 15:29:55.173] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22Apr2024 15:29:55.173] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[22Apr2024 15:29:55.174] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22Apr2024 15:29:55.174] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[22Apr2024 15:29:55.174] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[22Apr2024 15:29:55.174] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[22Apr2024 15:29:55.174] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[22Apr2024 15:29:55.174] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[22Apr2024 15:29:55.279] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM-1] --------
+[22Apr2024 15:29:55.280] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[22Apr2024 15:29:55.280] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[22Apr2024 15:29:55.285] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[22Apr2024 15:29:55.286] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22Apr2024 15:29:55.287] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22Apr2024 15:29:55.288] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[22Apr2024 15:29:55.288] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[22Apr2024 15:29:55.288] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[22Apr2024 15:29:55.289] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[22Apr2024 15:29:55.289] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[22Apr2024 15:29:55.289] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[22Apr2024 15:29:55.290] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[22Apr2024 15:29:55.290] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[22Apr2024 15:29:55.290] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[22Apr2024 15:29:55.290] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[22Apr2024 15:29:55.290] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[22Apr2024 15:29:55.292] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[22Apr2024 15:29:55.292] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[22Apr2024 15:29:55.294] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[22Apr2024 15:29:55.294] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[22Apr2024 15:29:55.299] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[22Apr2024 15:29:55.299] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[22Apr2024 15:29:55.299] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[22Apr2024 15:29:55.299] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[22Apr2024 15:29:55.299] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22Apr2024 15:29:55.299] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22Apr2024 15:29:55.300] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22Apr2024 15:29:55.300] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22Apr2024 15:29:55.300] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[22Apr2024 15:29:55.300] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22Apr2024 15:29:55.300] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[22Apr2024 15:29:55.300] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[22Apr2024 15:29:55.300] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[22Apr2024 15:29:55.301] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[22Apr2024 15:29:55.301] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[22Apr2024 15:29:55.435] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/man/halucination] --------
+[22Apr2024 15:29:55.435] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[22Apr2024 15:29:55.436] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[22Apr2024 15:29:55.437] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[22Apr2024 15:29:55.443] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[22Apr2024 15:29:55.443] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[22Apr2024 15:29:55.444] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[22Apr2024 15:29:55.444] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[22Apr2024 15:29:55.446] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[22Apr2024 15:29:55.451] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22Apr2024 15:29:55.451] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22Apr2024 15:29:55.452] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22Apr2024 15:29:55.453] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22Apr2024 15:29:55.454] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[22Apr2024 15:29:55.454] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22Apr2024 15:29:55.455] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[22Apr2024 15:29:55.455] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[22Apr2024 15:29:55.455] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[22Apr2024 15:29:55.455] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[22Apr2024 15:29:55.455] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[22Apr2024 15:29:55.489] [Server thread/INFO] [Minecraft/]: -------- World Settings For [world/DIM1] --------
+[22Apr2024 15:29:55.489] [Server thread/INFO] [Minecraft/]: Zombie Aggressive Towards Villager: true
+[22Apr2024 15:29:55.489] [Server thread/INFO] [Minecraft/]: Experience Merge Radius: 3.0
+[22Apr2024 15:29:55.489] [Server thread/INFO] [Minecraft/]: Mob Spawn Range: 6
+[22Apr2024 15:29:55.489] [Server thread/INFO] [Minecraft/]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Cactus Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Cane Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Melon Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Mushroom Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Pumpkin Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Sapling Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Beetroot Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Carrot Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Potato Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Wheat Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: NetherWart Growth Modifier: 100%
+[22Apr2024 15:29:55.490] [Server thread/INFO] [Minecraft/]: Vine Growth Modifier: 100%
+[22Apr2024 15:29:55.491] [Server thread/INFO] [Minecraft/]: Cocoa Growth Modifier: 100%
+[22Apr2024 15:29:55.491] [Server thread/INFO] [Minecraft/]: Bamboo Growth Modifier: 100%
+[22Apr2024 15:29:55.491] [Server thread/INFO] [Minecraft/]: SweetBerry Growth Modifier: 100%
+[22Apr2024 15:29:55.491] [Server thread/INFO] [Minecraft/]: Kelp Growth Modifier: 100%
+[22Apr2024 15:29:55.491] [Server thread/INFO] [Minecraft/]: TwistingVines Growth Modifier: 100%
+[22Apr2024 15:29:55.491] [Server thread/INFO] [Minecraft/]: WeepingVines Growth Modifier: 100%
+[22Apr2024 15:29:55.492] [Server thread/INFO] [Minecraft/]: CaveVines Growth Modifier: 100%
+[22Apr2024 15:29:55.492] [Server thread/INFO] [Minecraft/]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[22Apr2024 15:29:55.492] [Server thread/INFO] [Minecraft/]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22Apr2024 15:29:55.493] [Server thread/INFO] [Minecraft/]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[22Apr2024 15:29:55.498] [Server thread/INFO] [Minecraft/]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[22Apr2024 15:29:55.498] [Server thread/INFO] [Minecraft/]: Max TNT Explosions: 100
+[22Apr2024 15:29:55.498] [Server thread/INFO] [Minecraft/]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22Apr2024 15:29:55.498] [Server thread/INFO] [Minecraft/]: Item Merge Radius: 2.5
+[22Apr2024 15:29:55.498] [Server thread/INFO] [Minecraft/]: Item Despawn Rate: 6000
+[22Apr2024 15:29:55.498] [Server thread/INFO] [Minecraft/]: View Distance: 10
+[22Apr2024 15:29:55.498] [Server thread/INFO] [Minecraft/]: Nerfing mobs spawned from spawners: false
+[22Apr2024 15:29:55.498] [Server thread/INFO] [Minecraft/]: Simulation Distance: 10
+[22Apr2024 15:29:55.516] [Server thread/INFO] [playit-gg/]: Enabling playit-gg v0.1.4
+[22Apr2024 15:29:56.091] [Thread-5/INFO] [gg.playit.minecraft.PlayitKeysSetup/]: secret key found, checking
+[22Apr2024 15:29:56.092] [Thread-5/INFO] [gg.playit.minecraft.PlayitKeysSetup/]: check secret
+[22Apr2024 15:29:56.111] [Server thread/INFO] [Minecraft/]: Server permissions file permissions.yml is empty, ignoring it
+[22Apr2024 15:29:56.137] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22Apr2024 15:29:57.450] [Thread-5/INFO] [gg.playit.minecraft.PlayitKeysSetup/]: found minecraft java tunnel: released-greater.joinmc.link
+[22Apr2024 15:29:57.451] [Thread-5/INFO] [gg.playit.minecraft.PlayitManager/]: keys and tunnel setup
+[22Apr2024 15:29:57.456] [Thread-5/INFO] [Console/]: playit.gg: tunnel setup
+[22Apr2024 15:29:57.460] [Thread-5/INFO] [Console/]: playit.gg: released-greater.joinmc.link
+[22Apr2024 15:29:57.976] [Thread-5/WARN] [gg.playit.control.ChannelSetup/]: Got IO error working with :control.playit.gg/2602:fbaf:840:0:0:0:0:1, error : java.net.SocketException: Network is unreachable
+[22Apr2024 15:29:58.498] [Thread-5/INFO] [gg.playit.control.ChannelSetup/]: request queued, waiting 1 second before resend
+[22Apr2024 15:30:01.683] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.683] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.683] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.684] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.684] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.684] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.685] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.697] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.697] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.698] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.698] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:01.699] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22Apr2024 15:30:02.138] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
+[22Apr2024 15:30:02.654] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[22Apr2024 15:30:03.223] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 7085 ms
+[22Apr2024 15:30:03.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (8.545s)! For help, type "help"
+[22Apr2024 15:30:03.234] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22Apr2024 15:30:03.235] [Server thread/INFO] [Arclight/]: Forwarding forge permission[forge:default_handler] to bukkit
+[22Apr2024 15:30:03.235] [Server thread/WARN] [voicechat/]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[22Apr2024 15:30:03.257] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at port 25565
+[22Apr2024 15:30:11.201] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[22Apr2024 15:30:11.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22Apr2024 15:30:11.247] [Server thread/INFO] [playit-gg/]: Disabling playit-gg v0.1.4
+[22Apr2024 15:30:11.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22Apr2024 15:30:11.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22Apr2024 15:30:11.522] [Thread-5/INFO] [gg.playit.minecraft.PlayitManager/]: control channel shutdown
+[22Apr2024 15:30:12.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22Apr2024 15:30:29.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM-1]'/minecraft:the_nether
+[22Apr2024 15:30:29.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/man/halucination]'/man:halucination
+[22Apr2024 15:30:29.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world/DIM1]'/minecraft:the_end
+[22Apr2024 15:30:29.228] [Thread-0/INFO] [de.cadentem.cave_dweller.CaveDweller/]: Server configuration has been reloaded
